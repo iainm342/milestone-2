@@ -1,4 +1,12 @@
 .navbar {
     background-color: red;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.btn-nav {
+    color: white;
+    border-color: white;
 }
