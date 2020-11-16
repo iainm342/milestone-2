@@ -10,3 +10,13 @@
     color: white;
     border-color: white;
 }
+
+#logo {
+    height: 25rem;
+    width: 25rem;
+}
+
+.btn-landing {
+    background-color: red;
+    color: white;
+}
