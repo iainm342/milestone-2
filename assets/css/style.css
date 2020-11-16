@@ -38,3 +38,8 @@ html {
     background-color: red;
     color: white;
 }
+
+.town-img {
+  height: 15rem;
+  width: 15rem;
+}
