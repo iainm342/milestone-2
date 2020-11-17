@@ -43,3 +43,10 @@ html {
   height: 15rem;
   width: 15rem;
 }
+
+.rest-card-img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
