@@ -29,3 +29,15 @@ window.onclick = function(event) {
         }
     }
 }
+
+function readRest(name, address, phone, website, type, cost) {
+    this.name = name;
+    this.address = address;
+    this.phone = phone;
+    this.website = website;
+    this.type = type;
+    this.cost = cost;
+}
+
+let rest1 = new readRest("Brewdog", "11 Castle Street, Reading, RG1 7SB", "01189568755", "https://www.brewdog.com/uk/bars/uk/brewdog-reading", "Bar", "££");
+console.log(rest1);
