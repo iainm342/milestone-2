@@ -111,3 +111,10 @@ html {
     background-color: red;
     color: white;
 }
+
+.modal-button {
+    background-color: red;
+    color: white;
+    border-radius: 15%;
+    border-color: white;
+}
