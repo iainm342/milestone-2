@@ -23,7 +23,7 @@ for (var i = 0; i < spans.length; i++) {
 }
 
 window.onclick = function(event) {
-    if (event.target.classLisat.contains('modal')) {
+    if (event.target.classList.contains('modal')) {
         for (var index in modals) {
             if (typeof modals[index].style !== 'undefined') this.modals[index].style.display = "none";
         }
