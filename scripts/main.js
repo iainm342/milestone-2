@@ -41,7 +41,7 @@ class readRest {
     }
 }
 
-let rest1 = new readRest("Bills", "St Mary's Church House, Chain Street, Reading, RG1 2HX", "0118 939 1365", "https://www.bills-website.co.uk/restaurants/reading", "International", "££");
+let rest1 = new readRest("Bill's Restaurant", "St Mary's Church House, Chain Street, Reading, RG1 2HX", "0118 939 1365", "https://www.bills-website.co.uk/restaurants/reading", "International", "££");
 console.log(rest1);
 
 let rest2 = new readRest("Brewdog", "11 Castle Street, Reading, RG1 7SB", "0118 956 8755", "https://www.brewdog.com/uk/bars/uk/brewdog-reading", "Bar", "££");

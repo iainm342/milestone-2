@@ -124,3 +124,7 @@ html {
     color: white;
     border-color: white;
 }
+
+.modal-body span {
+    color: black;
+}
