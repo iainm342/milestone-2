@@ -1,12 +1,33 @@
-
+const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let labelIndex = 0;
+let marker;
 
 function initMap() {
-                const map = new google.maps.Map(document.getElementById("map"), {
+                const redLocs = {lat: 51.45494, lng: -0.97323};
+                const map = new google.maps.Map(document.querySelector("#map"), {
+                center: redLocs,
                 zoom: 13,
-                center: {lat: 51.45625, lng: -0.97113},
                 disableDefaultUI: true
             });
-                initZoomControl(map);
+           marker = new google.maps.Marker({
+                position: redLocs,
+                draggable: true,
+                animation: google.maps.Animation.DROP,
+                label: labels[labelIndex++ % labels.length],
+                map,
+                title: "Bill's Restaurant",
+            });
+            marker.addListener("click", toggleBounce);
+
+function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+        marker.setAnimation(null);
+    } else {
+        marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+}
+
+initZoomControl(map);
 
 function initZoomControl(map) {
     document.querySelector(".zoom-control-in").onclick = function() {
