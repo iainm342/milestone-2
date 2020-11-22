@@ -152,13 +152,9 @@ html {
     margin-left: -52px;
 }
 
-.question {
-    height: 300px;
-    width: 300px;
-}
-
-.image-sizing {
-    height: 300px;
-    width: 300px;
+.filter-img {
+ 
+    height: 10rem;
+    width: 12rem;
 }
 

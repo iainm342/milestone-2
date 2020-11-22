@@ -39,5 +39,6 @@
     "background-color": "red",
     color: "white",
     "border-radius": "15px",
+    "margin": "10px"
   });
 })();
