@@ -82,7 +82,7 @@
       click: function () {
         $(this).addClass("active").siblings().removeClass("active");
         $imgs.hide().filter(taggedStyle[tagName2]).show();
-        $modalBut.hide().filter(taggedCost[tagName2]).show();
+        $modalBut.hide().filter(taggedStyle[tagName2]).show();
       },
     }).appendTo($buttons2);
   });
