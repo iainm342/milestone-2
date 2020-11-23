@@ -65,19 +65,17 @@ let rest2 = new readRest("Brewdog", "11 Castle Street, Reading, RG1 7SB", "0118 
 
 let rest3 = new readRest("The Bull Inn", "High Street, Sonning-on-Thames, Reading, RG4 6UP", "0118 969 3901", "https://www.fullers.co.uk/hotels", "Traditional, Sunday Lunch", "£");
 
-let rest4 = new readRest("Carluccio's", "Forbury Square, Reading, RG1 3EY", "0118 958 3095", "https://www.carluccios.com/restaurants/reading/", "Italian", "££");
+let rest4 = new readRest("Coppa Club", "The Great House, Sonning-on-Thames, Reading, RG4 6UT", "0118 921 9890", "https://coppaclub.co.uk/sonning/", "Italian, Brunch, Sunday Lunch", "££");
 
-let rest5 = new readRest("Coppa Club", "The Great House, Sonning-on-Thames, Reading, RG4 6UT", "0118 921 9890", "https://coppaclub.co.uk/sonning/", "Italian, Brunch, Sunday Lunch", "££");
+let rest5 = new readRest("London Street Brasserie", "The Oracle, 2-4 London Street, Reading, RG1 4PN", "0118 950 5036", "https://www.londonstbrasserie.co.uk/", "Modern British, Sunday Lunch", "£££");
 
-let rest6 = new readRest("London Street Brasserie", "The Oracle, 2-4 London Street, Reading, RG1 4PN", "0118 950 5036", "https://www.londonstbrasserie.co.uk/", "Modern British, Sunday Lunch", "£££");
+let rest6 = new readRest("L'Ortolan", "Church Lane, Shinfield, Reading, RG2 9BY", "0118 988 8500", "https://lortolan.com/", "French, Fine Dining", "££££");
 
-let rest7 = new readRest("L'Ortolan", "Church Lane, Shinfield, Reading, RG2 9BY", "0118 988 8500", "https://lortolan.com/", "French, Fine Dining", "££££");
+let rest7 = new readRest("Malmaison", "Great Western House, 18-20 Station Road, Reading, RG1 1JX", "0844 693 0660 ", "https://www.malmaison.com/locations/reading/", "French, Brasserie, Sunday Lunch", "£££");
 
-let rest8 = new readRest("Malmaison", "Great Western House, 18-20 Station Road, Reading, RG1 1JX", "0844 693 0660 ", "https://www.malmaison.com/locations/reading/", "French, Brasserie, Sunday Lunch", "£££");
+let rest8 = new readRest("The Real Greek", "The Oracle, Reading, RG1 2AT", "0118 995 2270", "https://www.therealgreek.com/", "Greek, Tapas", "££");
 
-let rest9 = new readRest("The Real Greek", "The Oracle, Reading, RG1 2AT", "0118 995 2270", "https://www.therealgreek.com/", "Greek, Tapas", "££");
-
-let rest10 = new readRest("Zerodegrees", "9 Bridge Street, Reading, RG1 2LR", "011 959 7959", "https://www.zerodegrees.co.uk/", "Bar, Pizza", "££");
+let rest9 = new readRest("Zerodegrees", "9 Bridge Street, Reading, RG1 2LR", "011 959 7959", "https://www.zerodegrees.co.uk/", "Bar, Pizza", "££");
 
 //rest1
 let restName1 = `${rest1.name}`;
@@ -312,27 +310,3 @@ let restCost9 = `${rest9.cost}`;
 let elVenueCost9 = document.getElementById("cost9");
 elVenueCost9.textContent = restCost9;
 
-//rest10
-let restName10 = `${rest10.name}`;
-let elVenueName10 = document.getElementById("name10");
-elVenueName10.textContent = restName10;
-
-let restAddress10 = `${rest10.address}`;
-let elVenueAddress10 = document.getElementById("address10");
-elVenueAddress10.textContent = restAddress10;
-
-let restPhone10 = `${rest10.phone}`;
-let elVenuePhone10 = document.getElementById("phone10");
-elVenuePhone10.textContent = restPhone10;
-
-let restWeb10 = `${rest10.website}`;
-let elVenueWeb10 = document.getElementById("web10");
-elVenueWeb10.textContent = restWeb10;
-
-let restType10 = `${rest10.type}`;
-let elVenueType10 = document.getElementById("type10");
-elVenueType10.textContent = restType10;
-
-let restCost10 = `${rest10.cost}`;
-let elVenueCost10 = document.getElementById("cost10");
-elVenueCost10.textContent = restCost10;
