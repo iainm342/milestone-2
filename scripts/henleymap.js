@@ -377,6 +377,8 @@ function initMap() {
 map.set('styles', styles);
 }
 
+
+
 var readLocations = [
     ["Bill's Restaurant", 51.45494, -0.97323, 1], //Bill's
     ["Brewdog", 51.45356, -0.97426, 2], //Brewdog

@@ -47,8 +47,7 @@ for (i=0; i <acc.length; i++) {
     });
 }
 
-class readRest {
-    constructor(name, address, phone, website, type, cost) {
+function readRest(name, address, phone, website, type, cost) {
         this.name = name;
         this.address = address;
         this.phone = phone;
@@ -56,7 +55,7 @@ class readRest {
         this.type = type;
         this.cost = cost;
     }
-}
+
 
 let rest1 = new readRest("Bill's Restaurant", "St Mary's Church House, Chain Street, Reading, RG1 2HX", "0118 939 1365", "https://www.bills-website.co.uk/restaurants/reading", "International, Brunch", "£");
 
