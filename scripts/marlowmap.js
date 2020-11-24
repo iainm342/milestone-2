@@ -7,7 +7,7 @@
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 12,
-        center: { lat: 51.45425, lng: -0.97074 },
+        center: { lat: 51.57310, lng: -0.77675},
         // disableDefaultUI: true,
     });
     setMarkers(map);
@@ -380,16 +380,16 @@ map.set('styles', styles);
 
 
 var readLocations = [
-    ["Bill's Restaurant", 51.45494, -0.97323, 1], //Bill's
-    ["Brewdog", 51.45356, -0.97426, 2], //Brewdog
-    ["The Bull Inn", 51.47375, -0.91180, 3], //The Bull
-    ["Carluccio's", 51.45595, -0.96786, 4], //Carluccio's
-    ["Coppa Club", 51.47536, -0.91285, 5], //Coppa Club
-    ["London Street Brasserie", 51.45399, -0.96876, 6], //London Street Brasserie
-    ["L'Ortolan", 51.40905, -0.95410, 7], //L'Ortolan
-    ["Malmaison", 51.45797, -0.97212, 8], //Malmaison
-    ["The Real Greek", 51.45376, -0.96970, 9], //The Real Greek
-    ["Zerodegrees", 51.45369, -0.97325, 10],  //Zerodegrees          
+    ["Marlow Bar & Grill", 51.56958, -0.77475, 1],
+    ["The Chequers", 51.57045, -0.77518, 2], 
+    ["The Bull Inn", 51.47375, -0.91180, 3], 
+    ["The Coach", 51.57172, -0.77719, 4], 
+    ["Glaze @ Crown Plaza", 51.57139, -0.75241, 5], 
+    ["The Ivy", 51.57028, -0.77544, 6],
+    ["The Hand & Flowers", 51.56986, -0.78333, 7], 
+    ["Riverside @ Macdonald Compleat Angler", 51.56691, -0.77275, 8], 
+    ["Sindhu @ Macdonald Compleat Angler", 51.56713, -0.77232, 9], 
+    ["The Giggling Squid", 51.57156, -0.77768, 10],           
 ];
 
 function setMarkers(map) {
