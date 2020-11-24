@@ -7,7 +7,7 @@
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 12,
-        center: { lat: 51.45425, lng: -0.97074 },
+        center: { lat: 51.53737, lng: -0.90288},
         // disableDefaultUI: true,
     });
     setMarkers(map);
@@ -380,16 +380,15 @@ map.set('styles', styles);
 
 
 var readLocations = [
-    ["Bill's Restaurant", 51.45494, -0.97323, 1], //Bill's
-    ["Brewdog", 51.45356, -0.97426, 2], //Brewdog
-    ["The Bull Inn", 51.47375, -0.91180, 3], //The Bull
-    ["Carluccio's", 51.45595, -0.96786, 4], //Carluccio's
-    ["Coppa Club", 51.47536, -0.91285, 5], //Coppa Club
-    ["London Street Brasserie", 51.45399, -0.96876, 6], //London Street Brasserie
-    ["L'Ortolan", 51.40905, -0.95410, 7], //L'Ortolan
-    ["Malmaison", 51.45797, -0.97212, 8], //Malmaison
-    ["The Real Greek", 51.45376, -0.96970, 9], //The Real Greek
-    ["Zerodegrees", 51.45369, -0.97325, 10],  //Zerodegrees          
+    ["The Angel on the Bridge", 51.53749, -0.90097, 1], 
+    ["Bistro at The Boathouse", 51.53542, -0.900136, 2], 
+    ["Hotel du Vin", 51.53913, -0.90189, 3],
+    ["Cafe Rouge", 51.53787, -0.90258, 5], 
+    ["Little Angel", 51.53726, -0.89750, 6],
+    ["The Catherine Wheel", 51.53786, -0.90375, 7],
+    ["Spice Merchant", 51.53865, -0.90113, 8], 
+    ["HCafe", 51.53765, -0.90583, 9], 
+    ["Zizzi", 51.53788, -0.90351, 10],          
 ];
 
 function setMarkers(map) {
