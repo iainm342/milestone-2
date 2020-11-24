@@ -8,10 +8,10 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 12,
         center: { lat: 51.45425, lng: -0.97074 },
-        // disableDefaultUI: true,
+   
     });
     setMarkers(map);
-    // initZoomControl(map);
+
     var styles = [
     {
         "featureType": "all",
@@ -404,19 +404,10 @@ function setMarkers(map) {
             zIndex: readLoc[3],
         });
 
-        // function initZoomControl(map) {
-        //     document.querySelector(".zoom-control-in").onclick = function () {
-        //         map.setZoom(map.getZoom() + 1);
-        //     };
-
-        //     document.querySelector(".zoom-control-out").onclick = function () {
-        //         map.setZoom(map.getZoom() - 1);
-        //     };
-
-        //     map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.querySelector(".zoom-control")
-        //     );
-        // }
+      
     }
+
+   
 }
 
 
