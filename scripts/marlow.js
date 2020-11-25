@@ -79,6 +79,7 @@ let rest9 = new readRest("Zerodegrees", "9 Bridge Street, Reading, RG1 2LR", "01
 let restName1 = `${rest1.name}`;
 let elVenueName1 = document.getElementById("name1");
 elVenueName1.textContent = restName1;
+console.log(rest1.name);
 
 let restAddress1 = `${rest1.address}`;
 let elVenueAddress1 = document.getElementById("address1");
