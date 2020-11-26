@@ -1,4 +1,14 @@
+// var modalID;
 
+// $(function() {
+
+//   $('[data-toggle="modal"]').onclick(function() {
+//     var modalId = $(this).data('target');
+//     $(modalId).modal('show');
+
+//   });
+
+// });
 
 var btn = document.querySelectorAll("button.modal-button");
 
