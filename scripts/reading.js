@@ -1,94 +1,114 @@
-var modal1 = document.getElementById('myModal1');
-var modal2 = document.getElementById('myModal2');
-var modal3 = document.getElementById('myModal3');
-var modal4 = document.getElementById('myModal4');
-var modal5 = document.getElementById('myModal5');
-var modal6 = document.getElementById('myModal6');
-var modal7 = document.getElementById('myModal7');
-var modal8 = document.getElementById('myModal8');
-var modal9 = document.getElementById('myModal9');
+var modal = [];
+var img = [];
+var span = [];
 
+for (var i = 1; i < 9; i++) {
+  modal[i] = document.getElementById("myModal" + i.toString());
+  img[i] = document.getElementById("image" + i.toString());
+  
+  var currentIndex = i;
+  
+    img[i].onclick = function () {
+    modal[currentIndex].style.display = "block";
+  };
 
-var img1 = document.getElementById('image1');
-var img2 = document.getElementById('image2');
-var img3 = document.getElementById('image3');
-var img4 = document.getElementById('image4');
-var img5 = document.getElementById('image5');
-var img6 = document.getElementById('image6');
-var img7 = document.getElementById('image7');
-var img8 = document.getElementById('image8');
-var img9 = document.getElementById('image9');
-
-img1.onclick = function() {
-    modal1.style.display = "block";
+  span[i] = document.getElementsByClassName("close")[i - 1];
+  span[i].onclick = function () {
+    modal[currentIndex].style.display = "none";
+  };
 }
 
-img2.onclick = function() {
-    modal2.style.display = "block";
-}
-img3.onclick = function() {
-    modal3.style.display = "block";
-}
-
-img4.onclick = function() {
-    modal4.style.display = "block";
-}
-img5.onclick = function() {
-    modal5.style.display = "block";
-}
-
-img6.onclick = function() {
-    modal6.style.display = "block";
-}
-img7.onclick = function() {
-    modal7.style.display = "block";
-}
-
-img8.onclick = function() {
-    modal8.style.display = "block";
-}
-img9.onclick = function() {
-    modal9.style.display = "block";
-}
-
-var span1 = document.getElementsByClassName('close')[0];
-var span2 = document.getElementsByClassName('close')[1];
-var span3 = document.getElementsByClassName('close')[2];
-var span4 = document.getElementsByClassName('close')[3];
-var span5 = document.getElementsByClassName('close')[4];
-var span6 = document.getElementsByClassName('close')[5];
-var span7 = document.getElementsByClassName('close')[6];
-var span8 = document.getElementsByClassName('close')[7];
-var span9 = document.getElementsByClassName('close')[8];
+// var modal1 = document.getElementById('myModal1');
+// var modal2 = document.getElementById('myModal2');
+// var modal3 = document.getElementById('myModal3');
+// var modal4 = document.getElementById('myModal4');
+// var modal5 = document.getElementById('myModal5');
+// var modal6 = document.getElementById('myModal6');
+// var modal7 = document.getElementById('myModal7');
+// var modal8 = document.getElementById('myModal8');
+// var modal9 = document.getElementById('myModal9');
 
 
-span1.onclick = function() {
-    modal1.style.display = "none";
-}
-span2.onclick = function() {
-    modal2.style.display = "none";
-}
-span3.onclick = function() {
-    modal3.style.display = "none";
-}
-span4.onclick = function() {
-    modal4.style.display = "none";
-}
-span5.onclick = function() {
-    modal5.style.display = "none";
-}
-span6.onclick = function() {
-    modal6.style.display = "none";
-}
-span7.onclick = function() {
-    modal7.style.display = "none";
-}
-span8.onclick = function() {
-    modal8.style.display = "none";
-}
-span9.onclick = function() {
-    modal8.style.display = "none";
-}
+// var img1 = document.getElementById('image1');
+// var img2 = document.getElementById('image2');
+// var img3 = document.getElementById('image3');
+// var img4 = document.getElementById('image4');
+// var img5 = document.getElementById('image5');
+// var img6 = document.getElementById('image6');
+// var img7 = document.getElementById('image7');
+// var img8 = document.getElementById('image8');
+// var img9 = document.getElementById('image9');
+
+// img1.onclick = function() {
+//     modal1.style.display = "block";
+// }
+
+// img2.onclick = function() {
+//     modal2.style.display = "block";
+// }
+// img3.onclick = function() {
+//     modal3.style.display = "block";
+// }
+
+// img4.onclick = function() {
+//     modal4.style.display = "block";
+// }
+// img5.onclick = function() {
+//     modal5.style.display = "block";
+// }
+
+// img6.onclick = function() {
+//     modal6.style.display = "block";
+// }
+// img7.onclick = function() {
+//     modal7.style.display = "block";
+// }
+
+// img8.onclick = function() {
+//     modal8.style.display = "block";
+// }
+// img9.onclick = function() {
+//     modal9.style.display = "block";
+// }
+
+// var span1 = document.getElementsByClassName('close')[0];
+// var span2 = document.getElementsByClassName('close')[1];
+// var span3 = document.getElementsByClassName('close')[2];
+// var span4 = document.getElementsByClassName('close')[3];
+// var span5 = document.getElementsByClassName('close')[4];
+// var span6 = document.getElementsByClassName('close')[5];
+// var span7 = document.getElementsByClassName('close')[6];
+// var span8 = document.getElementsByClassName('close')[7];
+// var span9 = document.getElementsByClassName('close')[8];
+
+
+// span1.onclick = function() {
+//     modal1.style.display = "none";
+// }
+// span2.onclick = function() {
+//     modal2.style.display = "none";
+// }
+// span3.onclick = function() {
+//     modal3.style.display = "none";
+// }
+// span4.onclick = function() {
+//     modal4.style.display = "none";
+// }
+// span5.onclick = function() {
+//     modal5.style.display = "none";
+// }
+// span6.onclick = function() {
+//     modal6.style.display = "none";
+// }
+// span7.onclick = function() {
+//     modal7.style.display = "none";
+// }
+// span8.onclick = function() {
+//     modal8.style.display = "none";
+// }
+// span9.onclick = function() {
+//     modal8.style.display = "none";
+// }
 
 
 
