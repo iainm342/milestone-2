@@ -57,23 +57,23 @@ function readRest(name, address, phone, website, type, cost) {
     }
 
 
-let rest1 = new readRest("Bill's Restaurant", "St Mary's Church House, Chain Street, Reading, RG1 2HX", "0118 939 1365", "https://www.bills-website.co.uk/restaurants/reading", "International, Brunch", "£");
+let rest1 = new readRest("The Marlow Bar & Grill", "92-94 High Street, Marlow, SL7 1AQ", "01628 488544", "https://therestaurantbarandgrill.com/our-restaurants/marlow/", "British, Brunch", "££");
 
-let rest2 = new readRest("Brewdog", "11 Castle Street, Reading, RG1 7SB", "0118 956 8755", "https://www.brewdog.com/uk/bars/uk/brewdog-reading", "Bar, Burgers", "££");
+let rest2 = new readRest("The Chequers", "51-53, High Street, Marlow, SL7 1BA", "01628 482053", "https://www.thechequersmarlow.co.uk/", "Steak", "££");
 
-let rest3 = new readRest("The Bull Inn", "High Street, Sonning-on-Thames, Reading, RG4 6UP", "0118 969 3901", "https://www.fullers.co.uk/hotels", "Traditional, Sunday Lunch", "£");
+let rest3 = new readRest("The Coach", "3, West Street, Marlow, SL7 2LS", "01628 483013", "https://www.thecoachmarlow.co.uk/", "Gastropub, British", "££");
 
-let rest4 = new readRest("Coppa Club", "The Great House, Sonning-on-Thames, Reading, RG4 6UT", "0118 921 9890", "https://coppaclub.co.uk/sonning/", "Italian, Brunch, Sunday Lunch", "££");
+let rest4 = new readRest("Glaze Restaurant @ Crowne Plaza Hotel", "Crowne Plaza Marlow, Fieldhouse Lane, Marlow, SL7 1GJ", "01628 496800", "https://www.cpmarlow.co.uk/dine", "British, Indian", "££");
 
-let rest5 = new readRest("London Street Brasserie", "The Oracle, 2-4 London Street, Reading, RG1 4PN", "0118 950 5036", "https://www.londonstbrasserie.co.uk/", "Modern British, Sunday Lunch", "£££");
+let rest5 = new readRest("The Hand and Flowers", "126, West Street, Marlow, SL7 2BP", "01628 482277", "http://www.thehandandflowers.co.uk/", "Fine Dining, Sunday Lunch", "££££");
 
-let rest6 = new readRest("L'Ortolan", "Church Lane, Shinfield, Reading, RG2 9BY", "0118 988 8500", "https://lortolan.com/", "French, Fine Dining", "££££");
+let rest6 = new readRest("The Ivy", "66-68, High Street, Marlow, SL7 1AH", "01628 902777", "https://theivymarlowgarden.com/", "British, Alfresco, Brunch", "££");
 
-let rest7 = new readRest("Malmaison", "Great Western House, 18-20 Station Road, Reading, RG1 1JX", "0844 693 0660 ", "https://www.malmaison.com/locations/reading/", "French, Brasserie, Sunday Lunch", "£££");
+let rest7 = new readRest("Riverside Restaurant @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 405406 ", "https://www.macdonaldhotels.co.uk/our-hotels/south-england/marlow/macdonald-compleat-angler", "British, Sunday Lunch", "£££");
 
-let rest8 = new readRest("The Real Greek", "The Oracle, Reading, RG1 2AT", "0118 995 2270", "https://www.therealgreek.com/", "Greek, Tapas", "££");
+let rest8 = new readRest("Sindhu @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 728126", "http://www.sindhurestaurant.co.uk/", "Fine Dining, Indian", "£££");
 
-let rest9 = new readRest("Zerodegrees", "9 Bridge Street, Reading, RG1 2LR", "011 959 7959", "https://www.zerodegrees.co.uk/", "Bar, Pizza", "££");
+let rest9 = new readRest("Giggling Squid", "24, West Street, Marlow, SL7 2BP", "01628 483047", "https://www.gigglingsquid.com/restaurant/marlow/", "Thai", "££");
 
 //rest1
 let restName1 = `${rest1.name}`;

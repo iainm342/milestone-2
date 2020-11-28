@@ -1,21 +1,21 @@
-let img;
-let index;
-let modal;
+// let img;
+// let index;
+// let modal;
 
-$(function() {
-    $('body').on('click', '.filter-img', function() {
-        var $img = $(event.target);
-        var index = $img.data('index');
-        var $modal = $("#myModal" + index);
-        // $modal.find('img').attr('href', img.attr('href'));
-        $modal.css('display', 'block');
-    });
+// $(function() {
+//     $('body').on('click', '.filter-img', function() {
+//         var $img = $(event.target);
+//         var index = $img.data('index');
+//         var $modal = $("#myModal" + index);
+//         // $modal.find('img').attr('href', img.attr('href'));
+//         $modal.css('display', 'block');
+//     });
 
-    $('body').on('click', '.modal .close', function(event) {
-        var $modal = $(event.target).closest('.modal');
-        $modal.css('display', 'none');
-    });
-});
+//     $('body').on('click', '.modal .close', function(event) {
+//         var $modal = $(event.target).closest('.modal');
+//         $modal.css('display', 'none');
+//     });
+// });
 
 
 
