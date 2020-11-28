@@ -39,7 +39,7 @@
                 "title": "Malmaison",
                 "lat": '51.45797',
                 "lng": '-0.97212',
-                "description": 'French styled brasserie with a funky bar and amazing coktails!'
+                "description": 'French styled brasserie with a funky bar and amazing cocktails!'
             },
             {
                 "title": 'The Real Greek',
@@ -48,11 +48,12 @@
                 "description": 'Greek tapas - you will leave full!'
             },
             {
-                "title": 'Zerodegrees',
-                "lat": '18.523600',
-                "lng": '73.847800',
-                "description": 'Fab food and microbrewery on site!'
+                "title": "Zerodegrees",
+                "lat": "51.45370",
+                "lng":  "-0.97328",
+                "description": 'Pizza and micro-brewery on site'
             }
+            
     ];
 
     console.log(markers);

@@ -1,17 +1,92 @@
-// const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-// let labelIndex = 0;
-// let markers = 0;
-// let map;
+var markers = [
+            {
+                "title": "The Marlow Bar & Grill", 
+                "lat": '51.57004',
+                "lng": '-0.77508',
+                "description": 'THE place to be seen by the Marlow locals!'
+            },
+            {
+                "title": 'The Chequers',
+                "lat": '51.57050',
+                "lng": '-0.77522',
+                "description": "Argentinian steak at it's best!"
+            },
+            {
+                "title": 'The Coach',
+                "lat": '51.57180',
+                "lng": '-0.77720',
+                "description": "Tom Kerridge's pub (well it's not really a pub)!"
+            },
+            {
+                "title": 'Glaze',
+                "lat": '51.57137',
+                "lng": '-0.75242',
+                "description": 'Contemporary surroundings and an Indian / British menu to boot!'
+            },
+            {
+                "title": 'The Hand & Flowers',
+                "lat": '51.56996',
+                "lng": '-0.78327',
+                "description": "Tonm Kerridge's 2 Michelin starred restaurant - a must for all foodies!"
+            },
+            {
+                "title": "The Ivy",
+                "lat": '51.57032',
+                "lng": '-0.77553',
+                "description": 'Caprice Holdings well known high street brand!'
+            },
+            {
+                "title": "Riverside Restaurant @ Macdonald Compleat Angler",
+                "lat": '51.56697',
+                "lng": '-0.77218',
+                "description": 'Riverside dining with stunning views over the River Thames!'
+            },
+            {
+                "title": 'Sindhu @ Macdonald Compleat Angler',
+                "lat": '51.56710',
+                "lng": '-0.77237',
+                "description": 'Indian fine dining in a stunning location!'
+            },
+            {
+                "title": 'Giggling Squid',
+                "lat": '51.57155',
+                "lng": '-0.77770',
+                "description": 'Thai food with a twist!'
+            }
+    ];
 
+    console.log(markers);
 
-function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: { lat: 51.57310, lng: -0.77675},
-        // disableDefaultUI: true,
-    });
-    setMarkers(map);
-    // initZoomControl(map);
+    window.onload = function () {
+        var mapOptions = {
+            center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
+            zoom: 12,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var infoWindow = new google.maps.InfoWindow();
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        var i = 0;
+        var interval = setInterval(function () {
+            var data = markers[i]
+            var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: data.title,
+                animation: google.maps.Animation.DROP
+            });
+            (function (marker, data) {
+                google.maps.event.addListener(marker, "click", function (e) {
+                    infoWindow.setContent(data.description);
+                    infoWindow.open(map, marker);
+                });
+            })(marker, data);
+            i++;
+            if (i == markers.length) {
+                clearInterval(interval);
+            }
+        }, 200);
+
     var styles = [
     {
         "featureType": "all",
