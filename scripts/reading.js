@@ -1,23 +1,46 @@
-var modal = [];
-var img = [];
-var span = [];
+let img;
+let index;
+let modal;
 
-for (var i = 1; i < 9; i++) {
-  modal[i] = document.getElementById("myModal" + i.toString());
-  img[i] = document.getElementById("image" + i.toString());
+$(function() {
+    $('body').on('click', '.filter-img', function() {
+        var $img = $(event.target);
+        var index = $img.data('index');
+        var $modal = $("#myModal" + index);
+        // $modal.find('img').attr('href', img.attr('href'));
+        $modal.css('display', 'block');
+    });
+
+    $('body').on('click', '.modal .close', function(event) {
+        var $modal = $(event.target).closest('.modal');
+        $modal.css('display', 'none');
+    });
+});
+
+
+
+//Works but only shows one modal info
+// var modal = [];
+// var img = [];
+// var span = [];
+
+// for (var i = 1; i < 9; i++) {
+//   modal[i] = document.getElementById("myModal" + i.toString());
+//   img[i] = document.getElementById("image" + i.toString());
   
-  var currentIndex = i;
+//   var currentIndex = i;
   
-    img[i].onclick = function () {
-    modal[currentIndex].style.display = "block";
-  };
+//     img[i].onclick = function () {
+//     modal[currentIndex].style.display = "block";
+//   };
 
-  span[i] = document.getElementsByClassName("close")[i - 1];
-  span[i].onclick = function () {
-    modal[currentIndex].style.display = "none";
-  };
-}
+//   span[i] = document.getElementsByClassName("close")[i - 1];
+//   span[i].onclick = function () {
+//     modal[currentIndex].style.display = "none";
+//   };
+// }
 
+// Works but individual lines of code
 // var modal1 = document.getElementById('myModal1');
 // var modal2 = document.getElementById('myModal2');
 // var modal3 = document.getElementById('myModal3');

@@ -1,11 +1,3 @@
-var sb = document.createElement('input');
-sb.type = 'button';
-sb.class = 'myImageButton';
-
-
-
-
-
 
 (function () {
   var $imgs = $("#gallery img");
