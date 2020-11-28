@@ -1,34 +1,34 @@
 
 
-var btn = document.querySelectorAll("button.modal-button");
+// var btn = document.querySelectorAll("button.modal-button");
 
-var modals = document.querySelectorAll(".modal");
+// var modals = document.querySelectorAll(".modal");
 
-var spans = document.getElementsByClassName("close");
+// var spans = document.getElementsByClassName("close");
 
-for (var i = 0; i < btn.length; i++) {
-    btn[i].onclick = function(e) {
-        e.preventDefault();
-        modal = document.querySelector(e.target.getAttribute("href"));
-        modal.style.display = "block";
-    }
-}
+// for (var i = 0; i < btn.length; i++) {
+//     btn[i].onclick = function(e) {
+//         e.preventDefault();
+//         modal = document.querySelector(e.target.getAttribute("href"));
+//         modal.style.display = "block";
+//     }
+// }
 
-for (var i = 0; i < spans.length; i++) {
-    spans[i].onclick = function () {
-        for (var index in modals) {
-            if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
-        }
-    }
-}
+// for (var i = 0; i < spans.length; i++) {
+//     spans[i].onclick = function () {
+//         for (var index in modals) {
+//             if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+//         }
+//     }
+// }
 
-window.onclick = function(event) {
-    if (event.target.classList.contains('modal')) {
-        for (var index in modals) {
-            if (typeof modals[index].style !== 'undefined') this.modals[index].style.display = "none";
-        }
-    }
-}
+// window.onclick = function(event) {
+//     if (event.target.classList.contains('modal')) {
+//         for (var index in modals) {
+//             if (typeof modals[index].style !== 'undefined') this.modals[index].style.display = "none";
+//         }
+//     }
+// }
 
 //Accordion
 
@@ -47,7 +47,7 @@ for (i=0; i <acc.length; i++) {
     });
 }
 
-function readRest(name, address, phone, website, type, cost) {
+function marlowRest(name, address, phone, website, type, cost) {
         this.name = name;
         this.address = address;
         this.phone = phone;
@@ -57,23 +57,23 @@ function readRest(name, address, phone, website, type, cost) {
     }
 
 
-let rest1 = new readRest("The Marlow Bar & Grill", "92-94 High Street, Marlow, SL7 1AQ", "01628 488544", "https://therestaurantbarandgrill.com/our-restaurants/marlow/", "British, Brunch", "££");
+let rest1 = new marlowRest("The Marlow Bar & Grill", "92-94 High Street, Marlow, SL7 1AQ", "01628 488544", "https://therestaurantbarandgrill.com/our-restaurants/marlow/", "British, Brunch", "££");
 
-let rest2 = new readRest("The Chequers", "51-53, High Street, Marlow, SL7 1BA", "01628 482053", "https://www.thechequersmarlow.co.uk/", "Steak", "££");
+let rest2 = new marlowRest("The Chequers", "51-53, High Street, Marlow, SL7 1BA", "01628 482053", "https://www.thechequersmarlow.co.uk/", "Steak", "££");
 
-let rest3 = new readRest("The Coach", "3, West Street, Marlow, SL7 2LS", "01628 483013", "https://www.thecoachmarlow.co.uk/", "Gastropub, British", "££");
+let rest3 = new marlowRest("The Coach", "3, West Street, Marlow, SL7 2LS", "01628 483013", "https://www.thecoachmarlow.co.uk/", "Gastropub, British", "££");
 
-let rest4 = new readRest("Glaze Restaurant @ Crowne Plaza Hotel", "Crowne Plaza Marlow, Fieldhouse Lane, Marlow, SL7 1GJ", "01628 496800", "https://www.cpmarlow.co.uk/dine", "British, Indian", "££");
+let rest4 = new marlowRest("Glaze Restaurant @ Crowne Plaza Hotel", "Crowne Plaza Marlow, Fieldhouse Lane, Marlow, SL7 1GJ", "01628 496800", "https://www.cpmarlow.co.uk/dine", "British, Indian", "££");
 
-let rest5 = new readRest("The Hand and Flowers", "126, West Street, Marlow, SL7 2BP", "01628 482277", "http://www.thehandandflowers.co.uk/", "Fine Dining, Sunday Lunch", "££££");
+let rest5 = new marlowRest("The Hand and Flowers", "126, West Street, Marlow, SL7 2BP", "01628 482277", "http://www.thehandandflowers.co.uk/", "Fine Dining, Sunday Lunch", "££££");
 
-let rest6 = new readRest("The Ivy", "66-68, High Street, Marlow, SL7 1AH", "01628 902777", "https://theivymarlowgarden.com/", "British, Alfresco, Brunch", "££");
+let rest6 = new marlowRest("The Ivy", "66-68, High Street, Marlow, SL7 1AH", "01628 902777", "https://theivymarlowgarden.com/", "British, Alfresco, Brunch", "££");
 
-let rest7 = new readRest("Riverside Restaurant @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 405406 ", "https://www.macdonaldhotels.co.uk/our-hotels/south-england/marlow/macdonald-compleat-angler", "British, Sunday Lunch", "£££");
+let rest7 = new marlowRest("Riverside Restaurant @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 405406 ", "https://www.macdonaldhotels.co.uk/our-hotels/south-england/marlow/macdonald-compleat-angler", "British, Sunday Lunch", "£££");
 
-let rest8 = new readRest("Sindhu @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 728126", "http://www.sindhurestaurant.co.uk/", "Fine Dining, Indian", "£££");
+let rest8 = new marlowRest("Sindhu @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 728126", "http://www.sindhurestaurant.co.uk/", "Fine Dining, Indian", "£££");
 
-let rest9 = new readRest("Giggling Squid", "24, West Street, Marlow, SL7 2BP", "01628 483047", "https://www.gigglingsquid.com/restaurant/marlow/", "Thai", "££");
+let rest9 = new marlowRest("Giggling Squid", "24, West Street, Marlow, SL7 2BP", "01628 483047", "https://www.gigglingsquid.com/restaurant/marlow/", "Thai", "££");
 
 //rest1
 let restName1 = `${rest1.name}`;
@@ -84,6 +84,7 @@ console.log(rest1.name);
 let restAddress1 = `${rest1.address}`;
 let elVenueAddress1 = document.getElementById("address1");
 elVenueAddress1.textContent = restAddress1;
+console.log(rest1.address);
 
 let restPhone1 = `${rest1.phone}`;
 let elVenuePhone1 = document.getElementById("phone1");

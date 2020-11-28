@@ -1,34 +1,34 @@
 
 
-var btn = document.querySelectorAll("button.modal-button");
+// var btn = document.querySelectorAll("button.modal-button");
 
-var modals = document.querySelectorAll(".modal");
+// var modals = document.querySelectorAll(".modal");
 
-var spans = document.getElementsByClassName("close");
+// var spans = document.getElementsByClassName("close");
 
-for (var i = 0; i < btn.length; i++) {
-    btn[i].onclick = function(e) {
-        e.preventDefault();
-        modal = document.querySelector(e.target.getAttribute("href"));
-        modal.style.display = "block";
-    }
-}
+// for (var i = 0; i < btn.length; i++) {
+//     btn[i].onclick = function(e) {
+//         e.preventDefault();
+//         modal = document.querySelector(e.target.getAttribute("href"));
+//         modal.style.display = "block";
+//     }
+// }
 
-for (var i = 0; i < spans.length; i++) {
-    spans[i].onclick = function () {
-        for (var index in modals) {
-            if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
-        }
-    }
-}
+// for (var i = 0; i < spans.length; i++) {
+//     spans[i].onclick = function () {
+//         for (var index in modals) {
+//             if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+//         }
+//     }
+// }
 
-window.onclick = function(event) {
-    if (event.target.classList.contains('modal')) {
-        for (var index in modals) {
-            if (typeof modals[index].style !== 'undefined') this.modals[index].style.display = "none";
-        }
-    }
-}
+// window.onclick = function(event) {
+//     if (event.target.classList.contains('modal')) {
+//         for (var index in modals) {
+//             if (typeof modals[index].style !== 'undefined') this.modals[index].style.display = "none";
+//         }
+//     }
+// }
 
 //Accordion
 
@@ -47,7 +47,7 @@ for (i=0; i <acc.length; i++) {
     });
 }
 
-function readRest(name, address, phone, website, type, cost) {
+function henleyRest(name, address, phone, website, type, cost) {
         this.name = name;
         this.address = address;
         this.phone = phone;
@@ -57,23 +57,23 @@ function readRest(name, address, phone, website, type, cost) {
     }
 
 
-let rest1 = new readRest("The Angel on the Bridge", "Thameside, Henley-on-Thames, RG9 1BH", "01491 410678", "https://www.theangelhenley.com/", "Gastropub", "£");
+let rest1 = new henleyRest("The Angel on the Bridge", "Thameside, Henley-on-Thames, RG9 1BH", "01491 410678", "https://www.theangelhenley.com/", "Gastropub", "£");
 
-let rest2 = new readRest("Bistro at The Boathouse", "Station Road, Henley-on-Thames, RG9 1AZ", "01491 577937", "https://www.bistroattheboathouse.co.uk/#/", "British, Fine Dining", "££££");
+let rest2 = new henleyRest("Bistro at The Boathouse", "Station Road, Henley-on-Thames, RG9 1AZ", "01491 577937", "https://www.bistroattheboathouse.co.uk/#/", "British, Fine Dining", "££££");
 
-let rest3 = new readRest("The Catherine Wheel", "7-15, Hart Street, Henley-on-Thames, RG9 2AR", "01491 848484", "https://www.jdwetherspoon.com/pubs/all-pubs/england/oxfordshire/the-catherine-wheel-henleyonthames", "British", "£");
+let rest3 = new henleyRest("The Catherine Wheel", "7-15, Hart Street, Henley-on-Thames, RG9 2AR", "01491 848484", "https://www.jdwetherspoon.com/pubs/all-pubs/england/oxfordshire/the-catherine-wheel-henleyonthames", "British", "£");
 
-let rest4 = new readRest("Hotel du Vin & Bistro", "New Street, Henley-on-Thames, RG9 2BP", "01491 848400", "https://www.hotelduvin.com/locations/henley-on-thames/", "French, Sunday Lunch, Afternoon Tea", "££");
+let rest4 = new henleyRest("Hotel du Vin & Bistro", "New Street, Henley-on-Thames, RG9 2BP", "01491 848400", "https://www.hotelduvin.com/locations/henley-on-thames/", "French, Sunday Lunch, Afternoon Tea", "££");
 
-let rest5 = new readRest("H Cafe", "Market Place, Henley-on-Thames, RG9 2AH", "01491 482277", "https://d1c96hlcey6qkb.cloudfront.net/b460d838-2f28-4ead-8832-f90e7ce67346/5870e2daaea649baac43a4e8a341ec2e?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27H_cafe_post-covid_v3.20200707093111297.pdf&response-content-type=application%2Fpdf&Expires=1606652826&Signature=a3eTyW42emtvUv9uCGcatCEjRhlX5BVC-WFvl3dGuOcChVw3RF01hFYc8--rtRfybeKgsSCeIBBlZffM4irwvIjgZidEVeiVpM12J9tXuAz7y0I8hmXh89yE2N4gbN~p9j8lmWzGdlUJVYnhTFgjKUQfaTzlhPrbFAUrvJWHRpdSKAWTd16Nu~w5e93y87F9qy73AgVaxuNc4ZQh6qu1T0S7WLadyxCC3PjTX34i~JbUMNM7PvISrLjHFcGAkh9Ea3irXWBKRxUkj-21Dhln5ao3rbj-KKIi~j2MohCWx5CZkGsDPLb1ICha~lb5jJNysq~~45fD2fvgcyAoTwbK3A__&Key-Pair-Id=APKAI33AGAEAYCXFBDTA", "Snacks, Afternoon Tea", "£");
+let rest5 = new henleyRest("H Cafe", "Market Place, Henley-on-Thames, RG9 2AH", "01491 482277", "https://d1c96hlcey6qkb.cloudfront.net/b460d838-2f28-4ead-8832-f90e7ce67346/5870e2daaea649baac43a4e8a341ec2e?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27H_cafe_post-covid_v3.20200707093111297.pdf&response-content-type=application%2Fpdf&Expires=1606652826&Signature=a3eTyW42emtvUv9uCGcatCEjRhlX5BVC-WFvl3dGuOcChVw3RF01hFYc8--rtRfybeKgsSCeIBBlZffM4irwvIjgZidEVeiVpM12J9tXuAz7y0I8hmXh89yE2N4gbN~p9j8lmWzGdlUJVYnhTFgjKUQfaTzlhPrbFAUrvJWHRpdSKAWTd16Nu~w5e93y87F9qy73AgVaxuNc4ZQh6qu1T0S7WLadyxCC3PjTX34i~JbUMNM7PvISrLjHFcGAkh9Ea3irXWBKRxUkj-21Dhln5ao3rbj-KKIi~j2MohCWx5CZkGsDPLb1ICha~lb5jJNysq~~45fD2fvgcyAoTwbK3A__&Key-Pair-Id=APKAI33AGAEAYCXFBDTA", "Snacks, Afternoon Tea", "£");
 
-let rest6 = new readRest("The Ivy", "66-68, High Street, Marlow, SL7 1AH", "01628 902777", "https://theivymarlowgarden.com/", "British, Alfresco, Brunch", "££");
+let rest6 = new henleyRest("The Little Angel", "Remenham Lane, Henley-on-Thames, RG9 2LS", "01491 411008", "https://www.thelittleangel.co.uk/", "GAstropub", "£");
 
-let rest7 = new readRest("Riverside Restaurant @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 405406 ", "https://www.macdonaldhotels.co.uk/our-hotels/south-england/marlow/macdonald-compleat-angler", "British, Sunday Lunch", "£££");
+let rest7 = new henleyRest("Cafe Rouge", "37, Hart Street, Henley-on-Thames, RG9 2AR", "01491 411733 ", "https://www.caferouge.com/", "French, Sunday Lunch", "££");
 
-let rest8 = new readRest("Sindhu @ Macdonald Compleat Angler", "Macdonald Compleat Angler, Marlow Bridge, Marlow, SL7 1RG", "01628 728126", "http://www.sindhurestaurant.co.uk/", "Fine Dining, Indian", "£££");
+let rest8 = new henleyRest("Spice Merchant", "25, Thameside, Henley-on-Thames", "01491 636118", "https://www.spicemerchantgroup.com/henley", "Indian, Afternoon Tea", "££");
 
-let rest9 = new readRest("Giggling Squid", "24, West Street, Marlow, SL7 2BP", "01628 483047", "https://www.gigglingsquid.com/restaurant/marlow/", "Thai", "££");
+let rest9 = new henleyRest("Zizzi", "The Former White Hart, 21-23, Hart Street, Henley-on-Thames, RG9 2AR", "01491 410070", "https://www.zizzi.co.uk/italian/restaurants/henley", "Italian", "££");
 
 //rest1
 let restName1 = `${rest1.name}`;
