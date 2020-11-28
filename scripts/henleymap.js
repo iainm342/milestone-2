@@ -1,18 +1,94 @@
-// const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-// let labelIndex = 0;
-// let markers = 0;
-// let map;
+ var markers = [
+            {
+                "title": "The Angel on the Bridge",
+                "lat": '51.53745',
+                "lng": '-0.90097',
+                "description": 'Pub food and riverside drinking!'
+            },
+            {
+                "title": 'Bistro at The Boathouse',
+                "lat": '51.53538',
+                "lng": '-0.90013',
+                "description": 'Amazing food and riverside terrace!'
+            },
+            {
+                "title": 'The Catherine Wheel',
+                "lat": '51.53782',
+                "lng": '-0.90377',
+                "description": 'Huge pub, beer garden and cheap prices!'
+            },
+            {
+                "title": 'Hotel du Vin & Bistro',
+                "lat": '51.53909',
+                "lng": '-0.90189',
+                "description": 'Al fresco dining, huge wine list and French styled food!'
+            },
+            {
+                "title": 'H Cafe',
+                "lat": '51.53765',
+                "lng": '-0.90584',
+                "description": 'Local cafe with homemade snacks!'
+            },
+            {
+                "title": "Little Angel",
+                "lat": '51.53722',
+                "lng": '-0.89749',
+                "description": 'Beer garden, great food and friendly service!'
+            },
+            {
+                "title": "Cafe Rouge",
+                "lat": '51.53783',
+                "lng": '-0.90257',
+                "description": 'High street chain with French influenced food and drink!'
+            },
+            {
+                "title": 'Spice Merchant',
+                "lat": '51.53864',
+                "lng": '-0.90111',
+                "description": 'Henley institution - their take on Afternoon Tea is something different!'
+            },
+            {
+                "title": "Zizzi",
+                "lat": "51.53784",
+                "lng":  "-0.90350",
+                "description": 'High street chain with Italian influence food and drink!'
+            }
+            
+    ];
 
+    console.log(markers);
 
-function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: { lat: 51.53737, lng: -0.90288},
-        // disableDefaultUI: true,
-    });
-    setMarkers(map);
-    // initZoomControl(map);
-    var styles = [
+    window.onload = function () {
+        var mapOptions = {
+            center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var infoWindow = new google.maps.InfoWindow();
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        var i = 0;
+        var interval = setInterval(function () {
+            var data = markers[i]
+            var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: data.title,
+                animation: google.maps.Animation.DROP
+            });
+            (function (marker, data) {
+                google.maps.event.addListener(marker, "click", function (e) {
+                    infoWindow.setContent(data.description);
+                    infoWindow.open(map, marker);
+                });
+            })(marker, data);
+            i++;
+            if (i == markers.length) {
+                clearInterval(interval);
+            }
+        }, 200);
+
+        var styles = [
     {
         "featureType": "all",
         "elementType": "all",
@@ -375,48 +451,5 @@ function initMap() {
     }
 ]
 map.set('styles', styles);
-}
 
-
-
-var readLocations = [
-    ["The Angel on the Bridge", 51.53749, -0.90097, 1], 
-    ["Bistro at The Boathouse", 51.53542, -0.900136, 2], 
-    ["Hotel du Vin", 51.53913, -0.90189, 3],
-    ["Cafe Rouge", 51.53787, -0.90258, 5], 
-    ["Little Angel", 51.53726, -0.89750, 6],
-    ["The Catherine Wheel", 51.53786, -0.90375, 7],
-    ["Spice Merchant", 51.53865, -0.90113, 8], 
-    ["HCafe", 51.53765, -0.90583, 9], 
-    ["Zizzi", 51.53788, -0.90351, 10],          
-];
-
-function setMarkers(map) {
-
-
-    for (let i = 0; i < readLocations.length; i++) {
-        const readLoc = readLocations[i];
-        new google.maps.Marker({
-            position: { lat: readLoc[1], lng: readLoc[2] },
-            map,
-            title: readLoc[0],
-            zIndex: readLoc[3],
-        });
-
-        // function initZoomControl(map) {
-        //     document.querySelector(".zoom-control-in").onclick = function () {
-        //         map.setZoom(map.getZoom() + 1);
-        //     };
-
-        //     document.querySelector(".zoom-control-out").onclick = function () {
-        //         map.setZoom(map.getZoom() - 1);
-        //     };
-
-        //     map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.querySelector(".zoom-control")
-        //     );
-        // }
     }
-}
-
-
-

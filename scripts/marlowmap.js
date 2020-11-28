@@ -60,7 +60,7 @@ var markers = [
     window.onload = function () {
         var mapOptions = {
             center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
-            zoom: 12,
+            zoom: 14,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         var infoWindow = new google.maps.InfoWindow();
