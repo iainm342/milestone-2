@@ -176,7 +176,7 @@ html {
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.accordion:hover {
     background-color: rgb(116, 56, 56);
 }
 
@@ -197,9 +197,6 @@ html {
     margin-left: 5px;
 }
 
-.active:after {
-    content: '\2796';
-}
 
 .btn-book {
     margin-top: 10px;
