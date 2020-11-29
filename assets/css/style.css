@@ -222,3 +222,8 @@ button[type="submit"] {
     background-color: #e84610;
     color: #fafafa;
 }
+
+.navlogo {
+    max-width: 100px;
+    max-height: 100px;
+}
