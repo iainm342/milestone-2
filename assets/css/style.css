@@ -225,6 +225,15 @@ html {
     background: white;
 }
 
+.btn-book a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-book a:hover {
+    color: red;
+}
+
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
