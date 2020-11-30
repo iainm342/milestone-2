@@ -12,7 +12,7 @@ html {
 }
 
 .navbar {
-    background-color: red;
+    background-color: #f91919;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,12 +31,12 @@ html {
 }
 
 .btn-landing {
-    background-color: red;
+    background-color: #f91919;
     color: white;
 }
 
 .page-footer {
-    background-color: red;
+    background-color: #f91919;
     color: white;
 }
 
@@ -99,7 +99,7 @@ html {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: red;
+    background-color: #f91919;
     color: white;
 }
 
@@ -109,17 +109,17 @@ html {
 
 .modal-body {
     padding: 2p 16px;
-    color: red;
+    color: #f91919;
 }
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: red;
+    background-color: #f91919;
     color: white;
 }
 
 .modal-button {
-    background-color: red;
+    background-color: #f91919;
     color: white;
     border-radius: 15%;
     border-color: white;
@@ -131,9 +131,9 @@ html {
 }
 
 .btn-modal-footer:hover {
-    color: red;
+    color: #f91919;
     background: white;
-    border-color: red;
+    border-color: #f91919;
 }
 
 .btn-modal-footer a {
@@ -180,7 +180,7 @@ html {
 }
 
 .accordion {
-    background-color: red;
+    background-color: #f91919;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -198,7 +198,7 @@ html {
 .panel {
     padding: 0 18px;
     background-color: white;
-    color: red;
+    color: #f91919;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -214,14 +214,14 @@ html {
 
 
 .btn-book {
-    background: red;
+    background: #f91919;
     color: white;
     margin-top: 10px;
 }
 
 .btn-book:hover {
-    border-color: red;
-    color: red;
+    border-color: #f91919;
+    color: #f91919;
     background: white;
 }
 
@@ -231,7 +231,7 @@ html {
 }
 
 .btn-book a:hover {
-    color: red;
+    color: #f91919;
 }
 
 .contact-heading {
@@ -269,7 +269,7 @@ button[type="submit"] {
     border-radius: 50%;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    color: red;
+    color: #f91919;
     outline: none;
     cursor: pointer;
     border: solid;
