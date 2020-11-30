@@ -103,6 +103,10 @@ html {
     color: white;
 }
 
+.modal-header span {
+    color: white;
+}
+
 .modal-body {
     padding: 2p 16px;
     color: red;
@@ -124,6 +128,17 @@ html {
 .btn-modal-footer {
     color: white;
     border-color: white;
+}
+
+.btn-modal-footer:hover {
+    color: red;
+    background: white;
+    border-color: red;
+}
+
+.btn-modal-footer a {
+    color: white;
+    text-decoration: none;
 }
 
 .modal-body span {
