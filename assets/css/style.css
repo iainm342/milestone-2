@@ -214,7 +214,15 @@ html {
 
 
 .btn-book {
+    background: red;
+    color: white;
     margin-top: 10px;
+}
+
+.btn-book:hover {
+    border-color: red;
+    color: red;
+    background: white;
 }
 
 .contact-heading {
