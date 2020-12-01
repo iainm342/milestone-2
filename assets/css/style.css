@@ -55,6 +55,8 @@ html {
 .town-img {
   height: 15rem;
   width: 15rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .rest-card-img {
