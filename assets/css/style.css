@@ -278,3 +278,20 @@ button[type="submit"] {
 #btnScrollToTop:active {
     background-color: #cc2333;
 }
+
+.social-links li a i {
+    width: 36px;
+    height: 36px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 7px;
+    text-align: center;
+    color: #f91919;
+    background: white;
+}
+
+.social-links li a i:hover {
+    background:#f91919;
+    color:white;
+}
