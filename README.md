@@ -51,53 +51,47 @@ The main aim of this project was to create a website that would give the user a 
 
 ### <ins>DESIGN PROCESS</ins> ###
 
-1. The initial concept for the project came from my interest, and desire to champion, the growing English Wine market. I wanted to have a simple website, that could be used by various user groups of any knowledge level, to give them access to information that would increase their awareness of the English wine market.  This resulted in the decision to have a landing page, an about page (basic introduction to English wines), a regions page, a producers page and a wines page (although this started off as a varietals page).
+1. The concept of this site comes from my Hospitality background and my feeling that, due to the current pandemic, restaurants need to be championed to help them in the coming months. As this site is intended to raise user awareness of what restaurants are available in their area, I decided to keep it fairly simple and to ensure that the end result was a restaurant being booked by the user.
 
-2. I chose to have a black and white image as the page background as I felt it had a strong impact on the user and with a simple title and "Find Out More" button in the middle of the screen it would make the user enter the website. This was carried on throughout the rest of the website but then removed as it was detracting from the information being provided on the cards. The "Racing Green" (#007542) colour was chosen to frame the body section of the pages as it is a striking colour and "fits" the subject matter well (in my opinion). 
+2. The main colour scheme chosen is red (#f91919)and white as I feel that it is distinctive (think Vodafone or Virgin Media) and by keeping it simple it doesn't detract from the main point of the site - getting the user to book a restaurant.
 
-3. I used Balsamiq to create my wireframes and used it to organise the flow of the site and how the different pages would respond to different screen sizes. 
+3. I used Figma to create my wireframes and used it to organise the flow of the site and how the different pages would respond to different screen sizes. 
 
-4. The website design did change as I coded as I realised I was "learning on the job". I used the Bootstrap card component, which I didn't know existed before I started coding, instead of seperate images and text elements on the latter pages of the site. These were easy to use but were also challenging as they did not behave, initially, in the way I thought they should have done.
+4. As with my first project, the design changed as I was building the site. I am finding that what I think is a "good idea" at the start of the process ends up not being the case. 
 
-5. I feel that I have fulfilled the brief for the project but am aware that I strayed from the original design. I referred to my User Stories and wireframes throughout the process and all changes made were to improve the initial design choices that were made.
+5. I referred to my User Stories and wireframes throughout the process and all changes made were to improve the initial design choices that were impractical.
 
 [Back to Contents](#contents)
 
 ### <ins>FONTS</ins> ###
 
-I chose the Mulish font family for my headers and the Poppins font family for my body text as I liked the simplicity of their styles. Both fonts were chosen from [Google Fonts](https://fonts.google.com/).
+I chose the Oxygen font family for my headers and the Roboto font family for any body text. Both fonts were chosen from [Google Fonts](https://fonts.google.com/) and the styles were imported in to the style.css file.
 
 ### <ins>COLOURS</ins> ###
 
-I used a "Racing Green" (#007542) colour for the Navigation Bar and Footer and then used [www.0to255.com](www.0to255.com) to pick complimentary colours to work with for the buttons and cards throughout the project. The black and white image for index.html was used as I felt it gave the site a professional feel. 
+A red (#f91919) colour for the Navigation Bar and Footer, all Buttons and the Accordian to maintain a consistent feel throughout. The decision to use this simple colour scheme was taken from my feeling that brands such as Virgin Media and Vodafone are easily recognisable due to similar colour choices in their brand identities.
 
 ### <ins>WIREFRAMES</ins> ###
 
-The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com/). A pdf of the wireframe can be found [here](/assets/images/MSP1-Wireframe.pdf). I concentrated on how the different pages would look on different screen resolutions and mapped the corresponding elements on desktop, tablet and mobile screens accordingly. The varietals page changed during the coding process to become wines as I felt that this was more relevant to the various users.
+TO BE ADDED
 
 ### Landing Page ###
 
-![Landing Page](/assets/images/readme/landing.png)
+TO BE ADDED
 
-### About Page ###
+### Locations Page ###
 
-![About Page](/assets/images/readme/about.png)
+TO BE ADDED
 
-### Regions Page ###
+### Town Pages ###
 
-![Regions Page](/assets/images/readme/regions.png)
+TO BE ADDED
 
-### Producers Page ###
+### Filter Pages ###
 
-![Producers Page](/assets/images/readme/producers.png)
+TO BE ADDED
 
-### Varietals Page ###
-
-![Varietals Page](/assets/images/readme/varietals.png)
-
-### Sign Up Form ###
-
-![Sign Up Form](/assets/images/readme/signup.png)
+### Register Page ###
 
 [Back to Contents](#contents)
 
@@ -107,30 +101,32 @@ The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com
 
 ### <ins>LANGUAGES AND FRAMEWORKS</ins> ###
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal form and also for the "scroll up" button to allow the user to return to the top of the screen.  The JS code for this was borrowed from the W3 Schools website after a search to find out how to create this.
-- [jQuery](https://jquery.com/)
-- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - all icons were taken from this site.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - used to create the site structure.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to create the styling throughout the site.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal information, the Google Maps markers, the "back to top" button and the registration forms - user and business user.  
+- [jQuery](https://jquery.com/) - this was used for the image filtering function.
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons were taken from this site for the footer and social buttons.
 - [Bootstrap](https://getbootstrap.com/) - I relied on Bootstrap for the responsive grid design, carousel and card components.
-- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
+- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here along with the icon for the "Back to Top" button.
 - [Popper](https://popper.js.org/)
 - [Popper JS](https://popper.js.org/)
+- [EmailJS](https://emailjs.com) - this was used to host the email functionality of the site.
+- [Google Maps API](https://developers.google.com/maps/) - this was used to allow Google Maps and Markers to be installed on the site.
   
 ### <ins>TOOLS</ins> ###
 
 - [Git](https://git-scm.com/) - version control and recording of all changes to site during development process
 - [GitHub](https://github.com/) - used for hosting website
 - GitPod - IDE used for code editing. 
-- [Balsamiq](https://balsamiq.com/) - wireframing
+- [Figma](https://figma.com/) - wireframing
 - [Google Fonts](https://fonts.google.com/) - used to select font families
 - [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors
 - [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors
+- [JSHint](https://https://jshint.com/) - used to test my JS to ensure there wer no errors
 - [WAVE](https://wave.webaim.org/) - used to test accesibility of site
-- [0to255.com](www.0to255.com) - colour picker
-- [Free Formatter]( https://www.freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
+- [Free Formatter](https://freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
 - [Am I Responsive](http://ami.responsivedesign.is/#) - used to create responsive image for readme.MD
-- [Favicomatic](https://favicomatic.com/) - used to generate the Favicon on the webpage tab
+- [Favicon](https://favicon.io/) - used to generate the Favicon on the webpage tab
 
 [Back to Contents](#contents)
 
@@ -140,25 +136,12 @@ The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com
 
 ### <ins>FEATURES IMPLEMENTED</ins> ###
  
- - Static NavBar across all pages so that the user can navigate the site easily.
- - Links to external websites so that the user can get more information on the particular item they are interested in - region, producer or wine.
- - Social media links to the site owners pages.
- - Embeded video on About page giving information on the process of wine making in England.
- - Carousel images on About page showing "hero" style images.
- - Bootstrap cards which will allow future search functionality. 
- - Button at bottom of screen to allow user to return to the top of the page without scrolling.
- - Favicon used in title of web page.
- - Hover used on all buttons and web/email address links.
- - Modal form used for sign up along with ability to leave the form if the user doesn't wish to submit at that particular moment in time.
+ TO BE ADDED
 
 
 ### <ins>FUTURE FEATURES</ins> ###
 
-- Increase the content of the Regions page as there are more regions in England that produce wine.  This would require an A to Z "search" function to be added to allow quick navigation to that particular information card. 
-- Increase the content of the Producers page as there are more regions in England that produce wine.  This would require an A to Z "search" function to be added to allow quick navigation to that particular information card.
-- Increase the content of the Wines page as there are more regions in England that produce wine.  This would require an A to Z "search" function to be added to allow quick navigation to that particular information card.
-- The addition of a search bar in the NavBar to allow instant site navigation for the user.
-
+- TO BE ADDED
 
 [Back to Contents](#contents)
 
@@ -168,16 +151,7 @@ The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com
 
 ### <ins>RESPONSIVENESS</ins>
 
-The sites responsiveness was tested by the following methods:
-
-- Chrome Developer Tools were used to test responsiveness on all screen sizes.
-- Physical testing was carried out on Desktop, Tablet and various Mobile devices.
-    - Throughout the whole process I was testing the responsiveness of the site on my laptop, iPhone X and iPad.
-    - Once the site was in a state that I was happy with, I submitted it for Peer review.
-    - I also asked friends and family to have a look at the site from a user perspective, rather than a coder perspective.
-- All links were tested to ensure they worked on all devices.
-- NavBar was tested to ensure it worked on all devices.
-- Modal Form was tested to ensure that all fields required input from the user.
+TO BE ADDED
 
 ### <ins>BROWSER COMPATIBILITY</ins>
 
@@ -197,11 +171,7 @@ The site was tested on the [WAVE](https://wave.webaim.org/) site. Passed with mi
 
 ### <ins>ISSUES EXPERIENCED</ins>
 
-There were several issues observed during development and testing:
-
-- The initial images selected for the information cards on the Producers and Wines pages were of different sizes and some were had backgrounds and some didn't. As this was my first project I sourced new images for the Producers page and used stock images for the Wines page. This was not the intended outcome but allowed for consistency across the affected pages.
-- Cards would reshape on the Wines page due to too much text. This meant the responsiveness of the page was inconsistent on different device types. Reduced content to allow for consistency as I felt that the links to the various sites would give the user the informtation they required.
-- The addition of a "Back to Top" button has caused problems with the accesibility of the page which I tested on the [WAVE](https://wave.webaim.org/) website. As this was a function added using a JS code snippet from W3 Schools, I am unable to fix it at present.
+TO BE ADDED
 
 [Back to Contents](#contents)
 
@@ -211,28 +181,28 @@ There were several issues observed during development and testing:
 
 ### <ins>HOSTING</ins>
 
-The site is hosted on [GitHub Pages](https://iainm342.github.io/milestone-1/).
+The site is hosted on [GitHub Pages](https://iainm342.github.io/milestone-2/).
 
 Deployment of the site was achieved by following the steps below:
 
 - opening GitHub in my Google Chrome (or any browser)
 - signing in to GitHub using my username and password
 - selected my repositories
-- navigating to the repo to be deployed (iainm342/milestone-1)
+- navigating to the repo to be deployed (iainm342/milestone-2)
 - clicking on settings in the top navigation bar
 - scrolling down the page until you reach GitHub pages
 - selecting Branch:Master
 - selecting Root 
 - clicking on Save
 - URL generated for use
-- site is now live on [GitHub Pages](https://iainm342.github.io/milestone-1/)
+- site is now live on [GitHub Pages](https://iainm342.github.io/milestone-2/)
 
 ### <ins>CLONING</ins>
 
 If you wish to use my project, feel free, you can clone a copy to your machine by doing the following:
 
 - open GitHub
-- navigate to the repo (iainm342/milestone-1)
+- navigate to the repo (iainm342/milestone-2)
 - click the green Code dropdown button
 - select the option to open with GitHub
 - follow the onscreen instructions and open with GitHub or another IDE
@@ -248,24 +218,18 @@ If you wish to use my project, feel free, you can clone a copy to your machine b
 
 The images and card, text content used were sourced from various sites:
 
-- [Shutterstock]() - Images only
-- [Nyetimeber](https://nyetimber.com/)
-- [Chapel Down](https://www.chapeldown.com/)
-- [Hush Heath](https://hushheath.com/)
-- [Litmus Wines](https://www.litmuswines.com/)
-- [Astley Vineyard](https://www.astleyvineyard.co.uk/)
-- [Grange Estate Wines](https://www.thegrangewine.co.uk/)
-- [Wikipedia](https://www.wikipedia.org/)
+- [Shutterstock](https://shutterstock.com) - dinner plate lofo.
+- [Square Meal](https://squaremeal.co.uk) - images and basic restaurant info were taken from this site. 
 
 ### <ins>IMAGE EDITING</ins> ###
 
-- I used the Shutterstock editing tool for the vector image used for the logo and Adobe Photoshop to transform the index.html background image to black and white.
+- I used the Shutterstock editing tool for the vector image used for the logo.
 
 ### <ins>CODING IDEAS</ins>
 
-Knowledge, and inspiration, was taken from the Code Institute projects - Whiskey Drop and Resume - for certain aspects of the site as this was the first time I have written any major piece of code.
+Knowledge, and inspiration, was taken from the Code Institute project - Resume - for certain aspects of the site.
 
-W3 Schools for the JS code to install a "Back to Top" button which was then styled with an icon from Font Awesome.
+JavaScript & jQuery - Interactive Front-End Web Development by Jon Duckett - for the image filter idea which was then adapted further.
 
 [Back to Contents](#contents)
 
