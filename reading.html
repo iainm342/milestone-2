@@ -1,413 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What's for Dinner?</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-</head>
-<body>
-        <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>What's for Dinner?</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="logo">
                <a class="navbar-brand" href="index.html"><img class="d-lg-block navlogo" src="assets/images/navlogo.jpg" alt=""></a>
             </div>
             <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="navbar nav ml-auto">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reading</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="reading.html">Full List</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="readingfilter.html">Filter</a>
-                            </div>
-                        </li>
-              <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marlow</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="marlow.html">Full List</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="marlowfilter.html">Filter</a>
-                            </div>
-                        </li>
-              <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Henley-on-Thames</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="henley.html">Full List</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="henleyfilter.html">Filter</a>
-                            </div>
-                        </li>
-              <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="signup.html">New User</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="bussignup.html">New Business</a>
-                            </div>
-                        </li>
-            </ul>
-            
-          </div>
-        </div>
-        </nav>
-    </header>
-    <main>
-     <button id="btnScrollToTop">
-        <i class="material-icons">arrow_upward</i>
-    </button>
-        <div class="container-fluid">
-		<div class="row">
-			<div class="col text-center">
-				<h1>Reading </h1>
-                
-			</div>
-		</div>
-		<div class="container-md">
-			<div class="row">
-                <div class="col-md">
-				    <div id="map"></div>
-				</div>
-			</div>
-            <br>
-
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/bills.jpg" alt="">
+               class="navbar-toggler"
+               type="button"
+               data-toggle="collapse"
+               data-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+               >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <div class="navbar nav ml-auto">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reading</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="reading.html">Full List</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="readingfilter.html">Filter</a>
                         </div>
-						<div class="col-md-6 text-center">
-							<h3>Bill's Restaurant</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									A very pretty location, Bill’s Reading restaurant occupies St Mary’s Church House. This elegant Georgian building makes a fabulous restaurant and has become a very popular destination for breakfast, lunch, dinner and everything in between. Our private dining rooms are perfect for special occasions, celebrations, gatherings and meetings, seating up to 50 and 25 guests.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://www.bills-website.co.uk/restaurants/reading/book-a-table" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/brewdog.jpg" alt="">
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marlow</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="marlow.html">Full List</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="marlowfilter.html">Filter</a>
                         </div>
-						<div class="col-md-6 text-center">
-							<h3>Brewdog</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									Judging by the rate at which Aberdeenshire’s self-styled punk brewers are expanding across the land, Britain’s thirst for populist craft beer shows no signs of abating. BrewDog’s USP is a wild line-up of edgy quaffs defined by graffiti labelling and crazy names – try Dead Pony Club, Hardcore IRA or the devastating Tokyo Stout (Britain’s strongest brew weighing in at a brain-jangling 18.2 per cent abv.). You’ll also find plenty of guest ales from UK independents, alongside esoteric bottled beers from all over the world – perhaps Belgian De Dolle or Californian Lagunitas. Filling grub of the street-food variety is the order of the day if solids are required, while knowledgeable bar staff are happy to enthuse about the booze. As for decor, the house style is urban junk meets stripped-back student chic – think exposed brickwork, reclaimed timbers and bare stone tables.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://bookings.designmynight.com/book?venue_id=5c1a520aec7c2b19ce507185&source=partner&stylesheet=website&venue_group=58d8efb33a637751e71a9d7e" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/bull.jpg" alt="">
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Henley-on-Thames</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="henley.html">Full List</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="henleyfilter.html">Filter</a>
                         </div>
-						<div class="col-md-6 text-center">
-							<h3>The Bull Inn</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									Hailed as ‘the most fairylike little nook’ by Jerome K Jerome in his travelogue Three Men in a Boat, Sonning has apparently changed little in the last century. Tucked behind the church whose pilgrims it once hosted, the 16th-century Bull is equally well preserved. Arranged around a bench-filled courtyard, the timber-framed, whitewashed building peeks from beneath climbing foliage, while the interior is all crooked ceilings and floors, winding corridors and alcoves crammed with solid wooden dining tables. A good selection of Fuller’s ales arrives from Chiswick, and there’s a compact wine list to back them up. Food focuses on variety rather than high gastronomy, so expect ample pub classics alongside more creative options such as jerk-spiced ham with mustard crème fraîche or pork fillet with Roquefort and apple mash. The Bull’s bedrooms are regularly taken by corporate types working in nearby business parks.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                 <button class="btn btn-lg btn-warning btn-book"><a href="https://www.fullers.co.uk/hotels" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/coppa.jpg" alt="">
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="signup.html">New User</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="bussignup.html">New Business</a>
                         </div>
-						<div class="col-md-6 text-center">
-							<h3>Coppa Club</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-								Despite being part of a grand old hotel in a quiet riverside setting beside pretty Sonning Bridge, Coppa Club is a modern, chilled-out spot. Its high-backed leather banquettes, funky hanging lanterns and smart wooden tables and floors are more often found in trendy, town-centre bistro-bars. The loosely Italian all-day menu follows suit, being amenably priced and of mass appeal. Traditional dishes of truffled gnocchi bites, greaseless fritto misto (scallops, prawns, whitebait), and tomato and basil bruschetta share space with the international likes of baby chorizo sausages in honey and mustard, grilled chicken in lemon and rosemary, or a quality rib-eye steak buried under juicy flat mushrooms. There’s also a bar, meeting rooms and several lounge-like areas popular with families – as are the pizza and pasta options, and the marvellous sticky toffee pudding with honeycomb ice cream. A short wine list, brought by the exuberant staff, delivers both value and variety.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://coppaclub.co.uk/sonning/" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/london.jpg" alt="">
-                        </div>
-						<div class="col-md-6 text-center">
-							<h3>London Street Brasserie</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									Noted for its “old-fashioned values and high-class food”, this personable town-centre brasserie was originally an 18th-century tollhouse for traffic coming into Reading. Occupying a prime site overlooking the River Kennet (bag a seat on the terrace in fine weather), it promises top-drawer service and a relaxed vibe in thoroughly contemporary surrounds. Chef/proprietor Paul Clerehugh also runs the bucolic Crooked Billet at Stoke Row, and a similar freewheeling spirit pervades the menu here: starters of Japanese cured and torched mackerel with wasabi potato and cucumber or fried duck egg with toasted brioche, wild mushrooms and crispy bacon could precede grilled John Dory with sautéed chorizo, squid, courgette and harissa or Glastonbury free-range chicken baked with garlic and herb butter. Drinks also tick all the boxes, from eclectic wines and beers to swanky cocktails. It’s all “amazing value” given the quality on offer, with “great customer service” to boot.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://www.londonstbrasserie.co.uk/reservations/" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/lortolan.jpg" alt="">
-                        </div>
-						<div class="col-md-6 text-center">
-							<h3>L'Ortolan</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									The very model of a smart country-house restaurant, this Grade II-listed vicarage has played host to some of the UK’s top chefs over the years, such as Nico Ladenis, John Burton-Race, Alan Murchison and more, and it remains the only restaurant in Reading that possesses a Michelin star.
-
-The building may not look much from the outside, but the chocolate tones of the interior give out a soothing warmth, while notable private rooms also catch the eye for those looking to host a birthday meal or celebratory dinner – though the utter professionalism of the setting also makes L’Ortolan a good bet for romance, although it’s not exactly first-date material. 
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                               <button class="btn btn-lg btn-warning btn-book"><a href="https://lortolan.com/" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/malmaison.jpg" alt="">
-                        </div>
-						<div class="col-md-6 text-center">
-							<h3>Malmaison</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									Sophisticated, swish and self-consciously cool, the Malmaison concept of boutique chic began in Edinburgh, and has made solid progress across the UK ever since. Each location looks the business, and the chain matches swanky accommodation with a promising line in food and drink. Wooden fixtures and fittings, discreet lighting and eye-catching artworks set the tone in the brasserie, and the menu mixes European themes with ideas from further afield. Eclectic starters of fritto misto or chicken lollipops with dipping sauces give way to main courses such as pan-fried sea bass with chorizo, samphire and cockle vinaigrette, or smoked haddock fishcake with spinach, poached egg and grain-mustard sauce. Donald Russell steaks and burgers are there for red-blooded business trippers, while desserts feature calorific treats such as knickerbocker glory. Cocktails are given pride of place in the Malbar lounge.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://www.malmaison.com/locations/reading/" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/realgreek.jpg" alt="">
-                        </div>
-						<div class="col-md-6 text-center">
-							<h3>The Real Greek</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									The Real Greek does a grand job of reviving warm memories of holiday hospitality, although the food is better and more varied than your stereotypical tourist-trap taverna in Kos or Kalamaki. Animated staff are as welcoming as can be, so order a Mythos beer and some mezze – perhaps lightly battered salt cod with tangy lemon mayonnaise or tender octopus char-grilled with herbs and garlic, alongside decent renditions of dolmades, hummus and grilled halloumi. Also save room for some smoky grilled skewers, juicy souvlaki wraps (the pork belly is excellent) and desserts ranging from bona-fide baklava to creamy sundaes – just avert your eyes from the calorie counts next to each item. Lightning-fast two-course lunches are a steal, but The Real Greek's wide-ranging, shareable menu and “fabulous entertainment” mean it’s also a no-brainer for evening parties.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://www.therealgreek.com/restaurants/reading/" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
-                <div class="container-md text-center">
-					<div class="row">
-						<div class="col-md-6">
-							<img class="rest-card-img" src="assets/images/reading/zerodegrees.jpg" alt="">
-                        </div>
-						<div class="col-md-6 text-center">
-							<h3>Zerodegrees</h3>
-								<button class="accordion">Info</button>
-								<div class="panel">
-									By-pass the restaurant out front and head to Zerodegrees’ rear entrance, where concrete floors, vast vats and a matrix of metal tubes and pipes are a stern statement of micro-brewing intentions. Six craft varieties are made on the premises, including at least one seasonally rotating fruit beer, a cloudy German-style wheat ale, malty black lager, bitter but floral pale ale, a crisp take on Czech pilsner, and – just to keep regulars interested – a monthly special. Consistently good moules-frites are spot-on with Zerodegrees’ boozy output, while Italian wines are in tune with the rest of the pizza-based menu, which zooms from Italian sausage with onions or Parma ham and rocket to teriyaki chicken, Peking duck and caramelised pear with Gorgonzola. Real ale aficionados give the place a wide berth at weekends, when it morphs into a raucous party spot.
-								</div>
-								<button class="accordion">Address</button>
-								<div class="panel">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
-								</div>
-								<button class="accordion">Phone</button>
-								<div class="panel">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
-								</div>	
-                                <button class="accordion">Website</button>
-								<div class="panel">
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
-								</div>	
-                                <button class="btn btn-lg btn-warning btn-book"><a href="https://www.zerodegrees.co.uk/contact-test/#book-party" target="_blank" alt="">Book</a></button>
-						</div>
-					</div>
-			    </div>
-                <br>
+                     </li>
+                  </ul>
+               </div>
             </div>
-        </div>	
-	</main>
-    <footer class="page-footer font-small mdb-color pt-4">
-      <div class="container text-center text-md-left">
-        <div class="row text-center text-md-left mt-3 pb-3">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">What's for Dinner?</h6>
-            <p>
-              
-            </p>
-          </div>
-
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase text-center mb-4 font-weight-bold">SOCIAL</h6>
-            <ul class="list-inline text-center social-links">
-                            <!--Facebook-->
-                            <li class="list-inline-item">
-                                <a href="http://facebook.com" aria-label="click for IPP on Facebook" target="_blank" >
-                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <!--Twitter-->
-                            <li class="list-inline-item">
-                                <a href="http://twitter.com" aria-label="click for IPP on Twitter" target="_blank">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <!--Instagram-->
-                            <li class="list-inline-item">
-                                <a href="http://instagram.com" aria-label="click for IPP on Instagram" target="_blank">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                        </ul>
-          </div>
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fas fa-home mr-3"></i> Unit 1, Green Park, Reading, RG4 3PZ</p>
-					<p><i class="fas fa-envelope mr-3"></i> team@whatsfordinner.com</p>
-					<p><i class="fas fa-phone mr-3"></i> + 44 203 123 4567</p>
-          </div>
-        </div>
-
-        <hr />
-
-        </div>
-  
-    </footer>
-    <script src="scripts/reading.js"></script>
-    <script src="scripts/readingmap.js"></script>
-    <script src="scripts/main.js"></script>
+         </nav>
+      </header>
+      <main>
+         <button id="btnScrollToTop">
+         <i class="material-icons">arrow_upward</i>
+         </button>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col text-center">
+                  <h1>Reading </h1>
+               </div>
+            </div>
+            <div class="container-md">
+               <div class="row">
+                  <div class="col-md">
+                     <div id="map"></div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/bills.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>Bill's Restaurant</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           A very pretty location, Bill’s Reading restaurant occupies St Mary’s Church House. This elegant Georgian building makes a fabulous restaurant and has become a very popular destination for breakfast, lunch, dinner and everything in between. Our private dining rooms are perfect for special occasions, celebrations, gatherings and meetings, seating up to 50 and 25 guests.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://www.bills-website.co.uk/restaurants/reading/book-a-table" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/brewdog.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>Brewdog</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           Judging by the rate at which Aberdeenshire’s self-styled punk brewers are expanding across the land, Britain’s thirst for populist craft beer shows no signs of abating. BrewDog’s USP is a wild line-up of edgy quaffs defined by graffiti labelling and crazy names – try Dead Pony Club, Hardcore IRA or the devastating Tokyo Stout (Britain’s strongest brew weighing in at a brain-jangling 18.2 per cent abv.). You’ll also find plenty of guest ales from UK independents, alongside esoteric bottled beers from all over the world – perhaps Belgian De Dolle or Californian Lagunitas. Filling grub of the street-food variety is the order of the day if solids are required, while knowledgeable bar staff are happy to enthuse about the booze. As for decor, the house style is urban junk meets stripped-back student chic – think exposed brickwork, reclaimed timbers and bare stone tables.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://bookings.designmynight.com/book?venue_id=5c1a520aec7c2b19ce507185&source=partner&stylesheet=website&venue_group=58d8efb33a637751e71a9d7e" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/bull.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>The Bull Inn</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           Hailed as ‘the most fairylike little nook’ by Jerome K Jerome in his travelogue Three Men in a Boat, Sonning has apparently changed little in the last century. Tucked behind the church whose pilgrims it once hosted, the 16th-century Bull is equally well preserved. Arranged around a bench-filled courtyard, the timber-framed, whitewashed building peeks from beneath climbing foliage, while the interior is all crooked ceilings and floors, winding corridors and alcoves crammed with solid wooden dining tables. A good selection of Fuller’s ales arrives from Chiswick, and there’s a compact wine list to back them up. Food focuses on variety rather than high gastronomy, so expect ample pub classics alongside more creative options such as jerk-spiced ham with mustard crème fraîche or pork fillet with Roquefort and apple mash. The Bull’s bedrooms are regularly taken by corporate types working in nearby business parks.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://www.fullers.co.uk/hotels" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/coppa.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>Coppa Club</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           Despite being part of a grand old hotel in a quiet riverside setting beside pretty Sonning Bridge, Coppa Club is a modern, chilled-out spot. Its high-backed leather banquettes, funky hanging lanterns and smart wooden tables and floors are more often found in trendy, town-centre bistro-bars. The loosely Italian all-day menu follows suit, being amenably priced and of mass appeal. Traditional dishes of truffled gnocchi bites, greaseless fritto misto (scallops, prawns, whitebait), and tomato and basil bruschetta share space with the international likes of baby chorizo sausages in honey and mustard, grilled chicken in lemon and rosemary, or a quality rib-eye steak buried under juicy flat mushrooms. There’s also a bar, meeting rooms and several lounge-like areas popular with families – as are the pizza and pasta options, and the marvellous sticky toffee pudding with honeycomb ice cream. A short wine list, brought by the exuberant staff, delivers both value and variety.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://coppaclub.co.uk/sonning/" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/london.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>London Street Brasserie</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           Noted for its “old-fashioned values and high-class food”, this personable town-centre brasserie was originally an 18th-century tollhouse for traffic coming into Reading. Occupying a prime site overlooking the River Kennet (bag a seat on the terrace in fine weather), it promises top-drawer service and a relaxed vibe in thoroughly contemporary surrounds. Chef/proprietor Paul Clerehugh also runs the bucolic Crooked Billet at Stoke Row, and a similar freewheeling spirit pervades the menu here: starters of Japanese cured and torched mackerel with wasabi potato and cucumber or fried duck egg with toasted brioche, wild mushrooms and crispy bacon could precede grilled John Dory with sautéed chorizo, squid, courgette and harissa or Glastonbury free-range chicken baked with garlic and herb butter. Drinks also tick all the boxes, from eclectic wines and beers to swanky cocktails. It’s all “amazing value” given the quality on offer, with “great customer service” to boot.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://www.londonstbrasserie.co.uk/reservations/" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/lortolan.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>L'Ortolan</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           The very model of a smart country-house restaurant, this Grade II-listed vicarage has played host to some of the UK’s top chefs over the years, such as Nico Ladenis, John Burton-Race, Alan Murchison and more, and it remains the only restaurant in Reading that possesses a Michelin star.
+                           The building may not look much from the outside, but the chocolate tones of the interior give out a soothing warmth, while notable private rooms also catch the eye for those looking to host a birthday meal or celebratory dinner – though the utter professionalism of the setting also makes L’Ortolan a good bet for romance, although it’s not exactly first-date material. 
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://lortolan.com/" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/malmaison.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>Malmaison</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           Sophisticated, swish and self-consciously cool, the Malmaison concept of boutique chic began in Edinburgh, and has made solid progress across the UK ever since. Each location looks the business, and the chain matches swanky accommodation with a promising line in food and drink. Wooden fixtures and fittings, discreet lighting and eye-catching artworks set the tone in the brasserie, and the menu mixes European themes with ideas from further afield. Eclectic starters of fritto misto or chicken lollipops with dipping sauces give way to main courses such as pan-fried sea bass with chorizo, samphire and cockle vinaigrette, or smoked haddock fishcake with spinach, poached egg and grain-mustard sauce. Donald Russell steaks and burgers are there for red-blooded business trippers, while desserts feature calorific treats such as knickerbocker glory. Cocktails are given pride of place in the Malbar lounge.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://www.malmaison.com/locations/reading/" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/realgreek.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>The Real Greek</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           The Real Greek does a grand job of reviving warm memories of holiday hospitality, although the food is better and more varied than your stereotypical tourist-trap taverna in Kos or Kalamaki. Animated staff are as welcoming as can be, so order a Mythos beer and some mezze – perhaps lightly battered salt cod with tangy lemon mayonnaise or tender octopus char-grilled with herbs and garlic, alongside decent renditions of dolmades, hummus and grilled halloumi. Also save room for some smoky grilled skewers, juicy souvlaki wraps (the pork belly is excellent) and desserts ranging from bona-fide baklava to creamy sundaes – just avert your eyes from the calorie counts next to each item. Lightning-fast two-course lunches are a steal, but The Real Greek's wide-ranging, shareable menu and “fabulous entertainment” mean it’s also a no-brainer for evening parties.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://www.therealgreek.com/restaurants/reading/" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <img class="rest-card-img" src="assets/images/reading/zerodegrees.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 text-center">
+                        <h3>Zerodegrees</h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           By-pass the restaurant out front and head to Zerodegrees’ rear entrance, where concrete floors, vast vats and a matrix of metal tubes and pipes are a stern statement of micro-brewing intentions. Six craft varieties are made on the premises, including at least one seasonally rotating fruit beer, a cloudy German-style wheat ale, malty black lager, bitter but floral pale ale, a crisp take on Czech pilsner, and – just to keep regulars interested – a monthly special. Consistently good moules-frites are spot-on with Zerodegrees’ boozy output, while Italian wines are in tune with the rest of the pizza-based menu, which zooms from Italian sausage with onions or Parma ham and rocket to teriyaki chicken, Peking duck and caramelised pear with Gorgonzola. Real ale aficionados give the place a wide berth at weekends, when it morphs into a raucous party spot.
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque voluptatem eveniet porro odit a aperiam perferendis suscipit alias nulla autem minima voluptate earum, molestias tenetur quas nobis? Earum, reprehenderit?
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aspernatur officiis iusto similique quasi omnis sit neque, laborum quo, eos enim esse saepe dicta quibusdam ad aut deserunt, sunt illo?
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusantium iste itaque. Obcaecati culpa error eum, accusantium enim corrupti illo facilis omnis quidem libero officiis blanditiis perferendis, tenetur nesciunt repellendus.
+                        </div>
+                        <button class="btn btn-lg btn-warning btn-book"><a href="https://www.zerodegrees.co.uk/contact-test/#book-party" target="_blank" alt="">Book</a></button>
+                     </div>
+                  </div>
+               </div>
+               <br>
+            </div>
+         </div>
+      </main>
+      <footer class="page-footer font-small mdb-color pt-4">
+         <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left mt-3 pb-3">
+               <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">What's for Dinner?</h6>
+                  <p>
+                  </p>
+               </div>
+               <hr class="w-100 clearfix d-md-none" />
+               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase text-center mb-4 font-weight-bold">SOCIAL</h6>
+                  <ul class="list-inline text-center social-links">
+                     <!--Facebook-->
+                     <li class="list-inline-item">
+                        <a href="http://facebook.com" aria-label="click for IPP on Facebook" target="_blank" >
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                        </a>
+                     </li>
+                     <!--Twitter-->
+                     <li class="list-inline-item">
+                        <a href="http://twitter.com" aria-label="click for IPP on Twitter" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                        </a>
+                     </li>
+                     <!--Instagram-->
+                     <li class="list-inline-item">
+                        <a href="http://instagram.com" aria-label="click for IPP on Instagram" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <hr class="w-100 clearfix d-md-none" />
+               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p><i class="fas fa-home mr-3"></i> Unit 1, Green Park, Reading, RG4 3PZ</p>
+                  <p><i class="fas fa-envelope mr-3"></i> team@whatsfordinner.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 44 203 123 4567</p>
+               </div>
+            </div>
+            <hr />
+         </div>
+      </footer>
+      <script src="scripts/reading.js"></script>
+      <script src="scripts/readingmap.js"></script>
+      <script src="scripts/main.js"></script>
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVddPLcYL7gATGEedbYEPJTe2P6FM08C0&callback=initMap"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
-</body>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVddPLcYL7gATGEedbYEPJTe2P6FM08C0&callback=initMap"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   </body>
 </html>
