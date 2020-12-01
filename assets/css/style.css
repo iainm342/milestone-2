@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    font-family: 'Oxygen', sans-serif;
+    color: #000;
 }
 
 .row {
@@ -16,6 +25,7 @@ html {
 }
 
 .navbar-light .navbar-nav .nav-link {
+    font-family: 'Oxygen', sans-serif;
     color: white;
 }
 
@@ -31,11 +41,13 @@ html {
 }
 
 .btn-landing {
+    font-family: 'Oxygen', sans-serif;
     background-color: #f91919;
     color: white;
 }
 
 .page-footer {
+    font-family: 'Oxygen', sans-serif;
     background-color: #f91919;
     color: white;
 }
@@ -67,6 +79,7 @@ html {
 }
 
 .modal-content {
+    font-family: 'Oxygen', sans-serif;
     position: relative;
     background-color: white;
     margin: auto;
@@ -98,27 +111,32 @@ html {
 }
 
 .modal-header {
+    font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
     background-color: #f91919;
     color: white;
 }
 
 .modal-header span {
+    font-family: 'Oxygen', sans-serif;
     color: white;
 }
 
 .modal-body {
+    font-family: 'Oxygen', sans-serif;
     padding: 2p 16px;
     color: #f91919;
 }
 
 .modal-footer {
+    font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
     background-color: #f91919;
     color: white;
 }
 
 .modal-button {
+    font-family: 'Oxygen', sans-serif;
     background-color: #f91919;
     color: white;
     border-radius: 15%;
@@ -126,22 +144,26 @@ html {
 }
 
 .btn-modal-footer {
+    font-family: 'Oxygen', sans-serif;
     color: white;
     border-color: white;
 }
 
 .btn-modal-footer:hover {
+    font-family: 'Oxygen', sans-serif;
     color: #f91919;
     background: white;
     border-color: #f91919;
 }
 
 .btn-modal-footer a {
+    font-family: 'Oxygen', sans-serif;
     color: white;
     text-decoration: none;
 }
 
 .modal-body span {
+    font-family: 'Roboto', sans-serif;
     color: black;
 }
 
@@ -173,7 +195,6 @@ html {
 }
 
 .filter-img {
- 
     height: 10rem;
     width: 12rem;
     margin-bottom: 20px;
@@ -181,6 +202,7 @@ html {
 
 .accordion {
     background-color: #f91919;
+    font-family: 'Oxygen', sans-serif;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -197,6 +219,7 @@ html {
 
 .panel {
     padding: 0 18px;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     color: #f91919;
     max-height: 0;
@@ -214,28 +237,32 @@ html {
 
 
 .btn-book {
+    font-family: 'Oxygen', sans-serif;
     background: #f91919;
     color: white;
     margin-top: 10px;
 }
 
 .btn-book:hover {
+    font-family: 'Oxygen', sans-serif;
     border-color: #f91919;
     color: #f91919;
     background: white;
 }
 
 .btn-book a {
+    font-family: 'Oxygen', sans-serif;
     text-decoration: none;
     color: white;
 }
 
 .btn-book a:hover {
+    font-family: 'Oxygen', sans-serif;
     color: #f91919;
 }
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
