@@ -46,6 +46,13 @@ html {
     color: white;
 }
 
+.btn-loc {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #f91919;
+    color: white;
+    margin-bottom: 25px;
+}
+
 .page-footer {
     font-family: 'Oxygen', sans-serif;
     background-color: #f91919;
