@@ -223,7 +223,7 @@ html {
 }
 
 .accordion:hover {
-    background-color: rgb(116, 56, 56);
+    background-color: rgb(114, 49, 49);
 }
 
 .panel {
@@ -330,4 +330,18 @@ button[type="submit"] {
 .social-links li a i:hover {
     background:#f91919;
     color:white;
+}
+
+.contact li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.email-detail a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email-detail a:hover {
+    color:rgb(114, 49, 49);
 }
