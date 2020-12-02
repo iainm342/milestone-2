@@ -22,7 +22,7 @@ html {
 }
 
 .navbar {
-    background-color: #f91919;
+    background-color: #fa0606;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -43,20 +43,20 @@ html {
 
 .btn-landing {
     font-family: 'Oxygen', sans-serif;
-    background-color: #f91919;
+    background-color: #fa0606;
     color: white;
 }
 
 .btn-loc {
     font-family: 'Oxygen', sans-serif;
-    background-color: #f91919;
+    background-color: #fa0606;
     color: white;
     margin-bottom: 10px;
 }
 
 .page-footer {
     font-family: 'Oxygen', sans-serif;
-    background-color: #f91919ee;
+    background-color: #fa0606ee;
     color: white;
     padding-bottom: 25px;
 }
@@ -124,7 +124,7 @@ html {
 .modal-header {
     font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
-    background-color: #f91919;
+    background-color: #fa0606;
     color: white;
 }
 
@@ -136,19 +136,19 @@ html {
 .modal-body {
     font-family: 'Oxygen', sans-serif;
     padding: 2p 16px;
-    color: #f91919;
+    color: #fa0606;
 }
 
 .modal-footer {
     font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
-    background-color: #f91919;
+    background-color: #fa0606;
     color: white;
 }
 
 .modal-button {
     font-family: 'Oxygen', sans-serif;
-    background-color: #f91919;
+    background-color: #fa0606;
     color: white;
     border-radius: 15%;
     border-color: white;
@@ -162,9 +162,9 @@ html {
 
 .btn-modal-footer:hover {
     font-family: 'Oxygen', sans-serif;
-    color: #f91919;
+    color: #fa0606;
     background: white;
-    border-color: #f91919;
+    border-color: #fa0606;
 }
 
 .btn-modal-footer a {
@@ -212,7 +212,7 @@ html {
 }
 
 .accordion {
-    background-color: #f91919;
+    background-color: #fa0606;
     font-family: 'Oxygen', sans-serif;
     color: white;
     cursor: pointer;
@@ -232,7 +232,7 @@ html {
     padding: 0 18px;
     font-family: 'Roboto', sans-serif;
     background-color: white;
-    color: #f91919;
+    color: #fa0606;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -249,29 +249,29 @@ html {
 
 .btn-book {
     font-family: 'Oxygen', sans-serif;
-    background: #f91919;
+    background: #fa0606;
     color: white;
     margin-top: 10px;
 }
 
 .btn-book:hover {
     font-family: 'Oxygen', sans-serif;
-    border-color: #f91919;
-    color: #f91919;
+    border-color: #fa0606;
+    color: #fa0606;
     background: white;
 }
 
 .btn-sign {
     font-family: 'Oxygen', sans-serif;
-    background: #f91919;
+    background: #fa0606;
     color: white;
     margin-top: 10px;
 }
 
 .btn-sign:hover {
     font-family: 'Oxygen', sans-serif;
-    border-color: #f91919;
-    color: #f91919;
+    border-color: #fa0606;
+    color: #fa0606;
     background: white;
 }
 
@@ -283,7 +283,7 @@ html {
 
 .btn-book a:hover {
     font-family: 'Oxygen', sans-serif;
-    color: #f91919;
+    color: #fa0606;
 }
 
 .contact-heading {
@@ -303,7 +303,7 @@ html {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #f91919;
+    background-color: #fa0606;
     color: white;
 }
 
@@ -319,16 +319,16 @@ button[type="submit"] {
   right: 20px;
   z-index: 99;
   border-radius: 15px;
-  outline: #f91919;
+  outline: #fa0606;
   background-color: #fff;
-  border-color: #f91919;
-  color: #f91919;
+  border-color: #fa0606;
+  color: #fa0606;
   cursor: pointer;
   padding: 15px;
 }
 
 #myBtn:hover {
-  background-color: #f91919;
+  background-color: #fa0606;
   color: #fff;
   border-color: #fff;
 }
@@ -342,12 +342,12 @@ button[type="submit"] {
     font-size: 24px;
     line-height: 7px;
     text-align: center;
-    color: #f91919;
+    color: #fa0606;
     background: white;
 }
 
 .social-links li a i:hover {
-    background:#f91919;
+    background:#fa0606;
     color:white;
 }
 
@@ -379,7 +379,7 @@ button[type="submit"] {
   height: 15rem;
   width: 15rem;
   position: relative;
-  color: #f91919;
+  color: #fa0606;
   font-family: "Oxygen",sans-serif;
     font-size: 25px;
 }
