@@ -64,8 +64,8 @@ $(function() {
     }).appendTo($buttons1);
   });
   $("button").css({
-    "background-color": "#f91919",
-    color: "white",
+    "background-color": "#fff",
+    "color": "white",
     "border-radius": "15px",
     "margin": "10px"
   });
@@ -113,7 +113,8 @@ $(function() {
   });
   $("button").css({
     "background-color": "red",
-    color: "white",
+    "border-color": "white",
+    "color": "white",
     "border-radius": "15px",
     "margin": "10px"
   });
