@@ -261,6 +261,20 @@ html {
     background: white;
 }
 
+.btn-sign {
+    font-family: 'Oxygen', sans-serif;
+    background: #f91919;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-sign:hover {
+    font-family: 'Oxygen', sans-serif;
+    border-color: #f91919;
+    color: #f91919;
+    background: white;
+}
+
 .btn-book a {
     font-family: 'Oxygen', sans-serif;
     text-decoration: none;
