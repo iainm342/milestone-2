@@ -337,9 +337,10 @@ button[type="submit"] {
     color:white;
 }
 
-.contact li {
+.contact p {
     list-style-type: none;
     padding-right: 20px;
+    font-size: 12px;
 }
 
 .email-detail a {
@@ -357,4 +358,23 @@ button[type="submit"] {
 
 .h1-loc {
     margin-top: 10px;
+}
+
+.timer {
+  
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  color: #f91919;
+  font-family: "Oxygen",sans-serif;
+    font-size: 25px;
+}
+
+#timer {
+ position: absolute;
+ margin-top: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
