@@ -107,7 +107,7 @@ TO BE ADDED
 - [jQuery](https://jquery.com/) - this was used for the image filtering function.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons were taken from this site for the footer and social buttons.
 - [Bootstrap](https://getbootstrap.com/) - I relied on Bootstrap for the responsive grid design, carousel and card components.
-- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here along with the icon for the "Back to Top" button.
+- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
 - [Popper](https://popper.js.org/)
 - [Popper JS](https://popper.js.org/)
 - [EmailJS](https://emailjs.com) - this was used to host the email functionality of the site.
@@ -115,18 +115,19 @@ TO BE ADDED
   
 ### <ins>TOOLS</ins> ###
 
-- [Git](https://git-scm.com/) - version control and recording of all changes to site during development process
-- [GitHub](https://github.com/) - used for hosting website
+- [Git](https://git-scm.com/) - version control and recording of all changes to site during development process.
+- [GitHub](https://github.com/) - used for hosting website.
 - GitPod - IDE used for code editing. 
 - [Figma](https://figma.com/) - wireframing
-- [Google Fonts](https://fonts.google.com/) - used to select font families
-- [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors
-- [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors
-- [JSHint](https://https://jshint.com/) - used to test my JS to ensure there wer no errors
-- [WAVE](https://wave.webaim.org/) - used to test accesibility of site
+- [Google Fonts](https://fonts.google.com/) - used to select font families.
+- [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors.
+- [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors.
+- [JSHint](https://https://jshint.com/) - used to test my JS to ensure there wer no errors.
+- [WAVE](https://wave.webaim.org/) - used to test accesibility of site.
 - [Free Formatter](https://freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
-- [Am I Responsive](http://ami.responsivedesign.is/#) - used to create responsive image for readme.MD
-- [Favicon](https://favicon.io/) - used to generate the Favicon on the webpage tab
+- [Am I Responsive](http://ami.responsivedesign.is/#) - used to create responsive image for readme.MD.
+- [Favicon](https://favicon.io/) - used to generate the Favicon on the webpage tab.
+- [Snazzy Maps](https://snazzymaps.com) - used to change the Google Map style.
 
 [Back to Contents](#contents)
 
