@@ -2,12 +2,12 @@ let img;
 let index;
 let modal;
 
+//Using the data index value this script shows/hides the images when filter is applied
 $(function() {
     $('body').on('click', '.filter-img', function() {
         var $img = $(event.target);
         var index = $img.data('index');
         var $modal = $("#myModal" + index);
-        // $modal.find('img').attr('href', img.attr('href'));
         $modal.css('display', 'block');
     });
 
@@ -19,7 +19,9 @@ $(function() {
 
 
 
+//Creates the filter buttons based on the information contained in the data-tags
 
+//Cost filter buttons
 (function () {
   var $imgs = $("#gallery img");
   var $buttons1 = $("#buttons1");   
@@ -40,6 +42,7 @@ $(function() {
     }
   });
   
+  //Style filter buttons
   $("<button/>", {
     text: "Show All",
     class: "active",
@@ -61,7 +64,7 @@ $(function() {
     }).appendTo($buttons1);
   });
   $("button").css({
-    "background-color": "red",
+    "background-color": "#f91919",
     color: "white",
     "border-radius": "15px",
     "margin": "10px"
