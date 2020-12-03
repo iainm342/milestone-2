@@ -3,60 +3,58 @@
                 "title": "The Angel on the Bridge",
                 "lat": '51.53745',
                 "lng": '-0.90097',
-                "description": 'Pub food and riverside drinking!'
+                "description": 'The Angel on the Bridge: Pub food and riverside drinking!'
             },
             {
                 "title": 'Bistro at The Boathouse',
                 "lat": '51.53538',
                 "lng": '-0.90013',
-                "description": 'Amazing food and riverside terrace!'
+                "description": 'Bistro at The Boathouse: Amazing food and riverside terrace!'
             },
             {
                 "title": 'The Catherine Wheel',
                 "lat": '51.53782',
                 "lng": '-0.90377',
-                "description": 'Huge pub, beer garden and cheap prices!'
+                "description": 'The Catherine Wheel: Huge pub, beer garden and cheap prices!'
             },
             {
                 "title": 'Hotel du Vin & Bistro',
                 "lat": '51.53909',
                 "lng": '-0.90189',
-                "description": 'Al fresco dining, huge wine list and French styled food!'
+                "description": 'Hotel du Vin & Bistro: Al fresco dining, huge wine list and French styled food!'
             },
             {
                 "title": 'H Cafe',
                 "lat": '51.53765',
                 "lng": '-0.90584',
-                "description": 'Local cafe with homemade snacks!'
+                "description": 'H Cafe: Local cafe with homemade snacks!'
             },
             {
                 "title": "Little Angel",
                 "lat": '51.53722',
                 "lng": '-0.89749',
-                "description": 'Beer garden, great food and friendly service!'
+                "description": 'Little Angel: Beer garden, great food and friendly service!'
             },
             {
                 "title": "Cafe Rouge",
                 "lat": '51.53783',
                 "lng": '-0.90257',
-                "description": 'High street chain with French influenced food and drink!'
+                "description": 'Cafe Rouge: High street chain with French influenced food and drink!'
             },
             {
                 "title": 'Spice Merchant',
                 "lat": '51.53864',
                 "lng": '-0.90111',
-                "description": 'Henley institution - their take on Afternoon Tea is something different!'
+                "description": 'Spice Merchant: Henley institution - their take on Afternoon Tea is something different!'
             },
             {
                 "title": "Zizzi",
                 "lat": "51.53784",
                 "lng":  "-0.90350",
-                "description": 'High street chain with Italian influence food and drink!'
+                "description": 'Zizzi: High street chain with Italian influence food and drink!'
             }
             
     ];
-
-    console.log(markers);
 
     window.onload = function () {
         var mapOptions = {

@@ -3,60 +3,58 @@
                 "title": "Bill's Restaurant",
                 "lat": '51.45494',
                 "lng": '-0.97323',
-                "description": 'Great for brunch on a Sunday!'
+                "description": "Bill's Restaurant: Great for brunch on a Sunday!"
             },
             {
                 "title": 'Brewdog',
                 "lat": '51.45356',
                 "lng": '-0.97426',
-                "description": 'Fab wings and craft beer!'
+                "description": 'Brewdog: Fab wings and craft beer!'
             },
             {
                 "title": 'The Bull Inn',
                 "lat": '51.47375',
                 "lng": '-0.91180',
-                "description": 'Traditional pub grub and local beer!'
+                "description": 'The Bull Inn: Traditional pub grub and local beer!'
             },
             {
                 "title": 'Coppa Club',
                 "lat": '51.47536',
                 "lng": '-0.91285',
-                "description": 'Pizza, pizza, pizza and quirky drinking pods in the garden!'
+                "description": 'Coppa Club: Pizza, pizza, pizza and quirky drinking pods in the garden!'
             },
             {
                 "title": 'London Street Brasserie',
                 "lat": '51.45399',
                 "lng": '-0.96876',
-                "description": 'Sunday Lunch is a must!'
+                "description": 'London Street Brasserie: Sunday Lunch is a must!'
             },
             {
                 "title": "L'Ortolan",
                 "lat": '51.40905',
                 "lng": '-0.95410',
-                "description": 'French food and the counties ONLY Michelin star!'
+                "description": "L'Ortolan: French food and the county's ONLY Michelin star!"
             },
             {
                 "title": "Malmaison",
                 "lat": '51.45797',
                 "lng": '-0.97212',
-                "description": 'French styled brasserie with a funky bar and amazing cocktails!'
+                "description": 'Malmaison: French styled brasserie with a funky bar and amazing cocktails!'
             },
             {
                 "title": 'The Real Greek',
                 "lat": '51.45376',
                 "lng": '-0.96970',
-                "description": 'Greek tapas - you will leave full!'
+                "description": 'The Real Greek: Greek tapas - you will leave full!'
             },
             {
                 "title": "Zerodegrees",
                 "lat": "51.45370",
                 "lng":  "-0.97328",
-                "description": 'Pizza and micro-brewery on site'
+                "description": 'Zerodegrees: Pizza and micro-brewery on site'
             }
             
     ];
-
-    console.log(markers);
 
     window.onload = function () {
         var mapOptions = {
