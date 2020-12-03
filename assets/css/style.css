@@ -247,7 +247,7 @@ img {
     padding: 0 18px;
     font-family: 'Roboto', sans-serif;
     background-color: white;
-    color: #fa0606;
+    /* color: #fa0606; */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -440,5 +440,9 @@ hr {
 
 .panel a {
     text-decoration: none;
-     color:#fa0606;
+     color:black;
+}
+
+.panel a:hover {
+    color: #fa0606;
 }
