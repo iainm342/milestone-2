@@ -216,6 +216,10 @@ img {
     margin-bottom: 20px;
 }
 
+.filter-img {
+    cursor: pointer;
+}
+
 .accordion {
     background-color: #fa0606;
     font-family: 'Oxygen', sans-serif;
@@ -250,7 +254,7 @@ img {
 }
 
 .accordion:after {
-    content: '\02795';
+    content: '\021e9';
     font-size: 16px;
     color: white;
     float: right;
