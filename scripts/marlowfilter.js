@@ -58,8 +58,8 @@ $(function() {
     }).appendTo($buttons1);
   });
   $("button").css({
-    "background-color": "red",
-    color: "white",
+    "background-color": "#fa0606",
+    "color": "white",
     "border-radius": "15px",
     "margin": "10px"
   });
@@ -106,8 +106,8 @@ $(function() {
     }).appendTo($buttons2);
   });
   $("button").css({
-    "background-color": "red",
-    color: "white",
+    "background-color": "#fa0606",
+    "color": "white",
     "border-radius": "15px",
     "margin": "10px"
   });
