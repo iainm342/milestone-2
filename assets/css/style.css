@@ -381,7 +381,7 @@ button[type="submit"] {
   position: relative;
   color: #fa0606;
   font-family: "Oxygen",sans-serif;
-    font-size: 25px;
+    font-size: 12px;
 }
 
 #timer {
@@ -391,4 +391,29 @@ button[type="submit"] {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.container-timer {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.maid-style {
+    opacity: 30%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr
+{
+    background-color: red;
+    border: 0 none;
+    color: red;
+    height: 1px;
 }
