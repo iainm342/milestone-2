@@ -403,7 +403,7 @@ button[type="submit"] {
 .container-timer {
     position: relative;
     text-align: center;
-    color: red;
+    color: #fa0606;
 }
 
 .maid-style {
@@ -417,10 +417,19 @@ button[type="submit"] {
     transform: translate(-50%, -50%);
 }
 
-hr
-{
-    background-color: red;
+hr {
+    background-color:#fa0606;
     border: 0 none;
-    color: red;
+    color:#fa0606;
     height: 1px;
+}
+
+.panel p {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.panel a {
+    text-decoration: none;
+     color:#fa0606;
 }
