@@ -73,6 +73,7 @@ html {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
+    margin-top: 10px;
 }
 
 .modal {
@@ -224,6 +225,12 @@ html {
     transition: 0.4s;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+   .accordion {
+       width: 80%;
+   }
+}
+
 .accordion:hover {
     background-color: rgb(114, 49, 49);
 }
@@ -251,7 +258,7 @@ html {
     font-family: 'Oxygen', sans-serif;
     background: #fa0606;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .btn-book:hover {
