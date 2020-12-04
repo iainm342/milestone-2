@@ -1,6 +1,3 @@
-let img;
-let index;
-let modal;
 
 $(function() {
     $('body').on('click', '.filter-img', function() {
