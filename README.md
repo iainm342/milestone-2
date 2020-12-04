@@ -126,12 +126,12 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 
 - [Git](https://git-scm.com/) - version control and recording of all changes to site during development process.
 - [GitHub](https://github.com/) - used for hosting website.
-- GitPod - IDE used for code editing. 
+- [GitPod](https://gitpod.io) - IDE used for code editing. 
 - [Figma](https://figma.com/) - wireframing
 - [Google Fonts](https://fonts.google.com/) - used to select font families.
 - [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors.
 - [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors.
-- [JSHint](https://https://jshint.com/) - used to test my JS to ensure there wer no errors.
+- [JSHint](https://https://jshint.com/) - used to test my JS to ensure there were no errors.
 - [WAVE](https://wave.webaim.org/) - used to test accesibility of site.
 - [Free Formatter](https://freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
 - [Am I Responsive](http://ami.responsivedesign.is/#) - used to create responsive image for readme.MD.
@@ -146,12 +146,25 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 
 ### <ins>FEATURES IMPLEMENTED</ins> ###
  
- TO BE ADDED
-
-
+ - NavBar with dropdowns to allow easy navigation of the web app. Able to reach all pages from the NavBar without having to return to the Landing Page. 
+ - Links to external websites so that the user can get more information on the venue that they are interested.
+ - Multiple links to each venues booking engine so that the ultimate goal can be achieved - the **user** makes a booking.
+ - Footer contants Social Media links to the site owners pages.
+ - Google Maps API implemented on each town page with markers for each venue. Desktop first clik gives venue name and second click gives venue name and a snippet of info. All other devices only receive the venue name and snippet on touching the marker.
+ - EmailJS API used for sign up of **user** to receive more information in the future and for any new **business owners** to request addition to the site. EmailJS sends an email to the **user** or **business owner** saying "Thank You".
+ - Modals used on image click in the filter page to provide the **user** with more information about the filtered venue.
+ - Bootstrap used for site structure. 
+ - Bootsrap Accordion used for containing the venue information in an appealing and tidy manner.
+ - Back to top button used as site pages can get quite lengthy.
+ - Favicon used in title of web page.
+ - Hover used on all buttons and web/email address links.
+ 
 ### <ins>FUTURE FEATURES</ins> ###
 
-- TO BE ADDED
+- **Users** to be able to leave reviews of the restaurants to other **users**.
+- Highlight new restaurants as they are added with a banner on their information image.
+- **Business Owners** able to completely register their restaurant without waiting for the **site owner** to contact them.
+- Multiple images available for each restaurant possibly in a Carousel or Image Gallery format.
 
 [Back to Contents](#contents)
 
