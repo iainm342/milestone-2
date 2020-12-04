@@ -188,6 +188,20 @@ The site was tested on the following browsers that I have access to:
 
 All HTML and CSS was passed through [W3C Validator](https://validator.w3.org/) and [W3C Validator CSS](https://jigsaw.w3.org/css-validator/).
 
+HTML Errors:
+
+CSS Errors:
+
+- backdrop-filter: blur(3px) in the .modal fails the W3C validation and there is the following error message:
+
+![CSS Error](assets/images/readme/w3ccss.png)
+
+On searching for a reason why this was occurring I found this message from another developer to W3C stating that they had the same issue:
+
+![CSS Message](assetrs/images/readme/cssmessage)
+
+I am presuming that this is a known error and have assumed that my CSS has passed validation.
+
 ### <ins>ACCESIBILITY VALIDATION</ins>
 
 The site was tested on the [WAVE](https://wave.webaim.org/) site. Passed with minimal errors although Contrast errors were generated due to colour choices. This will be something I look at for future projects.

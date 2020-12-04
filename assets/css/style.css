@@ -103,8 +103,6 @@ img {
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-    -webkit-animation-name: animateup;
-    -webkit-animation-duration: 0.4s;
     animation-name: animateup;
     animation-duration: 0.4s
 }
@@ -140,7 +138,7 @@ img {
 
 .modal-body {
     font-family: 'Oxygen', sans-serif;
-    padding: 2p 16px;
+    padding: 2px 16px;
     color: #fa0606;
 }
 
@@ -429,7 +427,6 @@ button[type="submit"] {
 hr {
     background-color:#fa0606;
     border: 0 none;
-    color:#fa0606;
     height: 1px;
 }
 
