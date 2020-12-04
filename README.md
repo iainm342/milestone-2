@@ -35,6 +35,12 @@ This is the second of four Milestone Projects required for the Full Stack Web De
 ### <ins>PROJECT GOALS</ins> ### 
 
 The main aim of this project was to create a website that would give the user a useful website that would allow them to see local restaurants and to be able to filter the available restaurants by cost/style. Information would be provided to the user and also the ability to link to the individual restaurant sites to allow them to book through their booking engine or to contact them directly.
+ 
+- To promote restaurants in the area to the **user** to help increase footfall and therefore revenue.
+- To provide an intuitive web app that the **user** can navigate easily.
+- To gain contact details from the **user** to allow future updates/additions to the site to be communicated by the **site owner**.
+
+[Back to Contents](#contents)
 
 ### <ins>USER STORIES</ins> ###
 
@@ -43,6 +49,7 @@ The main aim of this project was to create a website that would give the user a 
 - As a **user**, I want to be able to choose a restaurant based on the type of food it offers.
 - As a **user**, I want to be able to see where the restaurants are located within the town I am interested in.
 - As a **user**, I want to be able to contact the restaurant of choice either through their website booking engine or by being provided contact details.
+- As a **user**, I want to be able to obtain basic information about the restaurants in the town that I am to help me decide where to reserve a table.
 - As a **user**, I want to be able to register with the **site owners** so that I can be informed of new restaurants registering on the site.
 - As a **business owner**, I want the information on the site to represent my business and to look attractive.
 - As a **business owner**, I want to be able to register my interest with the **site owners** so that they can add me to the site.
@@ -53,13 +60,13 @@ The main aim of this project was to create a website that would give the user a 
 
 1. The concept of this site comes from my Hospitality background and my feeling that, due to the current pandemic, restaurants need to be championed to help them in the coming months. As this site is intended to raise user awareness of what restaurants are available in their area, I decided to keep it fairly simple and to ensure that the end result was a restaurant being booked by the user.
 
-2. The main colour scheme chosen is red (#f91919)and white as I feel that it is distinctive (think Vodafone or Virgin Media) and by keeping it simple it doesn't detract from the main point of the site - getting the user to book a restaurant.
+2. The main colour scheme chosen is red (#fa0606)and white as I felt that it was distinctive (think Vodafone or Virgin Media) and by keeping it simple it doesn't detract from the main point of the site - getting the user to book a restaurant.
 
-3. I used Figma to create my wireframes and used it to organise the flow of the site and how the different pages would respond to different screen sizes. 
+3. I used [Figma](https://figma.com/) to create my wireframes and used it to organise the flow of the site and how the different pages would respond to different screen sizes. 
 
-4. As with my first project, the design changed as I was building the site. I am finding that what I think is a "good idea" at the start of the process ends up not being the case. 
+4. As with my first project, the design changed slightly as I was building the site. I am finding that what I initially think is a "good idea" at the start of the design process ends up not being the case and is modified during the build process. I realise that this is not the best way to build a site but am working towards ensuring the design is completed first and acts as a map for the building process.
 
-5. I referred to my User Stories and wireframes throughout the process and all changes made were to improve the initial design choices that were impractical.
+5. I referred to my User Stories and Wireframes throughout the process and all changes made , as mentioned above, were to improve the initial design choices that were considered inappropriate.
 
 [Back to Contents](#contents)
 
@@ -69,29 +76,31 @@ I chose the Oxygen font family for my headers and the Roboto font family for any
 
 ### <ins>COLOURS</ins> ###
 
-A red (#f91919) colour for the Navigation Bar and Footer, all Buttons and the Accordian to maintain a consistent feel throughout. The decision to use this simple colour scheme was taken from my feeling that brands such as Virgin Media and Vodafone are easily recognisable due to similar colour choices in their brand identities.
+A red (#fa0606) colour for the Navigation Bar, Footer, all Buttons and the Accordion to maintain a consistent feel throughout. An other colours used were picked from the base colour to ensure a flow was visible throughout the site. The decision to use this simple colour scheme was taken from my observation that businesses such as Virgin Media and Vodafone are easily recognisable due to similar colour choices in their brand identities.
 
 ### <ins>WIREFRAMES</ins> ###
 
-TO BE ADDED
+The full wireframe for the site can be found [here](assets/images/readme/figfull.png).
 
 ### Landing Page ###
 
-TO BE ADDED
+(assets/images/readme/figland.png)
 
 ### Locations Page ###
 
-TO BE ADDED
+(assets/images/readme/figloc.png)
 
 ### Town Pages ###
 
-TO BE ADDED
+(assets/images/readme/figtown.png)
 
 ### Filter Pages ###
 
-TO BE ADDED
+(assets/images/readme/figfilter.png)
 
 ### Register Page ###
+
+(assets/images/readme/figreg.png)
 
 [Back to Contents](#contents)
 
