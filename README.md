@@ -84,23 +84,23 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 
 ### Landing Page ###
 
-(assets/images/readme/figland.png)
+![Landing Page](assets/images/readme/figland.png)
 
 ### Locations Page ###
 
-(assets/images/readme/figloc.png)
+![Locations Page](assets/images/readme/figloc.png)
 
 ### Town Pages ###
 
-(assets/images/readme/figtown.png)
+![Town Page](assets/images/readme/figtown.png)
 
 ### Filter Pages ###
 
-(assets/images/readme/figfilter.png)
+![Town Filter Page](assets/images/readme/figfilter.png)
 
 ### Register Page ###
 
-(assets/images/readme/figreg.png)
+![Registration Page](assets/images/readme/figreg.png)
 
 [Back to Contents](#contents)
 
