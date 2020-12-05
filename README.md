@@ -22,10 +22,10 @@ This is the second of four Milestone Projects required for the Full Stack Web De
   - [Tools](#tools)
 - [Features](#features)
 - [Testing](#testing)
-    - [User Stories](#user-stories)
+    - [Testing User Stories](#testing-user-stories)
     - [Responsiveness](#responsiveness)
     - [Browser Compatability](#browser-compatability)
-    - [Code Validation](#code validation)
+    - [Code Validation](#code-validation)
     - [Accesibility Validation](#accessibility-validation)
     - [Issues Experience](#issues-experienced)
 - [Deployment](#deployment)
@@ -180,7 +180,7 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 
 ## **TESTING** ##
 
-### <ins>USER STORIES</ins>
+### <ins>TESTING USER STORIES</ins>
 
 I asked 5 people to test the site as **users** as I neared the end of the development process to ensure that that the User Stories needs had been met. The following feedback was given from the group:
 
