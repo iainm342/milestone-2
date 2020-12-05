@@ -44,12 +44,14 @@ The main aim of this project was to create a website that would give the user a 
 
 ### <ins>USER STORIES</ins> ###
 
-- As a **user**, I want to see what restaurants are available in the town that I am.
+- As a **user**, I want to see what restaurants are available in the town that I am in.
 - As a **user**, I want to be able to choose a restaurant based on it's price level.
 - As a **user**, I want to be able to choose a restaurant based on the type of food it offers.
 - As a **user**, I want to be able to see where the restaurants are located within the town I am interested in.
 - As a **user**, I want to be able to contact the restaurant of choice either through their website booking engine or by being provided contact details.
 - As a **user**, I want to be able to obtain basic information about the restaurants in the town that I am to help me decide where to reserve a table.
+- As a **user**, I want the site navigation to be intuitive and easy to use.
+- As a **user**, I want the information to be displayed in a clear and organised manner to allow for quick decisions to be made.
 - As a **user**, I want to be able to register with the **site owners** so that I can be informed of new restaurants registering on the site.
 - As a **business owner**, I want the information on the site to represent my business and to look attractive.
 - As a **business owner**, I want to be able to register my interest with the **site owners** so that they can add me to the site.
@@ -172,6 +174,36 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 
 ## **TESTING** ##
 
+### <ins>USER STORIES</ins>
+
+I asked 5 people to test the site as **users** as I neared the end of the development process to ensure that that the User Stories needs had been met. The following feedback was given from the group:
+
+- As a **user**, I want to see what restaurants are available in the town that I am in.
+    - The **users** pressed the "Let's Eat' button on the Landing Page and is taken to locations.html. They are then able to select their town of choice by either pressing the town image or the Full List button. This takes them to the required "town_name".html page which contains the map and full venue listing. It was poined out that once in the "town_name".html page you had to navigate back to the landing page to be able to choose a different town. The Locations NavBar option was added at this point to make site navigation easier. This requirement was deemed as completed.
+- As a **user**, I want to be able to choose a restaurant based on it's price level.
+    - The **users** pressed the appropriate "Filters" button on location.html and is taken to the "town_name"filter.html page. They are then able to filter the restaurants by pressing one of the displayed buttons (£, ££, £££, ££££) used to indicate an increasing price point. It was pointed out that on mobile it was unclear by some users as to what to do next. Text was added below the town name to prompt the **user** to click on image to gain more information. This requirement was deemed as completed.
+- As a **user**, I want to be able to choose a restaurant based on the type of food it offers.
+    - The **users** pressed the appropriate "Filters" button on location.html and is taken to the "town_name"filter.html page. They are then able to filter the restaurants by pressing one of the displayed buttons indicating food style . As above, it was pointed out that on mobile it was unclear by some users as to what to do next. Text was added below the town name to prompt the **user** to click on image to gain more information. This requirement was deemed as completed.
+- As a **user**, I want to be able to see where the restaurants are located within the town I am interested in.
+    - The **users** pressed the image or "Full List" button of the required town on locations.html and is taken to the "town_name".html page. A Google Map is located at the top of the screen and has Marker pins that drop on to the map with the locations of all the restaurants listed. It was pointed out that, on mobile, when you press the marker it only brought up the description text and that it wasn't clear what each Marker related to. The Restaurant name was added to the description so that this was solved. This requirement is deemed as completed. 
+- As a **user**, I want to be able to contact the restaurant of choice either through their website booking engine or by being provided contact details.
+    - The **users** either acceses the details through pressing the image on the "town_name"filter.html and receiving a modal with the information or by using the accordion on "town_name".html. The website links are connected to the required restaurants website, the phone number is available and the "Book" button takes the **user** to the Restaurant's booking engine (where applicable). This requirement is deemed as completed.
+- As a **user**, I want to be able to obtain basic information about the restaurants in the town that I am to help me decide where to reserve a table.
+    - The **users** either acceses the details through pressing the image on the "town_name"filter.html and receiving a modal with the information or by using the accordion on "town_name".html. The website links are connected to the required restaurants website, the phone number is available and the "Book" button takes the **user** to the Restaurant's booking engine (where applicable). This requirement is deemed as completed.
+- As a **user**, I want the site navigation to be intuitive and easy to use.
+    - The **users** are presented with a landing page with a very clearly positioned button to press to take them to locations.html along with a NavBar that has links to all the pages on the site. The NavBar, initially, only linked the "town_name".html pages which meant the **user** had to navigate back to the Landing Page to effectively move around the site. Dropdowns were added to include the Full List and Filtered options and also a link to the Locations Page and Register Page. Total site access was achieved by doing this. This requirement is deemed as completed.
+- As a **user**, I want the information to be displayed in a clear and organised manner to allow for quick decisions to be made.
+    - The **users** felt the simple colour choice of red (#fa0606) and white was distinctive. It was mentioned that, especially in the info panel on the Accordion, the colour choice was slightly abrasive on the eyes to look at so much red text on a white background. The Accordion content was changed to color: black to make this easier to read. Once this was done the **users** felt this was an improvement. This requirement is deemed to be completed. 
+- As a **user**, I want to be able to register with the **site owners** so that I can be informed of new restaurants registering on the site.
+    - The **users** pressed the "Register" dropdown option on the NavBar and selected "New User". A simple form is presented where they are prompted to input their Name and Email address. On clicking the "Register" button it was pointed out that the form did not clear. An email was sent to them confirming they had registered and this was seen as a good thing. Form clearing still needs to be done.
+
+As this site is a test project, I was unable to get the **business owner** user stories tested, however, I feel that they have been completed.
+
+- As a **business owner**, I want the information on the site to represent my business and to look attractive.
+    - Restaurants are highlighted by Markers on the Google Map, Restaurant Image, Accordion with Info and Modal. 
+- As a **business owner**, I want to be able to register my interest with the **site owners** so that they can add me to the site.
+    - **Business Owners** are able to register their business by clicking the "Register" button and selecting "New Business". On pressing "Register", again the form doesn't clear, and an email is sent to them saying "one of the team will be in touch".
+
 ### <ins>RESPONSIVENESS</ins>
 
 TO BE ADDED
@@ -210,7 +242,7 @@ I am presuming that this is a known error and have assumed that my CSS has passe
 
 JShint Errors:
 
-- All pages have been passed through the Validator
+- All pages have been passed through the Validator, however various warnings were presented.
 
 ### <ins>ACCESIBILITY VALIDATION</ins>
 
