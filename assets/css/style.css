@@ -235,6 +235,11 @@ img {
    .accordion {
        width: 80%;
    }
+
+   .panel {
+       width: 80%;
+       padding-left: 50px;    
+   }
 }
 
 .accordion:hover {

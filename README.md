@@ -22,6 +22,12 @@ This is the second of four Milestone Projects required for the Full Stack Web De
   - [Tools](#tools)
 - [Features](#features)
 - [Testing](#testing)
+    - [User Stories](#user-stories)
+    - [Responsiveness](#responsiveness)
+    - [Browser Compatability](#browser-compatability)
+    - [Code Validation](#code validation)
+    - [Accesibility Validation](#accessibility-validation)
+    - [Issues Experience](#issues-experienced)
 - [Deployment](#deployment)
   - [Hosting](#hosting)
   - [Cloning](#cloning)
@@ -204,9 +210,22 @@ As this site is a test project, I was unable to get the **business owner** user 
 - As a **business owner**, I want to be able to register my interest with the **site owners** so that they can add me to the site.
     - **Business Owners** are able to register their business by clicking the "Register" button and selecting "New Business". On pressing "Register", again the form doesn't clear, and an email is sent to them saying "one of the team will be in touch".
 
+[Back to Contents](#contents)
+
 ### <ins>RESPONSIVENESS</ins>
 
-TO BE ADDED
+The sites responsiveness was tested by the following methods:
+
+- Chrome Developer Tools were used to test responsiveness on all screen sizes.
+- Physical testing was carried out on Desktop, Tablet and various Mobile devices.
+    - Throughout the whole process I was testing the responsiveness of the site on my laptop, iPhone X and iPad.
+    - Once the site was in a state that I was happy with, I submitted it for Peer review.
+    - I also asked friends and family to have a look at the site from a user perspective, rather than a coder perspective.
+- All links were tested to ensure they worked on all devices.
+- NavBar was tested to ensure it worked on all devices.
+- All Modals tested to ensure correct information was displayed and that the links directed the user to the appropriate external site.
+
+[Back to Contents](#contents)
 
 ### <ins>BROWSER COMPATIBILITY</ins>
 
@@ -215,6 +234,8 @@ The site was tested on the following browsers that I have access to:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Edge
+
+[Back to Contents](#contents)
 
 ### <ins>CODE VALIDATION</ins>
 
@@ -244,9 +265,13 @@ JShint Errors:
 
 - All pages have been passed through the Validator, however various warnings were presented.
 
+[Back to Contents](#contents)
+
 ### <ins>ACCESIBILITY VALIDATION</ins>
 
 The site was tested on the [WAVE](https://wave.webaim.org/) site. Passed with minimal errors although Contrast errors were generated due to colour choices. This will be something I look at for future projects.
+
+[Back to Contents](#contents)
 
 ### <ins>ISSUES EXPERIENCED</ins>
 
