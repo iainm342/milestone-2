@@ -26,8 +26,7 @@ This is the second of four Milestone Projects required for the Full Stack Web De
     - [Responsiveness](#responsiveness)
     - [Browser Compatability](#browser-compatability)
     - [Code Validation](#code-validation)
-    - [Accesibility Validation](#accessibility-validation)
-    - [Issues Experience](#issues-experienced)
+    - [Accesibility Validation](#accessibility-validation)s
 - [Deployment](#deployment)
   - [Hosting](#hosting)
   - [Cloning](#cloning)
@@ -123,7 +122,7 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal information, the Google Maps markers, the "back to top" button and the registration forms - user and business user.  
 - [jQuery](https://jquery.com/) - this was used for the image filtering function.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons were taken from this site for the footer and social buttons.
-- [Bootstrap](https://getbootstrap.com/) - I relied on Bootstrap for the responsive grid design, carousel and card components.
+- [Bootstrap](https://getbootstrap.com/) - I relied on Bootstrap for the responsive grid design and NavBar.
 - [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
 - [Popper](https://popper.js.org/)
 - [Popper JS](https://popper.js.org/)
@@ -278,12 +277,6 @@ JShint Errors:
 ### <ins>ACCESIBILITY VALIDATION</ins>
 
 The site was tested on the [WAVE](https://wave.webaim.org/) site. Passed with minimal errors although Contrast errors were generated due to colour choices for the design of the site.
-
-[Back to Contents](#contents)
-
-### <ins>ISSUES EXPERIENCED</ins>
-
-TO BE ADDED
 
 [Back to Contents](#contents)
 
