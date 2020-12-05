@@ -1,3 +1,5 @@
+ //Individual positions and info for each venue that will be used by Google Maps API
+ 
  var markers = [
             {
                 "title": "Bill's Restaurant",
@@ -56,6 +58,8 @@
             
     ];
 
+//Google Map API function to produce map and place markers along with info
+
     window.onload = function () {
         var mapOptions = {
             center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
@@ -85,6 +89,8 @@
                 clearInterval(interval);
             }
         }, 200);
+
+//Map styling
 
         var styles = [
     {

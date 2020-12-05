@@ -1,3 +1,5 @@
+//Business User Sign Up
+
 var emailjs;
 
 function sendMail(contactForm) {

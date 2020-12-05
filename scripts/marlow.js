@@ -101,6 +101,7 @@ let venuePhone;
 let venueType;
 let venueCost;
 
+//Loop to iterate Array of Object and push data to the DOM
 
 function venueInfo() {
   for (i = 1; i < marlRests.length + 1; i++) {

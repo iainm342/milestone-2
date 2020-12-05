@@ -1,13 +1,12 @@
-let img;
-let index;
-let modal;
+//jQuery function to create buttons on the filter pages using the data tags in the HTML
+
+//Using the data index value this script shows/hides the images when filter is applied
 
 $(function() {
     $('body').on('click', '.filter-img', function() {
         var $img = $(event.target);
         var index = $img.data('index');
         var $modal = $("#myModal" + index);
-        // $modal.find('img').attr('href', img.attr('href'));
         $modal.css('display', 'block');
     });
 
@@ -16,6 +15,10 @@ $(function() {
         $modal.css('display', 'none');
     });
 });
+
+//Creates the filter buttons based on the information contained in the data-tags
+
+//Cost filter buttons
 
 (function () {
   var $imgs = $("#gallery img");
@@ -36,6 +39,8 @@ $(function() {
       });
     }
   });
+
+  //Creates the "Show All" button
   
   $("<button/>", {
     text: "Show All",
@@ -47,6 +52,8 @@ $(function() {
     },
   }).appendTo($buttons1);
 
+    //Creates the individual buttons
+
   $.each(taggedCost, function (tagName1) {
     $("<button/>", {
       text: tagName1 + " (" + taggedCost[tagName1].length + ")",
@@ -57,6 +64,9 @@ $(function() {
       },
     }).appendTo($buttons1);
   });
+
+    //Styling of buttons that appear in the DOM
+
   $("button").css({
     "background-color": "#fa0606",
     "color": "white",
@@ -85,6 +95,8 @@ $(function() {
     }
   });
  
+//Creates the "Show All" button
+
   $("<button/>", {
     text: "Show All",
     class: "active",
@@ -94,6 +106,8 @@ $(function() {
       $modalBut.show();
     },
   }).appendTo($buttons2);
+
+  //Creates the individual buttons
 
   $.each(taggedStyle, function (tagName2) {
     $("<button/>", {
@@ -105,6 +119,9 @@ $(function() {
       },
     }).appendTo($buttons2);
   });
+
+  //Styling of buttons that appear in the DOM
+
   $("button").css({
     "background-color": "#fa0606",
     "color": "white",
