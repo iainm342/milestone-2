@@ -199,7 +199,7 @@ I asked 5 people to test the site as **users** as I neared the end of the develo
 - As a **user**, I want the site navigation to be intuitive and easy to use.
     - The **users** are presented with a landing page with a very clearly positioned button to press to take them to locations.html along with a NavBar that has links to all the pages on the site. The NavBar, initially, only linked the "town_name".html pages which meant the **user** had to navigate back to the Landing Page to effectively move around the site. Dropdowns were added to include the Full List and Filtered options and also a link to the Locations Page and Register Page. Total site access was achieved by doing this. This requirement is deemed as completed.
 - As a **user**, I want the information to be displayed in a clear and organised manner to allow for quick decisions to be made.
-    - The **users** felt the simple colour choice of red (#fa0606) and white was distinctive. It was mentioned that, especially in the info panel on the Accordion, the colour choice was slightly abrasive on the eyes to look at so much red text on a white background. The Accordion content was changed to color: black to make this easier to read. Once this was done the **users** felt this was an improvement. This requirement is deemed to be completed. 
+    - The **users** felt the simple colour choice of red (#fa0606) and white was distinctive. It was mentioned that, especially in the info panel on the Accordion, the colour choice was slightly abrasive on the eyes to look at so much red text on a white background. The Accordion content was changed to color: black to make this easier to read. The **users** also pointed out tht there were spacing issues between the individual Accordions and that it wasn't always clear which button related to which restaurant. This was resolved by placing a horizontal rule between each Accordion. Once these changes were done the **users** felt this was an improvement. This requirement is deemed to be completed. 
 - As a **user**, I want to be able to register with the **site owners** so that I can be informed of new restaurants registering on the site.
     - The **users** pressed the "Register" dropdown option on the NavBar and selected "New User". A simple form is presented where they are prompted to input their Name and Email address. On clicking the "Register" button it was pointed out that the form did not clear. An email was sent to them confirming they had registered and this was seen as a good thing. Form clearing still needs to be done.
 
@@ -351,8 +351,9 @@ JavaScript & jQuery - Interactive Front-End Web Development by Jon Duckett - for
 
 Thank you to the following people:
 
-- My mentor Seun Owonikoko for her time, guidance and putting up with my "wobble" on our first mentor call...
+- My mentor Seun Owonikoko for her time, guidance and making things obvious...
 - The guys in the class of May 20 on Slack - always there for a chat when needed!
+    - special mentions to @nikkikobako, @Sara and @Pauld0051
 - My partner, Paul, for putting up with the growing obsession I have towards coding.
 
 [Back to Contents](#contents)
