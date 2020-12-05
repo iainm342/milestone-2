@@ -186,11 +186,17 @@ The site was tested on the following browsers that I have access to:
 
 ### <ins>CODE VALIDATION</ins>
 
-All HTML and CSS was passed through [W3C Validator](https://validator.w3.org/) and [W3C Validator CSS](https://jigsaw.w3.org/css-validator/).
+All HTML and CSS was passed through [W3C Validator](https://validator.w3.org/), [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) and [JShint](https://jshint.com/).
 
 HTML Errors:
 
+- All pages have been passed through the Validator, however, on the filter.html pages there are warnings due to there being no content between the h3 tags. The content is being added via the JS function managing the restaurant information Array.
+
+![HTML Error](assets/images/readme/w3html.png)
+
 CSS Errors:
+
+- All pages have been passed throught the Validator, however, the following warning has been received:
 
 - backdrop-filter: blur(3px) in the .modal fails the W3C validation and there is the following error message:
 
@@ -198,9 +204,13 @@ CSS Errors:
 
 On searching for a reason why this was occurring I found this message from another developer to W3C stating that they had the same issue:
 
-![CSS Message](assetrs/images/readme/cssmessage)
+![CSS Message](assets/images/readme/cssmessage.png)
 
 I am presuming that this is a known error and have assumed that my CSS has passed validation.
+
+JShint Errors:
+
+- All pages have been passed through the Validator
 
 ### <ins>ACCESIBILITY VALIDATION</ins>
 
