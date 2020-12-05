@@ -232,8 +232,16 @@ The sites responsiveness was tested by the following methods:
 The site was tested on the following browsers that I have access to:
 
 - Google Chrome
+
+![Chrome](assets/images/readme/chrome.png)
+
 - Mozilla Firefox
+
+![Firefox](assets/images/readme/firefox.png)
+
 - Microsoft Edge
+
+![Edge](assets/images/readme/edge.png)
 
 [Back to Contents](#contents)
 
@@ -269,7 +277,7 @@ JShint Errors:
 
 ### <ins>ACCESIBILITY VALIDATION</ins>
 
-The site was tested on the [WAVE](https://wave.webaim.org/) site. Passed with minimal errors although Contrast errors were generated due to colour choices. This will be something I look at for future projects.
+The site was tested on the [WAVE](https://wave.webaim.org/) site. Passed with minimal errors although Contrast errors were generated due to colour choices for the design of the site.
 
 [Back to Contents](#contents)
 
