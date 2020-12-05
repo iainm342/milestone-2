@@ -104,29 +104,28 @@ let venueCost;
 
 function venueInfo() {
   for (i = 1; i < marlRests.length + 1; i++) {
-    index = i;
-    venueName = document.getElementById("name" + index);
-    marlRest = marlRests[index - 1].name;
+    venueName = document.getElementById("name" + i);
+    marlRest = marlRests[i - 1].name;
     venueName.textContent = marlRest;
    
-    venueAddress = document.getElementById("address" + index);
-    marlRest = marlRests[index - 1].address;
+    venueAddress = document.getElementById("address" + i);
+    marlRest = marlRests[i - 1].address;
     venueAddress.textContent = marlRest;
 
-    venuePhone = document.getElementById("phone" + index);
-    marlRest = marlRests[index - 1].phone;
+    venuePhone = document.getElementById("phone" + i);
+    marlRest = marlRests[i - 1].phone;
     venuePhone.textContent = marlRest;
 
-    venueWeb = document.getElementById("web" + index);
-    marlRest = marlRests[index - 1].web;
+    venueWeb = document.getElementById("web" + i);
+    marlRest = marlRests[i - 1].web;
     venueWeb.textContent = marlRest;
 
-    venueType = document.getElementById("type" + index);
-    marlRest = marlRests[index - 1].type;
+    venueType = document.getElementById("type" + i);
+    marlRest = marlRests[i - 1].type;
     venueType.textContent = marlRest;
 
-    venueCost = document.getElementById("cost" + index);
-    marlRest = marlRests[index - 1].cost;
+    venueCost = document.getElementById("cost" + i);
+    marlRest = marlRests[i - 1].cost;
     venueCost.textContent = marlRest;
   }
 }

@@ -66,7 +66,7 @@
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         var i = 0;
         var interval = setInterval(function () {
-            var data = markers[i]
+            var data = markers[i];
             var myLatlng = new google.maps.LatLng(data.lat, data.lng);
             var marker = new google.maps.Marker({
                 position: myLatlng,
@@ -447,7 +447,7 @@
             }
         ]
     }
-]
+];
 map.set('styles', styles);
 
-    }
+    };

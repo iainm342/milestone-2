@@ -1,7 +1,9 @@
 // Sroll to top script
 var mybutton = document.getElementById("myBtn");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+    scrollFunction()
+};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

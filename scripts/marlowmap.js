@@ -65,7 +65,7 @@ var markers = [
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         var i = 0;
         var interval = setInterval(function () {
-            var data = markers[i]
+            var data = markers[i];
             var myLatlng = new google.maps.LatLng(data.lat, data.lng);
             var marker = new google.maps.Marker({
                 position: myLatlng,
@@ -446,51 +446,7 @@ var markers = [
             }
         ]
     }
-]
-map.set('styles', styles);
-}
-
-
-
-var readLocations = [
-    ["Marlow Bar & Grill", 51.56958, -0.77475, 1],
-    ["The Chequers", 51.57045, -0.77518, 2], 
-    ["The Bull Inn", 51.47375, -0.91180, 3], 
-    ["The Coach", 51.57172, -0.77719, 4], 
-    ["Glaze @ Crown Plaza", 51.57139, -0.75241, 5], 
-    ["The Ivy", 51.57028, -0.77544, 6],
-    ["The Hand & Flowers", 51.56986, -0.78333, 7], 
-    ["Riverside @ Macdonald Compleat Angler", 51.56691, -0.77275, 8], 
-    ["Sindhu @ Macdonald Compleat Angler", 51.56713, -0.77232, 9], 
-    ["The Giggling Squid", 51.57156, -0.77768, 10],           
 ];
-
-function setMarkers(map) {
-
-
-    for (let i = 0; i < readLocations.length; i++) {
-        const readLoc = readLocations[i];
-        new google.maps.Marker({
-            position: { lat: readLoc[1], lng: readLoc[2] },
-            map,
-            title: readLoc[0],
-            zIndex: readLoc[3],
-        });
-
-        // function initZoomControl(map) {
-        //     document.querySelector(".zoom-control-in").onclick = function () {
-        //         map.setZoom(map.getZoom() + 1);
-        //     };
-
-        //     document.querySelector(".zoom-control-out").onclick = function () {
-        //         map.setZoom(map.getZoom() - 1);
-        //     };
-
-        //     map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.querySelector(".zoom-control")
-        //     );
-        // }
-    }
-}
-
-
+map.set('styles', styles);
+};
 

@@ -106,29 +106,28 @@ let venueCost;
 
 function venueInfo() {
   for (i = 1; i < henRests.length + 1; i++) {
-    index = i;
-    venueName = document.getElementById("name" + index);
-    henRest = henRests[index - 1].name;
+    venueName = document.getElementById("name" + i);
+    henRest = henRests[i - 1].name;
     venueName.textContent = henRest;
    
-    venueAddress = document.getElementById("address" + index);
-    henRest = henRests[index - 1].address;
+    venueAddress = document.getElementById("address" + i);
+    henRest = henRests[i - 1].address;
     venueAddress.textContent = henRest;
 
-    venuePhone = document.getElementById("phone" + index);
-    henRest = henRests[index - 1].phone;
+    venuePhone = document.getElementById("phone" + i);
+    henRest = henRests[i - 1].phone;
     venuePhone.textContent = henRest;
 
-    venueWeb = document.getElementById("web" + index);
-    henRest = henRests[index - 1].web;
+    venueWeb = document.getElementById("web" + i);
+    henRest = henRests[i - 1].web;
     venueWeb.textContent = henRest;
 
-    venueType = document.getElementById("type" + index);
-    henRest = henRests[index - 1].type;
+    venueType = document.getElementById("type" + i);
+    henRest = henRests[i - 1].type;
     venueType.textContent = henRest;
 
-    venueCost = document.getElementById("cost" + index);
-    henRest = henRests[index - 1].cost;
+    venueCost = document.getElementById("cost" + i);
+    henRest = henRests[i - 1].cost;
     venueCost.textContent = henRest;
   }
 }
