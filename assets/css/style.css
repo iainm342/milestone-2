@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     height: 100%;
     position: relative;
@@ -20,6 +19,8 @@ html {
     position: relative;
     min-height: 100%;
 }
+
+/*----------------------------------------------------NavBar Styling*/
 
 .navbar {
     background-color: #fa0606;
@@ -40,6 +41,13 @@ html {
     width: 14rem;
     padding-bottom: 15px;
 }
+
+.navlogo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/*----------------------------------------------------Locations Page Styling*/
 
 .btn-landing {
     font-family: 'Oxygen', sans-serif;
@@ -68,13 +76,153 @@ html {
   margin-bottom: 50px;
 }
 
-.rest-card-img {
+#timer {
+ position: absolute;
+ margin-top: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-timer {
+    position: relative;
+    text-align: center;
+    color: #fa0606;
+}
+
+.maid-style {
+    opacity: 30%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*----------------------------------------------------Town Page Styling*/
+
+.rest-img {
     display: inline-block;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
     margin-top: 10px;
 }
+
+.accordion {
+    background-color: #fa0606;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   .accordion {
+       width: 80%;
+   }
+
+   .panel {
+       width: 80%;
+       padding-left: 50px;    
+   }
+}
+
+.accordion:hover {
+    background-color: rgb(114, 49, 49);
+}
+
+.panel {
+    padding: 0 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\021e9';
+    font-size: 16px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.btn-book {
+    font-family: 'Oxygen', sans-serif;
+    background: #fa0606;
+    color: white;
+    margin-top: 5px;
+}
+
+.btn-book:hover {
+    font-family: 'Oxygen', sans-serif;
+    border-color: #fa0606;
+    color: #fa0606;
+    background: white;
+}
+
+.btn-sign {
+    font-family: 'Oxygen', sans-serif;
+    background: #fa0606;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-sign:hover {
+    font-family: 'Oxygen', sans-serif;
+    border-color: #fa0606;
+    color: #fa0606;
+    background: white;
+}
+
+.btn-book a {
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-book a:hover {
+    font-family: 'Oxygen', sans-serif;
+    color: #fa0606;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+hr {
+    background-color:#fa0606;
+    border: 0 none;
+    height: 1px;
+}
+
+.panel p {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.panel a {
+    text-decoration: none;
+     color:black;
+}
+
+.panel a:hover {
+    color: #fa0606;
+}
+
+/*----------------------------------------------------Filter Pages Styling*/
 
 .modal {
     display: none;
@@ -106,7 +254,6 @@ img {
     animation-name: animateup;
     animation-duration: 0.4s
 }
-
 
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
@@ -181,33 +328,6 @@ img {
     color: black;
 }
 
-#map {
-    width: 100%;
-    height: 500px;
-}
-
-#floating-panel {
-  position: absolute;
-  top: 10px;
-  left: 25%;
-  z-index: 5;
-  background-color: #fff;
-  padding: 5px;
-  border: 1px solid #999;
-  text-align: center;
-  font-family: "Roboto", "sans-serif";
-  line-height: 30px;
-  padding-left: 10px;
-}
-
-#floating-panel {
-  margin-left: -52px;
-}
-
-#floating-panel {
-    margin-left: -52px;
-}
-
 .filter-img {
     height: 10rem;
     width: 12rem;
@@ -218,91 +338,7 @@ img {
     cursor: pointer;
 }
 
-.accordion {
-    background-color: #fa0606;
-    font-family: 'Oxygen', sans-serif;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-   .accordion {
-       width: 80%;
-   }
-
-   .panel {
-       width: 80%;
-       padding-left: 50px;    
-   }
-}
-
-.accordion:hover {
-    background-color: rgb(114, 49, 49);
-}
-
-.panel {
-    padding: 0 18px;
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    /* color: #fa0606; */
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-.accordion:after {
-    content: '\021e9';
-    font-size: 16px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-}
-
-
-.btn-book {
-    font-family: 'Oxygen', sans-serif;
-    background: #fa0606;
-    color: white;
-    margin-top: 5px;
-}
-
-.btn-book:hover {
-    font-family: 'Oxygen', sans-serif;
-    border-color: #fa0606;
-    color: #fa0606;
-    background: white;
-}
-
-.btn-sign {
-    font-family: 'Oxygen', sans-serif;
-    background: #fa0606;
-    color: white;
-    margin-top: 10px;
-}
-
-.btn-sign:hover {
-    font-family: 'Oxygen', sans-serif;
-    border-color: #fa0606;
-    color: #fa0606;
-    background: white;
-}
-
-.btn-book a {
-    font-family: 'Oxygen', sans-serif;
-    text-decoration: none;
-    color: white;
-}
-
-.btn-book a:hover {
-    font-family: 'Oxygen', sans-serif;
-    color: #fa0606;
-}
+/*----------------------------------------------------Footer Styling*/
 
 .contact-heading {
     font-family: 'Oxygen', sans-serif;
@@ -324,34 +360,6 @@ button[type="submit"] {
     background-color: #fa0606;
     color: white;
 }
-
-.navlogo {
-    max-width: 100px;
-    max-height: 100px;
-}
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  border-radius: 15px;
-  outline: #fa0606;
-  background-color: #fa0606;
-  border-color: white;
-  color: white;
-  margin: 10px;
-  cursor: pointer;
-  padding: 15px;
-}
-
-#myBtn:hover {
-  background-color: #fa0606;
-  color: #fff;
-  border-color: #fff;
-}
-
 
 .social-links li a i {
     width: 36px;
@@ -393,6 +401,31 @@ button[type="submit"] {
     margin-top: 10px;
 }
 
+/*----------------------------------------------------Back to Top Button*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border-radius: 15px;
+  outline: #fa0606;
+  background-color: #fa0606;
+  border-color: white;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+#myBtn:hover {
+  background-color: #fa0606;
+  color: #fff;
+  border-color: #fff;
+}
+
+
 .timer {
   
   height: 15rem;
@@ -401,50 +434,4 @@ button[type="submit"] {
   color: #fa0606;
   font-family: "Oxygen",sans-serif;
     font-size: 12px;
-}
-
-#timer {
- position: absolute;
- margin-top: 40px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.container-timer {
-    position: relative;
-    text-align: center;
-    color: #fa0606;
-}
-
-.maid-style {
-    opacity: 30%;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-hr {
-    background-color:#fa0606;
-    border: 0 none;
-    height: 1px;
-}
-
-.panel p {
-    text-align: justify;
-    margin-top: 5px;
-}
-
-.panel a {
-    text-decoration: none;
-     color:black;
-}
-
-.panel a:hover {
-    color: #fa0606;
 }
