@@ -2,6 +2,8 @@
 
 var emailjs;
 
+let form = document.getElementById("contact");
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "business", {
         "from_name": contactForm.name.value,
@@ -16,5 +18,6 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
+    form.reset();
     return false; 
 }

@@ -2,6 +2,8 @@
 
 var emailjs;
 
+let form = document.getElementById("contact");
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "user", {
         "from_name": contactForm.name.value,
@@ -13,7 +15,9 @@ function sendMail(contactForm) {
         },
         function(error) {
             console.log("FAILED", error);
-        }
-    );
-    return false; 
-}
+        });
+    
+
+    form.reset();
+    return false;
+    }
