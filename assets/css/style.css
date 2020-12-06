@@ -62,13 +62,6 @@ html {
     margin-bottom: 10px;
 }
 
-.page-footer {
-    font-family: 'Oxygen', sans-serif;
-    background-color: #fa0606ee;
-    color: white;
-    padding-bottom: 25px;
-}
-
 .town-img {
   height: 13rem;
   width: 13rem;
@@ -340,13 +333,19 @@ img {
 
 /*----------------------------------------------------Footer Styling*/
 
+.page-footer {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #fb3838;
+    color: white;
+    padding-bottom: 25px;
+}
+
 .contact-heading {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 
 .center-form {
     padding-top: 10px;
@@ -399,6 +398,11 @@ button[type="submit"] {
 
 .h1-loc {
     margin-top: 10px;
+}
+
+.foot-pad {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /*----------------------------------------------------Back to Top Button*/
