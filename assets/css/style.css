@@ -31,9 +31,13 @@ html {
     color: white;
 }
 
-.btn-nav {
-    color: white;
-    border-color: white;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #650202;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #650202;
+    font-weight: bold;
 }
 
 #logo {
