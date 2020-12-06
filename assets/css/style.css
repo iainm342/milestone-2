@@ -51,19 +51,35 @@ html {
     max-height: 50px;
 }
 
-/*----------------------------------------------------Locations Page Styling*/
+/*----------------------------------------------------Landing Page Styling*/
 
 .btn-landing {
     font-family: 'Oxygen', sans-serif;
-    background-color: #fa0606;
+    background-color: #fb3838;
     color: white;
 }
 
+.btn-landing:hover {
+    font-family: 'Oxygen', sans-serif;
+    border-color: #fb3838;
+    color: #fb3838;
+    background: white;
+}
+
+/*----------------------------------------------------Locations Page Styling*/
+
 .btn-loc {
     font-family: 'Oxygen', sans-serif;
-    background-color: #fa0606;
+    background-color: #fb3838;
     color: white;
     margin-bottom: 10px;
+}
+
+.btn-loc:hover {
+    font-family: 'Oxygen', sans-serif;
+    border-color: #fb3838;
+    color: #fb3838;
+    background: white;
 }
 
 .town-img {
