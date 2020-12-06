@@ -106,14 +106,14 @@ html {
 }
 
 .accordion {
-    background-color: #fa0606;
+    background-color: white;
     font-family: 'Oxygen', sans-serif;
-    color: white;
+    color: #fb3838;
     cursor: pointer;
     padding: 10px;
     width: 100%;
     text-align: left;
-    border: none;
+    border: 1px solid #fb3838;
     outline: none;
     transition: 0.4s;
 }
@@ -130,7 +130,8 @@ html {
 }
 
 .accordion:hover {
-    background-color: rgb(114, 49, 49);
+    background-color: #fb3838;
+    color: white;
 }
 
 .panel {
@@ -153,29 +154,15 @@ html {
 
 .btn-book {
     font-family: 'Oxygen', sans-serif;
-    background: #fa0606;
+    background: #fb3838;
     color: white;
     margin-top: 5px;
 }
 
 .btn-book:hover {
     font-family: 'Oxygen', sans-serif;
-    border-color: #fa0606;
-    color: #fa0606;
-    background: white;
-}
-
-.btn-sign {
-    font-family: 'Oxygen', sans-serif;
-    background: #fa0606;
-    color: white;
-    margin-top: 10px;
-}
-
-.btn-sign:hover {
-    font-family: 'Oxygen', sans-serif;
-    border-color: #fa0606;
-    color: #fa0606;
+    border-color: #fb3838;
+    color: #fb3838;
     background: white;
 }
 
@@ -217,6 +204,19 @@ hr {
 
 /*----------------------------------------------------Filter Pages Styling*/
 
+.filter-img {
+    height: 10rem;
+    width: 12rem;
+    margin-bottom: 20px;
+}
+
+.filter-img {
+    cursor: pointer;
+}
+
+
+/*----------------------------------------------------Modal on Filter Pages Styling*/
+
 .modal {
     display: none;
     position: fixed;
@@ -229,10 +229,6 @@ hr {
     backdrop-filter: blur(3px);
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto;
-}
-
-img {
-    cursor: pointer;
 }
 
 .modal-content {
@@ -267,7 +263,7 @@ img {
 .modal-header {
     font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
-    background-color: #fa0606;
+    background-color: #fb3838;
     color: white;
 }
 
@@ -279,19 +275,19 @@ img {
 .modal-body {
     font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
-    color: #fa0606;
+    color: #fb3838;
 }
 
 .modal-footer {
     font-family: 'Oxygen', sans-serif;
     padding: 2px 16px;
-    background-color: #fa0606;
+    background-color: #fb3838;
     color: white;
 }
 
 .modal-button {
     font-family: 'Oxygen', sans-serif;
-    background-color: #fa0606;
+    background-color: #fb3838;
     color: white;
     border-radius: 15%;
     border-color: white;
@@ -305,9 +301,9 @@ img {
 
 .btn-modal-footer:hover {
     font-family: 'Oxygen', sans-serif;
-    color: #fa0606;
+    color: #fb3838;
     background: white;
-    border-color: #fa0606;
+    border-color: #fb3838;
 }
 
 .btn-modal-footer a {
@@ -321,14 +317,20 @@ img {
     color: black;
 }
 
-.filter-img {
-    height: 10rem;
-    width: 12rem;
-    margin-bottom: 20px;
+/*----------------------------------------------------Register Pages Styling*/
+
+.btn-sign {
+    font-family: 'Oxygen', sans-serif;
+    background: #fa0606;
+    color: white;
+    margin-top: 10px;
 }
 
-.filter-img {
-    cursor: pointer;
+.btn-sign:hover {
+    font-family: 'Oxygen', sans-serif;
+    border-color: #fa0606;
+    color: #fa0606;
+    background: white;
 }
 
 /*----------------------------------------------------Footer Styling*/
@@ -431,11 +433,10 @@ button[type="submit"] {
 
 
 .timer {
-  
   height: 15rem;
   width: 15rem;
   position: relative;
   color: #fa0606;
   font-family: "Oxygen",sans-serif;
-    font-size: 12px;
+  font-size: 12px;
 }
