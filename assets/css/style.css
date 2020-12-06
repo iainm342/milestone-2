@@ -51,6 +51,10 @@ html {
     max-height: 50px;
 }
 
+.drop-reg {
+    right: 0;
+}
+
 /*----------------------------------------------------Landing Page Styling*/
 
 .btn-landing {
@@ -341,17 +345,17 @@ hr {
 
 /*----------------------------------------------------Register Pages Styling*/
 
-.btn-sign {
-    font-family: 'Oxygen', sans-serif;
-    background: #fa0606;
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #fb3838;
     color: white;
-    margin-top: 10px;
 }
 
-.btn-sign:hover {
+.btn[type="submit"]:hover {
     font-family: 'Oxygen', sans-serif;
-    border-color: #fa0606;
-    color: #fa0606;
+    border-color: #fb3838;
+    color: #fb3838;
     background: white;
 }
 
@@ -375,13 +379,6 @@ hr {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #fa0606;
-    color: white;
 }
 
 .social-links li a i {
