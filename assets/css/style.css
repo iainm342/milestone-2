@@ -129,7 +129,9 @@ html {
 
    .panel {
        width: 80%;
-       padding-left: 50px;    
+       padding-bottom: 10px;
+       margin-left: 60px;
+
    }
 }
 
@@ -150,7 +152,7 @@ html {
 .accordion:after {
     content: '\021e9';
     font-size: 16px;
-    color: white;
+    color: black;
     float: right;
     margin-left: 5px;
 }
