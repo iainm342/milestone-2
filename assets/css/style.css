@@ -368,12 +368,12 @@ button[type="submit"] {
     font-size: 24px;
     line-height: 7px;
     text-align: center;
-    color: #fa0606;
+    color: #fb3838;
     background: white;
 }
 
 .social-links li a i:hover {
-    background:#fa0606;
+    background:#fb3838;
     color:white;
 }
 
@@ -389,7 +389,7 @@ button[type="submit"] {
 }
 
 .email-detail a:hover {
-    color:rgb(114, 49, 49);
+    color: #fdacac;
 }
 
 .loc-text {
