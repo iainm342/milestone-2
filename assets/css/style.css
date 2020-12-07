@@ -73,11 +73,15 @@ html {
 
 /*----------------------------------------------------Locations Page Styling*/
 
+.location {
+    margin-top: 20px;
+}
+
 .btn-loc {
     font-family: 'Oxygen', sans-serif;
     background-color: #fb3838;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-loc:hover {
@@ -375,7 +379,7 @@ button[type="submit"] {
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 200px;
+    padding-bottom: 350px;
 }
 
    .page-footer {
