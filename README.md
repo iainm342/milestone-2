@@ -8,6 +8,8 @@ This website was designed to offer the user a "one-stop" site to be able to sear
 
 This is the second of four Milestone Projects required for the Full Stack Web Development course provided by Code Institute. The main goal for this project was to produce an "interactive front-end site to present useful information to the users" using HTML, CSS and JavaScript.
 
+A live version of the site can be found [here](https://iainm342.github.io/milestone-2/).
+
 ## **CONTENTS** ##
 
 - [UX](#ux)
