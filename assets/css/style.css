@@ -20,13 +20,6 @@ html {
     min-height: 100%;
 }
 
-.main-container {
-    min-height: 100vh;
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 250px;
-}
 
 /*----------------------------------------------------NavBar Styling*/
 
@@ -373,10 +366,27 @@ button[type="submit"] {
     font-family: 'Oxygen', sans-serif;
     background-color: #fb3838;
     color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+
+    .main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+   .page-footer {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #fb3838;
+    color: white;
     padding-bottom: 25px;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
 }
 
 .contact-heading {
