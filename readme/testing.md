@@ -4,7 +4,7 @@
 
 # Testing
 
-[back to README.md file](https://github.com/iainm342/milestone-2/blob/master/README.md)
+[back to README.md file](https://github.com/iainm342/milestone-2/blob/master/README.md/#testing)
 
 ## **CONTENTS** ##
 

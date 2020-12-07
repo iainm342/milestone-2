@@ -19,6 +19,7 @@ This is the second of four Milestone Projects required for the Full Stack Web De
     - [Wireframes](#wireframes)
 - [Technology Used](#technology-used)
   - [Languages and Frameworks](#languages-and-frameworks)
+  - [API's](#API'S)
   - [Tools](#tools)
 - [Features](#features)
 - [Testing](#testing)
@@ -86,23 +87,23 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 
 ### Landing Page ###
 
-![Landing Page](assets/images/readme/figland.png)
+![Landing Page](readme/images/figland.png)
 
 ### Locations Page ###
 
-![Locations Page](assets/images/readme/figloc.png)
+![Locations Page](readme/images/figloc.png)
 
 ### Town Pages ###
 
-![Town Page](assets/images/readme/figtown.png)
+![Town Page](readme/images/figtown.png)
 
 ### Filter Pages ###
 
-![Town Filter Page](assets/images/readme/figfilter.png)
+![Town Filter Page](readme/images/figfilter.png)
 
 ### Register Page ###
 
-![Registration Page](assets/images/readme/figreg.png)
+![Registration Page](readme/images/figreg.png)
 
 [Back to Contents](#contents)
 
@@ -121,6 +122,9 @@ The full wireframe for the site can be found [here](assets/images/readme/figfull
 - [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
 - [Popper](https://popper.js.org/)
 - [Popper JS](https://popper.js.org/)
+
+### <ins>API'S</ins> ###
+
 - [EmailJS](https://emailjs.com) - this was used to host the email functionality of the site.
 - [Google Maps API](https://developers.google.com/maps/) - this was used to allow Google Maps and Markers to be installed on the site.
   
