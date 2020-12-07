@@ -103,9 +103,9 @@ I submitted the project for Peer Review on Slack. Due to the volume of projects 
 
 I asked the May 2020 cohort to have a look as they tend to be more responsive. The feedback I received was positive along with some comments regarding the following:
 
-- moving the "Book" button on the Full List pages to the middle of the venue section.
-- adding a confirmation to the register user screen to show the **user** that their submission was succesful.
-- the cost element is not clear to the user as just a £ sign.
+- moving the "Book" button on the Full List pages to the middle of the venue section. Disagreed with this as I am happy with the layout.
+- adding a confirmation to the register user screen to show the **user** that their submission was succesful. Have added a Sweet Alert modal to both pages.
+- the cost element is not clear to the user as just a £ sign. Have changed the wording from "Cost" to "Price Range" - this needs to be revised in future releases.
 
 [Back to Contents](#contents)
 
