@@ -47,7 +47,7 @@ HTML Errors:
 
 - All pages have been passed through the Validator, however, on the filter.html pages there are warnings due to there being no content between the h3 tags. The content is being added via the JS function managing the restaurant information Array.
 
-![HTML Error](https://github.com/iainm342/milestone-2/blob/master/readme/images/w3html.png)
+![HTML Error](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/w3html.png)
 
 CSS Errors:
 
@@ -55,11 +55,11 @@ CSS Errors:
 
 - backdrop-filter: blur(3px) in the .modal fails the W3C validation and there is the following error message:
 
-![CSS Error](https://github.com/iainm342/milestone-2/blob/master/readme/images/w3ccss.png)
+![CSS Error](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/w3ccss.png)
 
 On searching for a reason why this was occurring I found this message from another developer to W3C stating that they had the same issue:
 
-![CSS Message](https://github.com/iainm342/milestone-2/blob/master/readme/images/cssmessage.png)
+![CSS Message](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/cssmessage.png)
 
 I am presuming that this is a known error as backdrop-filter is a relatively new function with CSS and have assumed that my CSS has passed validation.
 
@@ -81,15 +81,15 @@ The site was tested on the following browsers that I have access to:
 
 - Google Chrome
 
-![Chrome](https://github.com/iainm342/milestone-2/blob/master/readme/images/chrome.png)
+![Chrome](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/chrome.png)
 
 - Mozilla Firefox
 
-![Firefox](https://github.com/iainm342/milestone-2/blob/master/readme/images/firefox.png)
+![Firefox](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/firefox.png)
 
 - Microsoft Edge
 
-![Edge](https://github.com/iainm342/milestone-2/blob/master/readme/images/edge.png)
+![Edge](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/edge.png)
 
 [Back to Contents](#contents)
 
