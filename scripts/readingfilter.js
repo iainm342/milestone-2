@@ -3,6 +3,7 @@
 //Using the data index value this script shows/hides the images when filter is applied
 $(function() {
     $('body').on('click', '.filter-img', function() {
+
         var $img = $(event.target);
         var index = $img.data('index');
         var $modal = $("#myModal" + index);
@@ -19,28 +20,34 @@ $(function() {
 
 //Cost filter buttons
 
+//Stores all the images and button elements.
 (function() {
     var $imgs = $("#gallery img");
     var $buttons1 = $("#buttons1");
     var $modalBut = $('.modal-button');
+    //Creates a tagged object.
     var taggedCost = {};
 
+    //Loops through the images and stores image in variable.
     $imgs.each(function() {
         var img = this;
+        //Gets the elements tags
         var tags1 = $(this).data("tags1");
 
+        //If the element had tags, splits it at comma and if it doesn't adds it to the empty object
         if (tags1) {
             tags1.split(",").forEach(function(tagName1) {
                 if (taggedCost[tagName1] == null) {
                     taggedCost[tagName1] = [];
                 }
+                //adds the image to the array
                 taggedCost[tagName1].push(img);
             });
         }
     });
 
-    //Creates the "Show All" button
-
+    //Creates the "Show All" button and 
+    
     $("<button/>", {
         text: "Show All",
         class: "active",

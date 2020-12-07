@@ -15,7 +15,6 @@
     - [Code Validation](#code-validation)
     - [Accesibility Validation](#accesibility-validation)
     - [Browser Validation](#browser-validation)
-    - [Lighthouse Audit](#lighthouse-audit)
 - [User Testing](#user-testing)
     - [Peer Testing](#peer-testing)
     - [User Testing](#user-testing)
@@ -91,10 +90,6 @@ The site was tested on the following browsers that I have access to:
 - Microsoft Edge
 
 ![Edge](https://github.com/iainm342/milestone-2/blob/master/readme/images/testing/edge.png)
-
-[Back to Contents](#contents)
-
-### <ins>LIGHTHOUSE AUDIT</ins> ###
 
 [Back to Contents](#contents)
 

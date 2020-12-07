@@ -123,7 +123,7 @@ The full wireframe for the site can be found [here](readme/images/wireframes/fig
 - [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
 - [Popper](https://popper.js.org/)
 - [Popper JS](https://popper.js.org/)
-- [Sweet Alert](https://sweetalert.js.org/)
+- [Sweet Alert](https://sweetalert.js.org/) - used for the email modal confirming registration success or failure.
 
 ### <ins>API'S</ins> ###
 
@@ -276,6 +276,8 @@ The images and card, text content used were sourced from various sites:
 Knowledge, and inspiration, was taken from the Code Institute project - Resume - for certain aspects of the site.
 
 JavaScript & jQuery - Interactive Front-End Web Development by Jon Duckett - for the image filter idea which was then adapted further.
+
+W3 Schools - the countdown timer on locations.html.
 
 [Back to Contents](#contents)
 
