@@ -123,6 +123,7 @@ The full wireframe for the site can be found [here](readme/images/wireframes/fig
 - [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
 - [Popper](https://popper.js.org/)
 - [Popper JS](https://popper.js.org/)
+- [Sweet Alert](https://sweetalert.js.org/)
 
 ### <ins>API'S</ins> ###
 
