@@ -10,14 +10,25 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "business_name": contactForm.businessname.value
     })
-    .then(
+  .then(
         function(response) {
-            console.log("SUCCESS", response);
-        },
+            ("SUCCESS", response);
+            swal({
+                title: "Congratulations!", 
+                text: "You've successfully registered with What's for Dinner?", 
+                icon: "success", 
+                dangerMode: "true"
+        });
+    },
         function(error) {
-            console.log("FAILED", error);
-        }
-    );
+            ("FAILED", error);
+            swal({
+                title: "Oops!", 
+                text: "Aomething went wrong - try again?", 
+                icon: "error", 
+                dangerMode: "true"
+        });
+        })
     form.reset();
     return false; 
-}
+    }

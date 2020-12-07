@@ -12,14 +12,22 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             ("SUCCESS", response);
-            swal("Congratulations!", "You've successfully registered with What's for Dinner?", "success");
-        },
+            swal({
+                title: "Congratulations!", 
+                text: "You've successfully registered with What's for Dinner?", 
+                icon: "success", 
+                dangerMode: "true"
+        });
+    },
         function(error) {
             ("FAILED", error);
-            swal("Oops!", "Something went wrong - try again?", "error");
+            swal({
+                title: "Oops!", 
+                text: "Aomething went wrong - try again?", 
+                icon: "error", 
+                dangerMode: "true"
         });
-    
-
+        })
     form.reset();
-    return false;
+    return false; 
     }
