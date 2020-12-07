@@ -83,27 +83,27 @@ A red (#fa0606) colour for the Navigation Bar, Footer, all Buttons and the Accor
 
 ### <ins>WIREFRAMES</ins> ###
 
-The full wireframe for the site can be found [here](assets/images/readme/figfull.png).
+The full wireframe for the site can be found [here](assets/images/readme/wireframes/figfull.png).
 
 ### Landing Page ###
 
-![Landing Page](readme/images/figland.png)
+![Landing Page](readme/images/wireframes/figland.png)
 
 ### Locations Page ###
 
-![Locations Page](readme/images/figloc.png)
+![Locations Page](readme/images/wireframes/figloc.png)
 
 ### Town Pages ###
 
-![Town Page](readme/images/figtown.png)
+![Town Page](readme/images/wireframes/figtown.png)
 
 ### Filter Pages ###
 
-![Town Filter Page](readme/images/figfilter.png)
+![Town Filter Page](readme/images/wireframes/figfilter.png)
 
 ### Register Page ###
 
-![Registration Page](readme/images/figreg.png)
+![Registration Page](readme/images/wireframes/figreg.png)
 
 [Back to Contents](#contents)
 

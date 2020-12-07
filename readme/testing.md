@@ -6,6 +6,8 @@
 
 [back to README.md file](https://github.com/iainm342/milestone-2/blob/master/README.md/#testing)
 
+---
+
 ## **CONTENTS** ##
 
 - [Manual Testing](#manual-testing)
@@ -14,9 +16,11 @@
     - [Accesibility Validation](#accesibility-validation)
     - [Browser Validation](#browser-validation)
     - [Lighthouse Audit](#lighthouse-audit)
-- [User testing](#user-testing)
+- [User Testing](#user-testing)
     - [Peer Testing](#peer-testing)
     - [User Testing](#user-testing)
+
+---
 
 ## **MANUAL TESTING** ##
 
@@ -30,6 +34,8 @@
 - All Modals tested to ensure correct information was displayed and that the links directed the user to the appropriate external site.
 
 [Back to Contents](#contents)
+
+---
 
 ## **AUTOMATED TESTING** ##
 
@@ -49,17 +55,17 @@ CSS Errors:
 
 - backdrop-filter: blur(3px) in the .modal fails the W3C validation and there is the following error message:
 
-![CSS Error](readme/images/w3ccss.png)
+![CSS Error](https://github.com/iainm342/milestone-2/blob/master/readme/images/w3ccss.png)
 
 On searching for a reason why this was occurring I found this message from another developer to W3C stating that they had the same issue:
 
-![CSS Message](readme/images/cssmessage.png)
+![CSS Message](https://github.com/iainm342/milestone-2/blob/master/readme/images/cssmessage.png)
 
-I am presuming that this is a known error and have assumed that my CSS has passed validation.
+I am presuming that this is a known error as backdrop-filter is a relatively new function with CSS and have assumed that my CSS has passed validation.
 
 JShint Errors:
 
-- All pages have been passed through the Validator, however various warnings were presented.
+- All pages have been passed through the Validator, however various warnings were presented. The $ used in the jQuery code appears to these warnings and through searching I have found that some extra code needs to be added to remove this error. The solution was outwith my understanding (!!) so I have had to leave the problem in the code and will try and work this out for the future.
 
 [Back to Contents](#contents)
 
@@ -75,21 +81,23 @@ The site was tested on the following browsers that I have access to:
 
 - Google Chrome
 
-![Chrome](readme/images/chrome.png)
+![Chrome](https://github.com/iainm342/milestone-2/blob/master/readme/images/chrome.png)
 
 - Mozilla Firefox
 
-![Firefox](readme/images/firefox.png)
+![Firefox](https://github.com/iainm342/milestone-2/blob/master/readme/images/firefox.png)
 
 - Microsoft Edge
 
-![Edge](readme/images/edge.png)
+![Edge](https://github.com/iainm342/milestone-2/blob/master/readme/images/edge.png)
 
 [Back to Contents](#contents)
 
 ### <ins>LIGHTHOUSE AUDIT</ins> ###
 
 [Back to Contents](#contents)
+
+---
 
 ## **USER TESTING** ##
 
