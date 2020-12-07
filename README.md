@@ -179,8 +179,8 @@ The full wireframe for the site can be found [here](assets/images/readme/wirefra
 - Markers have titles on first click and titles with description on second click on desktop.
 - Markers have titles with description on click on all touch screen devices.
 - Bootstrap Accordion with relevant information contained in each panel.
-    - Phone and Website information is wrapped in an **<a>** tag.
-    - Website information takes **user** to restaurants own website and has a **target="_blank"** to allow navigation back to the site.
+- Phone and Website information is wrapped in an anchor tag.
+- Website information takes the **user** to the restaurants own website and has a **target="_blank"** to allow navigation back to the site.
 - Book button which takes the **user** to the restaurants own website booking engine to allow them to reserve a table.
 
 ### ELEMENTS SEEN ON THE 3 FILTER PAGES ###
@@ -216,6 +216,8 @@ The full wireframe for the site can be found [here](assets/images/readme/wirefra
 ## **TESTING** ##
 
 Testing information can be found [here](readme/testing.md).
+
+[Back to Contents](#contents)
 
 ---
 
