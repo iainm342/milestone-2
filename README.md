@@ -63,7 +63,7 @@ The main aim of this project was to create a website that would give the user a 
 
 1. The concept of this site comes from my Hospitality background and my feeling that, due to the current pandemic, restaurants need to be championed to help them in the coming months. As this site is intended to raise user awareness of what restaurants are available in their area, I decided to keep it fairly simple and to ensure that the end result was a restaurant being booked by the user.
 
-2. The main colour scheme chosen is red (#fa0606)and white as I felt that it was distinctive (think Vodafone or Virgin Media) and by keeping it simple it doesn't detract from the main point of the site - getting the user to book a restaurant.
+2. The colour scheme chosen was based on a strong red colour (#fa0606) and white as I felt that it was distinctive (think Vodafone or Virgin Media) and by keeping it simple it doesn't detract from the main point of the site - getting the user to book a restaurant.
 
 3. I used [Figma](https://figma.com/) to create my wireframes and used it to organise the flow of the site and how the different pages would respond to different screen sizes. 
 
@@ -79,7 +79,7 @@ I chose the Oxygen font family for my headers and the Roboto font family for any
 
 ### <ins>COLOURS</ins> ###
 
-A red (#fa0606) colour for the Navigation Bar, Footer, all Buttons and the Accordion to maintain a consistent feel throughout. An other colours used were picked from the base colour to ensure a flow was visible throughout the site. The decision to use this simple colour scheme was taken from my observation that businesses such as Virgin Media and Vodafone are easily recognisable due to similar colour choices in their brand identities.
+A red (#fa0606) colour for the Navigation Bar and a complimentary red colour (#fb3838) for Footer, main Buttons and the Accordion to maintain a consistent feel throughout. The colours used were picked from the base colour (#fa0606) using [0to255](https://www.0to255.com/) to ensure there is visible flow throughout the site. The decision to use this simple colour scheme was taken from my observation that businesses such as Virgin Media and Vodafone are easily recognisable due to similar colour choices in their brand identities.
 
 ### <ins>WIREFRAMES</ins> ###
 
