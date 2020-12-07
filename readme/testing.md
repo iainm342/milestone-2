@@ -41,7 +41,7 @@ HTML Errors:
 
 - All pages have been passed through the Validator, however, on the filter.html pages there are warnings due to there being no content between the h3 tags. The content is being added via the JS function managing the restaurant information Array.
 
-![HTML Error](readme/images/w3html.png)
+![HTML Error](https://github.com/iainm342/milestone-2/blob/master/readme/images/w3html.png)
 
 CSS Errors:
 
