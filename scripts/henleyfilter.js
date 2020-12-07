@@ -1,3 +1,5 @@
+//JavaScript & jQuery - Interactive Front-End Web Development by Jon Duckett
+
 //jQuery function to create buttons on the filter pages using the data tags in the HTML
 
 //Using the data index value this script shows/hides the images when filter is applied
