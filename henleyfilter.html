@@ -18,9 +18,8 @@
       <!--Back to top button-->
       <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
       <!--Bootstrap Sticky Header-->
-      
-     <header class="sticky-top">
-     <!--NavBar from Bootstap with styling-->
+      <header class="sticky-top">
+         <!--NavBar from Bootstap with styling-->
          <nav class="navbar navbar-expand-lg navbar-light">
             <div class="logo">
                <a class="navbar-brand" href="index.html"><img class="d-lg-block navlogo" src="assets/images/navlogo.jpg" alt="plate with cutlery"></a>
@@ -58,7 +57,7 @@
                            <a class="dropdown-item" href="marlowfilter.html">Filter</a>
                         </div>
                      </li>
-                     <li class="nav-item dropdown">
+                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Henley-on-Thames</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                            <a class="dropdown-item" href="henley.html">Full List</a>
@@ -80,246 +79,406 @@
          </nav>
       </header>
       <!--Main content for page-->
-    <main class="main-container">
-         <!--Logo and town name-->
+      <main class="main-container">
          <div class="container-fluid">
             <div class="row">
-               <div class="col">
-                  <div class="text-center">
-                     <img id="logo" src="assets/images/logo.jpg" alt="">
+               <div class="col text-center">
+                  <h1>Henley-on-Thames</h1>
+               </div>
+            </div>
+            <!--Div for Google Map-->
+            <div class="container-md">
+               <div class="row">
+                  <div class="col-md">
+                     <div id="map"></div>
                   </div>
+               </div>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
                   <div class="row">
-                     <div class="col text-center">
-                        <h2>Henley-on-Thames</h2>
-                        <h5>Click on an image for more information</h5>
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/angel.jpg" alt="building next to a bridge going over a river">
                      </div>
-                  </div>
-                  <!--JS Filter Buttons-->
-                  <h3 class="text-center">Filter by Price Range:</h3>
-                  <div class="text-center" id="buttons1"></div>
-                  <h3 class="text-center">Filter by Style:</h3>
-                  <div class="text-center" id="buttons2"></div>
-                  <br>
-                  <div class="container">
-                     <div class="text-center" id= "gallery">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image1" class="filter-img" data-index="1" src="assets/images/henley/angel.jpg" data-tags1="£" data-tags2="Gastropub" alt="building next to a bridge going over a river">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal1" class="modal" data-index="1">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name1"></span></p>
-                                       <p>Address: <span id="address1"></span></p>
-                                       <p>Phone: <a href="tel:+441491410678"><span id="phone1"></span></a></p>
-                                       <p>Website: <a href="https://www.theangelhenley.com/" target="_blank"><span id="web1"></span></a></p>
-                                       <p>Food Style: <span id="type1"></span></p>
-                                       <p>Price Range: <span id="cost1"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.theangelhenley.com/get-in-touch#booking" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image2" class="filter-img " src="assets/images/henley/boathouse.jpg" data-index="2" data-tags1="££££" data-tags2="British,Fine Dining" alt="table overlooking the river">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal2" class="modal" data-index="2">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name2"></span></p>
-                                       <p>Address: <span id="address2"></span></p>
-                                       <p>Phone: <a href="tel:+441491577937"><span id="phone2"></span></a></p>
-                                       <p>Website: <a href="https://www.bistroattheboathouse.co.uk/#/" target="_blank"><span id="web2"></span></a></p>
-                                       <p>Food Style: <span id="type2"></span></p>
-                                       <p>Price Range: <span id="cost2"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.bistroattheboathouse.co.uk/#/" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image3" class="filter-img " src="assets/images/henley/catherine.jpg" data-index="3" data-tags1="£" data-tags2="British" alt="pub front on high street">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal3" class="modal" data-index="3">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name3"></span></p>
-                                       <p>Address: <span id="address3"></span></p>
-                                       <p>Phone: <a href="tel:+441491848484"><span id="phone3"></span></a></p>
-                                       <p>Website: <a href="https://www.jdwetherspoon.com/pubs/all-pubs/england/oxfordshire/the-catherine-wheel-henleyonthames" target="_blank"><span id="web3"></span></a></p>
-                                       <p>Food Style: <span id="type3"></span></p>
-                                       <p>Price Range: <span id="cost3"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.jdwetherspoon.com/pubs/all-pubs/england/oxfordshire/the-catherine-wheel-henleyonthames" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name1"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>These days it’s perched at the edge of Henley Bridge looking out over the Regatta finishing post, but this tall and skinny 14th-century inn was once literally ‘on’ the bridge – judging by the original foundations found in its cellar. Don’t expect modish mixology or esoteric local ales here – The Angel’s USP is its treasured riverside location, which is reckoned to be Henley’s finest.</p>
                         </div>
-                        <br>
-                        <div class="row">
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image4" class="filter-img " src="assets/images/henley/duvin.jpg" data-index="4" data-tags1="££" data-tags2="French,Sunday Lunch,Afternoon Tea" alt="French food">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal4" class="modal" data-index="4">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name4"></span></p>
-                                       <p>Address: <span id="address4"></span></p>
-                                       <p>Phone: <a href="tel:+441491848400"><span id="phone4"></span></a></p>
-                                       <p>Website: <a href="https://www.hotelduvin.com/locations/henley-on-thames/" target="_blank"><span id="web4"></span></a></p>
-                                       <p>Food Style: <span id="type4"></span></p>
-                                       <p>Price Range: <span id="cost4"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.hotelduvin.com/locations/henley-on-thames/" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image5" class="filter-img " src="assets/images/henley/hcafe.jpg" data-index="5" data-tags1="£" data-tags2="Snacks,Afternoon Tea" alt="cafe counter">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal5" class="modal" data-index="5">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name5"></span></p>
-                                       <p>Address: <span id="address5"></span></p>
-                                       <p>Phone: <a href="tel:+441491482277"><span id="phone5"></span></a></p>
-                                       <p>Website: <a href="https://www.harrods.com/en-gb/harrods-group/h-cafe" target="_blank"><span id="web5"></span></a></p>
-                                       <p>Food Style: <span id="type5"></span></p>
-                                       <p>Price Range: <span id="cost5"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.harrods.com/en-gb/harrods-group/h-cafe" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image6" class="filter-img " src="assets/images/henley/littleangel.jpg" data-index="6" data-tags1="£" data-tags2="Gastropub" alt="traditional pub">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal6" class="modal" data-index="6">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name6"></span></p>
-                                       <p>Address: <span id="address6"></span></p>
-                                       <p>Phone: <a href="tel:+441491411008"><span id="phone6"></span></a></p>
-                                       <p>Website: <a href="https://www.thelittleangel.co.uk/" target="_blank"><span id="web6"></span></a></p>
-                                       <p>Food Style: <span id="type6"></span></p>
-                                       <p>Price Range: <span id="cost6"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.thelittleangel.co.uk/" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address1"></p>
                         </div>
-                        <br>
-                        <div class="row">
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image7" class="filter-img " src="assets/images/henley/rouge.jpg" data-index="7" data-tags1="££" data-tags2="French,Sunday Lunch" alt="French food">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal7" class="modal" data-index="7">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name7"></span></p>
-                                       <p>Address: <span id="address7"></span></p>
-                                       <p>Phone: <a href="tel:+441491411733"><span id="phone7"></span></a></p>
-                                       <p>Website: <a href="https://www.caferouge.com/" target="_blank"><span id="web7"></span></a></p>
-                                       <p>Food Style: <span id="type7"></span></p>
-                                       <p>Price Range: <span id="cost7"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.caferouge.com/" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image8" class="filter-img " src="assets/images/henley/spice.jpg" data-index="8" data-tags1="££" data-tags2="Indian,Afternoon Tea" alt="chicken dish with tomato salad">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal8" class="modal" data-index="8">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name8"></span></p>
-                                       <p>Address: <span id="address8"></span></p>
-                                       <p>Phone: <a href="tel:+441491636118"><span id="phone8"></span></a></p>
-                                       <p>Website: <a href="https://www.spicemerchantgroup.com/henley" target="_blank"><span id="web8"></span></a></p>
-                                       <p>Food Style: <span id="type8"></span></p>
-                                       <p>Price Range: <span id="cost8"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.spicemerchantgroup.com/henley/reservation" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <!--Image positioning-->
-                              <img id ="image9" class="filter-img " src="assets/images/henley/zizzi.jpg" data-index="9" data-tags1="££" data-tags2="Italian" alt="wooden beamed restaurant">
-                              <!--Hidden Venue Modal-->
-                              <div id="myModal9" class="modal" data-index="9">
-                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                       <span class="close">&times;</span>
-                                    </div>
-                                    <div class="modal-body">
-                                       <p>Name: <span id="name9"></span></p>
-                                       <p>Address: <span id="address9"></span></p>
-                                       <p>Phone: <a href="tel:+4414914100700"><span id="phone9"></span></a></p>
-                                       <p>Website: <a href="https://www.zizzi.co.uk/italian/restaurants/henley" target="_blank"><span id="web9"></span></a></p>
-                                       <p>Food Style: <span id="type9"></span></p>
-                                       <p>Price Range: <span id="cost9"></span></p>
-                                    </div>
-                                    <div class="modal-footer">
-                                       <a href="https://www.zizzi.co.uk/italian/restaurants/henley" target="_blank"><span class="btn btn-md btn-modal-footer">Book?</span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491410678">
+                              <p id="phone1"></p>
+                           </a>
                         </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.theangelhenley.com/" target="_blank">
+                              <p id="web1"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type1"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost1"></p>
+                        </div>
+                        <a href="https://www.theangelhenley.com/get-in-touch#booking" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
                      </div>
                   </div>
                </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/boathouse.jpg" alt="table overlooking the river">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name2"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>In a “super location”, hard by the river in Henley, The Boathouse features an all-day decked area offering stunning vistas and the prospect of fine-weather carousing. Shaun Dickens is a veteran of top-end kitchens including  Le Manoir aux Quat’Saisons, so expect plenty of finesse and innovation here – although prices are very fair given the quality on offer. Readers confirm that the kitchen is “the best of the best” hereabouts, delivering food with a contemporary edge and lots of technical know-how – witness chicken liver parfait (“with the dreamiest texture”), sea bass with ‘hen of the woods’ mushrooms, orange, polenta and mizuna or braised pork neck (“cooked to perfection”) with a potato terrine, bright green broccoli purée, preserved lemon and a delicious meat jus. Desserts also show off Dickens’ fondness for fancy technique, as in a combo of strawberry, basil, chocolate streusel and meringue. Well-chosen wines “hit the spot”, too. “Perfect for a special occasion, or just because…” notes a fan.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address2"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491577937">
+                              <p id="phone2"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.bistroattheboathouse.co.uk/#/" target="_blank">
+                              <p id="web2"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type2"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost2"></p>
+                        </div>
+                        <a href="https://www.bistroattheboathouse.co.uk/#/" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/catherine.jpg" alt="pub front on high street">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name3"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>Offering a globe-spanning bar stock and a menu of British and international dishes, The Catherine Wheel is a member of the celebrated fleet of pubs from JD Wetherspoon. Menus span from hearty full English breakfasts and traditional pub classics, to fun kids' options and delicious desserts. Championing some of the nation's favourite dishes, popular weekly events at Wetherspoon's range from steak and curry nights, to the family-friendly Sunday club, where traditional roasts are served with all the trimmings. Real ales are a speciality, with a superb range of guest brews and permanent draught beers cherry-picked by Wetherspoon's resident experts.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address3"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491848484">
+                              <p id="phone3"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.jdwetherspoon.com/pubs/all-pubs/england/oxfordshire/the-catherine-wheel-henleyonthames" target="_blank">
+                              <p id="web3"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type3"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost3"></p>
+                        </div>
+                        <a href="https://www.jdwetherspoon.com/pubs/all-pubs/england/oxfordshire/the-catherine-wheel-henleyonthames" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/duvin.jpg" alt="French food">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name4"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>Recently refurbished, the Bistro at Hotel du Vin is a relaxing, contmeporary space to sit, relax and taste French influenced food. The Streak Tartare is out of this worlds along with the Cote de Bouef (for 2) that will most definitely fill you up and washed down with a bottle of wine from their 300 strong wine list.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address4"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491848400">
+                              <p id="phone4"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.hotelduvin.com/locations/henley-on-thames/" target="_blank">
+                              <p id="web4"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type4"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost4"></p>
+                        </div>
+                        <a href="https://www.hotelduvin.com/locations/henley-on-thames/" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/hcafe.jpg" alt="cafe counter">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name5"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>Having recently revealed its brand-new London Dining Hall, Harrods is on a bit of a roll when it comes to its food offering. H Cafe, which is the luxury department store’s first independent food outlet, is located in the pretty Oxfordshire town of Henley-on-Thames and promises diners ‘something to suit all tastes, appetites and schedules’. The menu at H Cafe takes inspiration from some of Harrods’ most popular dishes, while the space has a high-end deli feel. There is a pastry section, should you wish to stop by for a bite of breakfast or an afternoon treat, as well as a full sit-down menu. On the full lineup you can expect to find rich cheese toasties, prettily presented charcuterie boards, gently spiced Middle Eastern salads and classics like avocado on toast. There will also be a speciality tea and coffee available, for that all important caffeine fix.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address5"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491482277">
+                              <p id="phone5"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.harrods.com/en-us/harrods-group/h-cafe" target="_blank">
+                              <p id="web5"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type5"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost5"></p>
+                        </div>
+                        <a href="https://www.harrods.com/en-us/harrods-group/h-cafe" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/littleangel.jpg" alt="traditional pub">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name6"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>Delicious, all-day dining experience. Whether you’re popping in after a long walk down the River Thames, booking dinner for that special occasion or indulging in a Sunday roast with the family. Our dishes and menus have been designed to suit the occasion.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address6"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491411008">
+                              <p id="phone6"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.thelittleangel.co.uk/" target="_blank">
+                              <p id="web6"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type6"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost6"></p>
+                        </div>
+                        <a href="https://www.thelittleangel.co.uk/" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/rouge.jpg" alt="French food">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name7"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>With a combination of delicious food, great wines and a real ambience, Café Rouge has embodied the style and je ne sais quoi of French dining since it opened way back in 1989. Now with over 90 sites across the country it's just the place to mull over the morning papers with a cafe au lait and a croissant, pop in for a spot of lunch, share a post-work drink or relax over an evening meal. The menu covers a range of French classics from croques and baguettes, ideal for a quick and easy snack, to more substantial fare such as steak frites and boeuf bourguignon. Likewise, the wines are predominately French; many made by lesser known producers, and provide the perfect accompaniment to the food on offer.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address7"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491411733">
+                              <p id="phone7"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.caferouge.com/" target="_blank">
+                              <p id="web7"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type7"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost7"></p>
+                        </div>
+                        <a href="https://www.caferouge.com/" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/spice.jpg" alt="chicken dish with tomato salad">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name8"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>Contemporary Indian (part of a small Home Counties chain) that’s a welcome newcomer to the Henley dining scene. The appealing riverside location is certainly an attraction, as is the slick interior of soft lighting, leather, wood & granite, but the main draw is the high quality, sophisticated cooking which scores for both flavour & presentation. Imaginatively flavoured homemade chutneys, for example, include a stunning dry lentil & peanut chutney that practically explodes with flavour, while starters make for a slew of hits: grilled asparagus with cumin & caramelised onion, tinda (Indian squash) stuffed with spiced haloumi & pine nuts, & a gorgeous melt-in-the-mouth spinach tikki (a kind of spinach cake stuffed with figs). Mains are equally successful, especially Bilgrani chicken korma (rolled chicken fillets in a sauce of dill, spinach & coconut), a light & highly flavoursome dish. Other recommendations include succulent jumbo tiger prawns with lime & chilli & the Hyderabadi biryani served in a pot sealed with a deliciously flaky bread. A good wine list & an uplifting array of desserts – coconut brulee with tamarind & cinnamon or ginger bread & butter pudding – bring further kudos to the talented team of ex-Oberoi chefs beavering in the kitchen.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address8"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+441491636118">
+                              <p id="phone8"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.spicemerchantgroup.com/henley/" target="_blank">
+                              <p id="web8"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type8"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost8"></p>
+                        </div>
+                        <a href="https://www.spicemerchantgroup.com/henley/reservation" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <!--Div for venue image, Accordion and book button-->
+               <div class="container-md text-center">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img class="rest-img" src="assets/images/henley/zizzi.jpg" alt="wooden beamed restaurant">
+                     </div>
+                     <div class="col-lg-6 text-center">
+                        <h3 id="name9"></h3>
+                        <button class="accordion">Info</button>
+                        <div class="panel">
+                           <p>Nationwide Italian chain Zizzi is not exactly the last word in cutting-edge culinary cool, but it’s been quick off the mark to introduce some hot new trends. A range of gelati by Kitty Travers (the artisan ice-cream maker talent-spotted by St John’s Fergus Henderson) & a recently introduced menu of ‘cichetti’ (Italian-style ‘tapas’) as seen at far hipper addresses, are reasons to revisit your local branch. The rest of the menu may not wow, cautions a reader, ‘but it’s nothing to spoil your day’. Pastas are reliable, & the pizzas – some of which come as half & half variations or hybrids – help those stuck between king prawn & spicy sausage or regular pizza & calzone. Zizzi aims to please, & its comfortably rustic, flatteringly lit restaurants usually do just that.</p>
+                        </div>
+                        <button class="accordion">Address</button>
+                        <div class="panel">
+                           <p id="address9"></p>
+                        </div>
+                        <button class="accordion">Phone</button>
+                        <div class="panel">
+                           <a href="tel:+4414914100700">
+                              <p id="phone9"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Website</button>
+                        <div class="panel">
+                           <a href="https://www.zizzi.co.uk/italian/restaurants/henley" target="_blank">
+                              <p id="web9"></p>
+                           </a>
+                        </div>
+                        <button class="accordion">Style</button>
+                        <div class="panel">
+                           <p id="type9"></p>
+                        </div>
+                        <button class="accordion">Price Range</button>
+                        <div class="panel">
+                           <p id="cost9"></p>
+                        </div>
+                        <a href="https://www.zizzi.co.uk/italian/restaurants/henley" target="_blank"><span class="btn btn-lg btn-book">Book</span></a>
+                     </div>
+                  </div>
+               </div>
+               <br>
             </div>
          </div>
       </main>
@@ -333,7 +492,7 @@
                   </p>
                </div>
                <hr class="w-100 clearfix d-md-none" />
-             <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 foot-pad">
+               <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 foot-pad">
                   <h6 class="text-uppercase text-center mb-4 font-weight-bold">SOCIAL</h6>
                   <ul class="list-inline text-center social-links">
                      <!--Facebook-->
@@ -360,7 +519,7 @@
                   </ul>
                </div>
                <hr class="w-100 clearfix d-md-none" />
-              <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 foot-pad">
+               <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3 foot-pad">
                   <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                   <ul class="list-inline email-detail bullet">
                      <li>
@@ -375,7 +534,9 @@
                         </p>
                      </li>
                      <li>
-                      <a href="#"><p><i class="fas fa-phone"></i> + 44 203 123 4567</p></a>
+                        <a href="#">
+                           <p><i class="fas fa-phone"></i> + 44 203 123 4567</p>
+                        </a>
                      </li>
                   </ul>
                </div>
@@ -383,13 +544,14 @@
             <hr />
          </div>
       </footer>
+      <!--JS Paths-->
+      <script src="scripts/henley.js"></script>
+      <script src="scripts/henleymap.js"></script>
+      <script src="scripts/main.js"></script>
       <!--JS Scripts-->
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVddPLcYL7gATGEedbYEPJTe2P6FM08C0"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-      <!--JS Paths-->
-      <script src="scripts/henleyfilter.js"></script>
-      <script src="scripts/henley.js"></script>
-      <script src="scripts/main.js"></script>
    </body>
 </html>
