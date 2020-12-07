@@ -4,11 +4,10 @@
 
 # Testing
 
-[back to README.md file](https://github.com/iainm342/mileston-2/blob/master/README.md)
+[back to README.md file](https://github.com/iainm342/milestone-2/blob/master/README.md)
 
 ## **CONTENTS** ##
 
-- [DevTools](#developer-tools)
 - [Manual Testing](#manual-testing)
 - [Automated Testing](#automated-testing)
     - [Code Validation](#code-validation)
@@ -19,11 +18,7 @@
     - [Peer Testing](#peer-testing)
     - [User Testing](#user-testing)
 
-## **DEVELOPER TOOLS** ##
-
-### <ins>RESPONSIVENESS</ins>
-
-The sites responsiveness was tested by the following methods:
+## **MANUAL TESTING** ##
 
 - Chrome Developer Tools were used to test responsiveness on all screen sizes.
 - Physical testing was carried out on Desktop, Tablet and various Mobile devices.
@@ -36,7 +31,7 @@ The sites responsiveness was tested by the following methods:
 
 [Back to Contents](#contents)
 
-## **MANUAL TESTING** ##
+## **AUTOMATED TESTING** ##
 
 ### <ins>CODE VALIDATION</ins> ###
 
