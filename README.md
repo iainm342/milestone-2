@@ -151,19 +151,54 @@ The full wireframe for the site can be found [here](assets/images/readme/wirefra
 ## **FEATURES** ##
 
 ### <ins>FEATURES IMPLEMENTED</ins> ###
- 
- - NavBar with dropdowns to allow easy navigation of the web app. Able to reach all pages from the NavBar without having to return to the Landing Page. 
- - Links to external websites so that the user can get more information on the venue that they are interested.
- - Multiple links to each venues booking engine so that the ultimate goal can be achieved - the **user** makes a booking.
- - Footer contants Social Media links to the site owners pages.
- - Google Maps API implemented on each town page with markers for each venue. Desktop first clik gives venue name and second click gives venue name and a snippet of info. All other devices only receive the venue name and snippet on touching the marker.
- - EmailJS API used for sign up of **user** to receive more information in the future and for any new **business owners** to request addition to the site. EmailJS sends an email to the **user** or **business owner** saying "Thank You".
- - Modals used on image click in the filter page to provide the **user** with more information about the filtered venue.
- - Bootstrap used for site structure. 
- - Bootsrap Accordion used for containing the venue information in an appealing and tidy manner.
- - Back to top button used as site pages can get quite lengthy.
- - Favicon used in title of web page.
- - Hover used on all buttons and web/email address links.
+
+### ELEMENTS SEEN ON ALL PAGES ###
+
+- Grid system used to structure pages and make them responsive for various viewports.
+- Bootstrap NavBar with dropdowns to allow easy navigation of the web app. Able to reach all pages from the NavBar without having to return to the Landing Page. 
+- Footer contants Social Media links to the site owners pages.
+- Favicon in the title tab of the browser.
+- "Back to Top " button to allow quick top of the screen navigation on the longer pages.
+- Hover used on all buttons and web/email address links.
+
+### ELEMENTS SEEN ON THE LANDING PAGE ###
+
+- Jumbotron with site logo and site title in the middle of the page. Distinctive and simple.
+- "Hero" button to enter the site.
+
+### ELEMENTS SEEN ON THE LOCATIONS PAGE ###
+
+- Images of towns available to choose from that are all linked to the relevant pages with **<a>** tags.
+- Buttons to navigate the **user** to the appropriate Town or Filter page.
+- Faded out Maidenhead logo with countdown timer to indicate that this will be added to the site in the near future.
+- Buttons for Maidenhead take the **user** to a 404 page.
+
+### ELEMENTS SEEN ON THE 3 TOWN PAGES ###
+
+- Google Map at top of the page with Markers for each restaurant location.
+- Markers have titles on first click and titles with description on second click on desktop.
+- Markers have titles with description on click on all touch screen devices.
+- Bootstrap Accordion with relevant information contained in each panel.
+    - Phone and Website information is wrapped in an **<a>** tag.
+    - Website information takes **user** to restaurants own website and has a **target="_blank"** to allow navigation back to the site.
+- Book button which takes the **user** to the restaurants own website booking engine to allow them to reserve a table.
+
+### ELEMENTS SEEN ON THE 3 FILTER PAGES ###
+
+- 2 rows of filters - Cost and Style - that allow the **user** to narrow down their potential selection of a restaurant.
+- Grid of images depicting the restaurants on offer.
+- On selecting a filter, the images not linked to the **data-tag** are hidden.
+- Clicking a restaurant image presents a **modal** that contains the relevant information.
+- The **modal** drops down from the top of the screen and places an overlay over the main page to draw attention to the information it contains.
+- The **user** can navigate to the restaurants own website by clicking on the web address and, again, this has a **target="_blank"** to allow navigation back to the site.
+- Book button which takes the **user** to the restaurants own website booking engine to allow them to reserve a table.
+
+### ELEMENTS SEEN ON THE 2 REGISTRATION PAGES ###
+
+- Jumbotron with site logo and site title in the middle of the page.
+- Simple form requesting basic informtation from the **user**.
+- Register button, when clicked, sends the informtation to the EmailJS API.
+- The **user** will receive an email from EmailJS confirming their registration.
  
 ### <ins>FUTURE FEATURES</ins> ###
 
@@ -171,6 +206,8 @@ The full wireframe for the site can be found [here](assets/images/readme/wirefra
 - Highlight new restaurants as they are added with a banner on their information image.
 - **Business Owners** able to completely register their restaurant without waiting for the **site owner** to contact them.
 - Multiple images available for each restaurant possibly in a Carousel or Image Gallery format.
+- Add a Read More/Read Less function to the Restaurant Information panels on the Accordion's.
+- Add a confirmation modal to the Registration function.
 
 [Back to Contents](#contents)
 

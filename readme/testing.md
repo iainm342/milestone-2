@@ -32,6 +32,7 @@
 - All links were tested to ensure they worked on all devices.
 - NavBar was tested to ensure it worked on all devices.
 - All Modals tested to ensure correct information was displayed and that the links directed the user to the appropriate external site.
+- Both registration pages were tested to ensure that the **user** form cleared after hitting the "Submit" button and that the **user** received an email confirming the process.
 
 [Back to Contents](#contents)
 
@@ -103,6 +104,10 @@ The site was tested on the following browsers that I have access to:
 
 ### <ins>PEER TESTING</ins> ### 
 
+I submitted the project for Peer Review on Slack. Due to the volume of projects being submitted at the same time, I received no feedback from the Slack Community.
+
+I asked the May 2020 cohort to have a look as they tend to be more responsive.
+
 [Back to Contents](#contents)
 
 ### <ins>USER TESTING</ins> ### 
@@ -134,6 +139,5 @@ As this site is a test project, I was unable to get the **business owner** user 
     - Restaurants are highlighted by Markers on the Google Map, Restaurant Image, Accordion with Info and Modal. 
 - As a **business owner**, I want to be able to register my interest with the **site owners** so that they can add me to the site.
     - **Business Owners** are able to register their business by clicking the "Register" button and selecting "New Business". On pressing "Register", again the form doesn't clear, and an email is sent to them saying "one of the team will be in touch".
-
 
 [Back to Contents](#contents)
