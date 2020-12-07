@@ -11,10 +11,12 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            ("SUCCESS", response);
+            swal("Congratulations!", "You've successfully registered with What's for Dinner?", "success");
         },
         function(error) {
-            console.log("FAILED", error);
+            ("FAILED", error);
+            swal("Oops!", "Something went wrong - try again?", "error");
         });
     
 

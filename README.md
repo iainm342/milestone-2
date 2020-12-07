@@ -29,6 +29,7 @@ This is the second of four Milestone Projects required for the Full Stack Web De
 - [Credits](#credits)
   - [Images](#images)
   - [Image editing](#image-editing)
+  - [Coding Ideas](#coding-ideas)
 - [Acknowledgements](#acknowledgements)
 
 ## **UX** ##
@@ -83,7 +84,7 @@ A red (#fa0606) colour for the Navigation Bar and a complimentary red colour (#f
 
 ### <ins>WIREFRAMES</ins> ###
 
-The full wireframe for the site can be found [here](assets/images/readme/wireframes/figfull.png).
+The full wireframe for the site can be found [here](readme/images/wireframes/figfull.png).
 
 ### Landing Page ###
 
@@ -168,7 +169,7 @@ The full wireframe for the site can be found [here](assets/images/readme/wirefra
 
 ### ELEMENTS SEEN ON THE LOCATIONS PAGE ###
 
-- Images of towns available to choose from that are all linked to the relevant pages with **<a>** tags.
+- Images of towns available to choose from that are all linked to the relevant pages with anchor tags.
 - Buttons to navigate the **user** to the appropriate Town or Filter page.
 - Faded out Maidenhead logo with countdown timer to indicate that this will be added to the site in the near future.
 - Buttons for Maidenhead take the **user** to a 404 page.

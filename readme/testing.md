@@ -106,7 +106,11 @@ The site was tested on the following browsers that I have access to:
 
 I submitted the project for Peer Review on Slack. Due to the volume of projects being submitted at the same time, I received no feedback from the Slack Community.
 
-I asked the May 2020 cohort to have a look as they tend to be more responsive.
+I asked the May 2020 cohort to have a look as they tend to be more responsive. The feedback I received was positive along with some comments regarding the following:
+
+- moving the "Book" button on the Full List pages to the middle of the venue section.
+- adding a confirmation to the register user screen to show the **user** that their submission was succesful.
+- the cost element is not clear to the user as just a £ sign.
 
 [Back to Contents](#contents)
 
